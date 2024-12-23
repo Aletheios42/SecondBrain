@@ -1,0 +1,24 @@
+**Tags:** #_SinFín 
+#ToTag #ToLink 
+- - -
+un concepto sin su contexto es medio concepto
+
+No le temo a mi destino
+
+Deja de vivir el momento y vive la vida
+
+Los cuellos se rompen al mirar atras
+
+𝗦𝗶 𝘁𝘂𝘃𝗶𝗲𝗿𝗮 𝟲 𝗵𝗼𝗿𝗮𝘀 𝗽𝗮𝗿𝗮 𝘁𝗮𝗹𝗮𝗿 𝘂𝗻 á𝗿𝗯𝗼𝗹, 𝗽𝗮𝘀𝗮𝗿í𝗮 𝟰 𝗮𝗳𝗶𝗹𝗮𝗻𝗱𝗼 𝗲𝗹 𝗵𝗮𝗰𝗵𝗮
+
+memento mori
+
+carpediem
+
+ Mutatis mutandis,
+
+Sapientia vos liberabit
+
+
+- - - 
+## ***Sources:***
