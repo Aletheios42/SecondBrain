@@ -6,7 +6,6 @@ let tomorrowDate = moment(currentDate).add(1, 'days').format('YYYY-MM-DD');
 tR += `Semana: [[${weekNum}]]
 [[${yesterdayDate}]] - [[${tomorrowDate}]]`;
 _%>.
-
 # Rituales Diarios
 - [ ] 
 - [ ] 
