@@ -14,5 +14,9 @@ Dia 24
 [[Ejercicios LCPI -1 102 Tema 3]]
 - - -
 Dia 25
+[[Ejercicios LCPI -1 102 Tema 4]]
+[[Ejercicios LCPI -1 102 Tema 5]]
+[[Ejercicios LCPI -1 102 Tema 6]]
+
 - - - 
 ## ***Sources:***
