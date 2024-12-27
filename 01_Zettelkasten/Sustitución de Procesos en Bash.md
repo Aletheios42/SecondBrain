@@ -2,6 +2,11 @@
 #Linux #Bash 
 - - -
 Método de bash que permite usar la salida de un comando como si fuera un archivo temporal es especialmente útil cuando trabajamos con comandos que esperan archivos como argumentos.
+### Métodos
+\`comando\` - Sustitución de comando secuencial en shell actual (legacy)
+$(comando) - Sustitución de comando secuencial en shell actual
+${variable} - Expansión de parámetros/variables (no ejecuta comandos)
+<(comando) - Sustitución de proceso en subshell paralela con descriptor de archivo
 #### Ejemplos:
 ``` bash
 # Sin sustitución de procesos, necesitaríamos varios pasos:

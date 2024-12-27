@@ -2,6 +2,8 @@
 #Linux
 - - -
 
+falta >|.
+
 | Operador | Descripción                                                    |
 | -------- | -------------------------------------------------------------- |
 | `<`      | Redirige stdin desde un archivo.                               |

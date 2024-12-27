@@ -49,7 +49,7 @@ group comands, subshells
 	3. Exploring the System: file, less, diff, comm, diff3, patch, head, tail, sort uniq, psate, join, split, cut,  tr, strings, tee, wc	
 	4. Manipulating files and directories: cp,rsync, mv, mkdir, rm, ln, bzip2, (g)zip, tar 
 	5. Working with Commands: type, which, help, man, apropos, info, whatis, alias
-	6. Processes ps(este se merece una nota), renice, w, top , uptime, fg, bg(&), jobs, sleep, at, kill(este se merece una nota), shutdown.
+	6. Processes ps(este se merece una nota), renice, w, top , uptime, fg, bg(&), jobs, sleep, at, kill(este se merece una nota), shutdown, nohup
 	7. Particiones y disco. gparted, df, mount.
 	8. historial y entorno. history env, set,  export, (un)alias, source.
 	9. comandos de red: curl, wget, ping, traceroute, ip, netstat,ftp, ssh.

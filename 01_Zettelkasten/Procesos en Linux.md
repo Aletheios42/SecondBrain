@@ -1,6 +1,7 @@
 **Tags:** #_Todo 
 #Linux 
 - - -
+[[Jobs en Linux]]
 Un proceso es una instancia en ejecución de un programa que consiste en:
 
 Un espacio de direcciones virtual privado y protegido
