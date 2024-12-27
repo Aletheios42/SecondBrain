@@ -43,26 +43,6 @@
 | Ctrl-r | Iniciar búsqueda incremental (presionar repetidamente para iterar) |
 | Ctrl-g | Cancelar búsqueda                                                  |
 | Ctrl-j | Copiar línea de comando                                            |
-## Comandos de Historial
-
-| Atajo  | Función                                     |
-| ------ | ------------------------------------------- |
-| Ctrl-p | Moverse al comando anterior (flecha arriba) |
-| Ctrl-n | Moverse al siguiente comando (flecha abajo) |
-| Alt-<  | Ir al inicio del historial                  |
-| Alt->  | Ir al final del historial                   |
-| Ctrl-r | Búsqueda incremental inversa                |
-| Alt-p  | Búsqueda inversa no incremental             |
-| Alt-n  | Búsqueda hacia adelante no incremental      |
-| Ctrl-o | Ejecutar ítem actual y avanzar al siguiente |
-## Expansión del Historial
-
-| Secuencia | Función                                          |
-| --------- | ------------------------------------------------ |
-| !!        | Repetir último comando                           |
-| !number   | Repetir comando número 'number' del historial    |
-| !string   | Repetir último comando que comience con 'string' |
-| !?string  | Repetir último comando que contenga 'string'     |
 - - - 
 ## ***Sources:***
 - Shotts, W. (2019). The Linux Command Line: A Complete Introduction. No Starch Press. Chapter 8: Advanced Keyboard Tricks.

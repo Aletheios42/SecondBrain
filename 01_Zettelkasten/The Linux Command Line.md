@@ -15,6 +15,7 @@ notas para hacer de aqui:
 [[SSH]]
 [[POSIX]]
 [[Scripting]]
+[[Historial de bash]]
 # COMMAND LINE
 Terminal:
 Es la interfaz (ventana o aplicación) donde se escriben los comandos que la shell ejecuta.
