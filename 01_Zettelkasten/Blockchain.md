@@ -6,7 +6,7 @@ La blockchain es [[Sistemas Distribuidos]] que lleva un registro **ordenado** y 
 
 # [[Bloque]]
 #### un bloque es un paquete de datos con las transaciones y el identificador del bloque anterior.
-# [[Transaciones]]
+# [[Transacción]]
 #### Una transacción es petición firmada que cambia el estado de la blockchain.
 
 # [[Mecanismos de Consenso]]

@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Dinero #Economía 
 - - -
 Son transferencias de valor.
 

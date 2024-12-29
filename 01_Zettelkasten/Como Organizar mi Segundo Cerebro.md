@@ -2,6 +2,7 @@
 #Productividad #SegundoCerebro 
 - - -
 [[Carpetas vs Tags vs Links]]
+Sus máximas son [[C.O.D.E.]] y [[Método Feynman]]
 ## Carpetas:
 
 - ### Journal :

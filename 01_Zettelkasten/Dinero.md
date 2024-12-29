@@ -3,7 +3,7 @@
 - - -
 **Cualquier objeto de valor que pueda ser intercambiado por otros objetos de valor o servicios**. 
 
-Su **finalidad** es facilitar las [[Transaciones]] , ofreciendo la menor resistencia. 
+Su **finalidad** es facilitar las [[Transacción]] , ofreciendo la menor resistencia. 
 
 El dinero es uno de los inventos más trascendentes de la humanidad, comparable al fuego, a la rueda o al plano inclinado.
 

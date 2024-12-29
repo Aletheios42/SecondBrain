@@ -4,7 +4,7 @@
 El segundo cerebro es sistema de producción intencionado de conocimiento. Consiste en un sistema de toma de notas (En el libro se propone [[P.A.R.A.]]) para capitalizar el aprendizaje exponencial se apoya en  principios como:
 - [[C.O.D.E.]]
 - [[Puente de Hemingway]]
-- [[Método Feyman]] (No explicitamente)
+- [[Método Feynman]] (No explicitamente)
 - - - 
 ## ***Sources:***
 - https://www.youtube.com/watch?v=Xw3SkhB4dMk

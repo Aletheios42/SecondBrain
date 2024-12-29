@@ -1,5 +1,5 @@
 **Tags:** #_Investigar 
-#ToTag #ToLink 
+#Lógica  #ToLink 
 - - -
 //Aqui pensando la relacion de la implicacion con la realidad
 Realmente platon teniaa razon y existen 2 mundos, hay que investigar si nu teorem en esencia recae en la implicacion real o en el dual logico. para entender si es coherente o real.
