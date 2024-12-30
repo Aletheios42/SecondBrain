@@ -1,5 +1,5 @@
 **Tags:** #_Investigar 
-#ToTag #ToLink 
+#Dinero  #ToLink 
 - - -
 Las teorías del valor explican cómo se establece el valor de los bienes, afectando los precios en el mercado. Las principales son:
 

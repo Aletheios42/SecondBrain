@@ -36,5 +36,8 @@ Dia 6
 [[Ejercicios LCPI -1 104 Tema 5]]
 [[Ejercicios LCPI -1 104 Tema 6]]
 [[Ejercicios LCPI -1 104 Tema 7]]
+- - -
+Dia 7
+[[Ejercicios LCPI -1 105 Tema 1]]
 - - - 
 ## ***Sources:***
