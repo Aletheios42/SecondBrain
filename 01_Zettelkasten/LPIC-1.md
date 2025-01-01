@@ -3,45 +3,51 @@
 - - -
 Cuando termine el libro me repaso todas las secciones de summary para hacer la nota
 - - -
-Dia 1
-[[Ejercicios LCPI -1 101 Tema 1]]
-[[Ejercicios LCPI-1 101 Tema 2]]
-[[Ejercicios LCPI-1 101 Tema 3]]
+Día 1
+[[Ejercicios LPIC -1 101 Tema 1]]
+[[Ejercicios LPIC-1 101 Tema 2]]
+[[Ejercicios LPIC-1 101 Tema 3]]
 - - - 
-Dia 2
-[[Ejercicios LCPI -1 102 Tema 1]]
-[[Ejercicios LCPI -1 102 Tema 2]]
-[[Ejercicios LCPI -1 102 Tema 3]]
+Día 2
+[[Ejercicios LPIC -1 102 Tema 1]]
+[[Ejercicios LPIC -1 102 Tema 2]]
+[[Ejercicios LPIC -1 102 Tema 3]]
 - - -
-Dia 3
-[[Ejercicios LCPI -1 102 Tema 4]]
-[[Ejercicios LCPI -1 102 Tema 5]]
-[[Ejercicios LCPI -1 102 Tema 6]]
+Día 3
+[[Ejercicios LPIC -1 102 Tema 4]]
+[[Ejercicios LPIC -1 102 Tema 5]]
+[[Ejercicios LPIC -1 102 Tema 6]]
 - - -
-Dia 4
-[[Ejercicios LCPI -1 103 Tema 1]]
-[[Ejercicios LCPI -1 103 Tema 2]]
-[[Ejercicios LCPI -1 103 Tema 3]]
+Día 4
+[[Ejercicios LPIC -1 103 Tema 1]]
+[[Ejercicios LPIC -1 103 Tema 2]]
+[[Ejercicios LPIC -1 103 Tema 3]]
 - - -
-Dia 5
-[[Ejercicios LCPI -1 103 Tema 4]]
-[[Ejercicios LCPI -1 103 Tema 5]]
-[[Ejercicios LCPI -1 103 Tema 6]]
-[[Ejercicios LCPI -1 103 Tema 7]]
+Día 5
+[[Ejercicios LPIC -1 103 Tema 4]]
+[[Ejercicios LPIC -1 103 Tema 5]]
+[[Ejercicios LPIC -1 103 Tema 6]]
+[[Ejercicios LPIC -1 103 Tema 7]]
 - - - 
-Dia 6
-[[Ejercicios LCPI -1 104 Tema 1]]
-[[Ejercicios LCPI -1 104 Tema 2]]
-[[Ejercicios LCPI -1 104 Tema 3]]
-[[Ejercicios LCPI -1 104 Tema 5]]
-[[Ejercicios LCPI -1 104 Tema 6]]
-[[Ejercicios LCPI -1 104 Tema 7]]
+Día 6
+[[Ejercicios LPIC -1 104 Tema 1]]
+[[Ejercicios LPIC -1 104 Tema 2]]
+[[Ejercicios LPIC -1 104 Tema 3]]
+[[Ejercicios LPIC -1 104 Tema 5]]
+[[Ejercicios LPIC -1 104 Tema 6]]
+[[Ejercicios LPIC -1 104 Tema 7]]
 - - -
-Dia 7
-[[Ejercicios LCPI -1 105 Tema 1]]
-[[Ejercicios LCPI -1 105 Tema 2]]
-[[Ejercicios LCPI -1 106 Tema 1]]
-[[Ejercicios LCPI -1 106 Tema 2]]
-[[Ejercicios LCPI -1 106 Tema 3]]
+Día 7
+[[Ejercicios LPIC -1 105 Tema 1]]
+[[Ejercicios LPIC -1 105 Tema 2]]
+[[Ejercicios LPIC -1 106 Tema 1]]
+[[Ejercicios LPIC -1 106 Tema 2]]
+[[Ejercicios LPIC -1 106 Tema 3]]
+- - - 
+Día 8
+[[Ejercicios LPIC -1 107 Tema 1]]
+[[Ejercicios LPIC -1 107 Tema 2]]
+[[Ejercicios LPIC -1 107 Tema 3]]
+[[Ejercicios LPIC -1 108 Tema 1]]
 - - - 
 ## ***Sources:***
