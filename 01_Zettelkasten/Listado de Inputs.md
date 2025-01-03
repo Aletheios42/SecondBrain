@@ -1,11 +1,11 @@
-**Tags:** #\_SinFín
-#ToTag #ToLink
+**Tags:** #_SinFín 
+#Productividad  #ToLink
 
 ---
 
 - [ ] 
 - [ ] 
-- [ ] 
+- [ ] [Networking](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
 - [ ] LPIC1- part 2
 - [x] LPIC1- part 1
 - [ ] [Serie de videos para encontrar trabajo ](https://www.youtube.com/watch?v=AvN5y516H-8a)

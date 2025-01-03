@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Dinero #Economía  #ToLink 
 - - -
 Aumento de precios debido a un sobreabastecimiento de masa monetaria con respecto a los bienes y servicios de una zona monetaria. 
 

@@ -1,5 +1,5 @@
 **Tags:** #_Todo
-#ToTag #ToLink 
+#Blockchain #Dinero  #ToLink 
 - - -
 
 Es un smartcontract que contiene un crypto activo en forma de [[Dinero]],

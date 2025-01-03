@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Dinero #Economía   #ToLink 
 - - -
 El dinero desempeña tres roles esenciales en la economía:
 1. **Medio de intercambio**: Facilita las transacciones actuando como un método de pago aceptado ampliamente. 

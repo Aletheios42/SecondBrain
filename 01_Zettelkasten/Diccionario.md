@@ -33,6 +33,9 @@
 #### **Rizoma**
 - Parte subterránea de una planta que puede conectarse entre sí.
 - **Metáfora de Deleuze y Guattari**: Simboliza lo no jerárquico y múltiple.
+- - - 
+#### Gargantuesco
+ - Gigantesco o enorme. Deriva de Gargantúa, el personaje gigante en la obra de Rabelais.
 
 - - - 
 ## ***Sources:***

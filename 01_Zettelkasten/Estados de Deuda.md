@@ -1,5 +1,5 @@
 **Tags:** #_Investigar 
-#ToTag #ToLink 
+#Economía  #ToLink 
 - - -
 problematica, es que nunca existe ni existira como los estados puedan pagar los intereses de deuda pues es dinero que literalmente no exisite, solo ueden pagar la deuda con nueva deuda, y los prestamistas, ejercen poder politico finjiendo ser acreedores de una deuda impagable matematicamente. toda divisa se devalua en el tiempo por este motivo. 
 deuda publica

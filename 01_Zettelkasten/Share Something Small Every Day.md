@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag 
+#ToTag #ToLink 
 - - -
 1. Desarrolla un hábito diario de compartir contenido, como:
    - Avances de tu trabajo.

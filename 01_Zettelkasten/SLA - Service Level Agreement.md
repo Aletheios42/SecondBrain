@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#ToTag 
 - - -
 
 Es el contrato donde se reflejan las consecuencias de que los Indicadores medidos ([[SLI - Service Level Indicator]])  no cumplan los objetivos ([[SLO - Service Level Objective]]).

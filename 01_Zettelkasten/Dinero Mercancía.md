@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Dinero #Economía
 - - -
 [[Dinero]] con valor intrínseco,  supero el problema de la **doble coincidencia de deseos** del trueque.
 

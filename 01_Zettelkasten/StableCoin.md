@@ -1,5 +1,5 @@
 **Tags:** #_Todo
-#ToTag #ToLink 
+#Blockchain #Dinero
 - - -
 
 [[Token]] cuyo valor se mantiene relativamente estable, hacen de puente entre el [[Dinero Fiduiciario]] y los criptoactivos, 

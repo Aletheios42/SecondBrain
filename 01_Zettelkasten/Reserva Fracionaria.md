@@ -1,5 +1,5 @@
 **Tags:** #_Todo
-#ToTag #ToLink 
+#Dinero #Economía  #ToLink 
 - - -
 
 El sistema de reserva fraccionaria ha sido un pilar del sistema financiero moderno desde sus inicios. Uno de los momentos más relevantes en su historia fue la promulgación de la Ley de Peel en 1844 en Inglaterra, la cual marcó un cambio fundamental en la regulación bancaria. Esta legislación estableció, entre otros puntos, un coeficiente de caja del 100% para la emisión de billetes, pero dejó sin regular los depósitos bancarios. Este hecho permitió a los bancos comerciales crear dinero mediante la concesión de créditos, sentando las bases del sistema actual.

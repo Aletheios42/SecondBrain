@@ -50,5 +50,10 @@ Día 8
 [[Ejercicios LPIC -1 107 Tema 3]]
 [[Ejercicios LPIC -1 108 Tema 1]]
 [[Ejercicios LPIC -1 108 Tema 2]]
+[[Ejercicios LPIC -1 108 Tema 3]]
+[[Ejercicios LPIC -1 108 Tema 4]]
+- - - 
+Día 9
+[[Ejercicios LPIC -1 109 Tema 1]]
 - - - 
 ## ***Sources:***

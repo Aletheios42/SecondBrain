@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#Dinero #Economía 
+#Dinero #Economía  #Blockchain 
 - - -
 Son interacciones que alteran el estado de la cadena y pueden ser:
 - Transferencias de valor.

@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Blockchain  #ToLink 
 - - -
 El **overhead** representa los costos y recursos adicionales asociados a las transacciones, que no están directamente relacionados con la operación principal. Estos incluyen:
 #### **Costos:**

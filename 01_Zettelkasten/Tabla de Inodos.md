@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#Linux
+#Linux #ToLink 
 - - -
 Estructura que contiene los metadatos y punteros de cada archivo.
 El inodo es la verdadera identidad del archivo.

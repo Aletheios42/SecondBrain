@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#ToTag #ToLink 
+#Dinero #Economía  
 - - -
 Es la abstracción del [[Dinero Representativo]], donde se prescinde de la mercancia a canjear y el dinero se usa como un mero libro de cuentas, o de deuda ficticia del banco central  es profundamente injusto, porque permite a los bancos centrales crear deuda de la nada.
 
