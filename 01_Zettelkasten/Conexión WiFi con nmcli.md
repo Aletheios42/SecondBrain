@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#Linux #Redes
+#Linux #WIFI
 - - -
 Este procedimiento detalla cómo conectarte a la red Wi-Fi "Eventos" usando `nmcli`.
 ### 1. Eliminar configuraciones previas

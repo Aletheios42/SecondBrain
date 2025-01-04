@@ -56,4 +56,9 @@ Día 8
 Día 9
 [[Ejercicios LPIC -1 109 Tema 1]]
 - - - 
+Día 10
+[[Ejercicios LPIC -1 109 Tema 2]]
+[[Ejercicios LPIC -1 109 Tema 3]]
+[[Ejercicios LPIC -1 109 Tema 4]]
+- - - 
 ## ***Sources:***

@@ -1,6 +1,7 @@
 **Tags:** #_Done 
 #Linux  #ToLink 
 - - -
+# Lesson 1
 # Guided Exercises
 ##### 1. Using the IP 172.16.30.230 and netmask 255.255.255.224, identify: The CIDR notation for the netmask Network address Broadcast address Number of IPs that can be used for hosts in this subnet
 - R: The CIDR notation for the netmask:27
@@ -17,5 +18,22 @@ Number of IPs that can be used for hosts in this subnet: 30
 ##### 3. Explain the function of NAT and when it is used.
 - R: The NAT (Network Address Translation) feature allows hosts on an internal network, which uses private IPs, to have access to the Internet as if they were directly connected to it, with the Public IP used on the gateway.
 
+# Lesoon 2
+# Guided Exercises
+##### 1. Which port is the default for the SMTP protocol?
+- R: 25
+##### 2. How many different ports are available in a system?
+- R: 65535
+##### 3. Which transport protocol ensures that all packets are delivered properly, verifying the integrity and the order of the packets?
+- R: TCP
+##### 4. Which type of IPv6 address is used to sent a packet to all interfaces that belong to group of hosts?
+- R: Multicast
+# Explorational Exercises
+##### 1. Mention 4 examples of services that use the TCP protocol by default.
+- R: FTP, SMTP, HTTP, POP3, IMAP, SSH
+##### 2. What is the name of the field on IPv6 header package that implement the same resource of TTL on IPv4?
+- R:  Hop Limit
+##### 3. What kind of information Neighbor Discovery Protocol (NDP) is able to discover?
+- R: NDP is able to obtain various information from the network, including other nodes, duplicate addresses, routes, DNS servers, gateways, etc.
 - - - 
 ## ***Sources:***

@@ -2,7 +2,7 @@
 #ToTag #ToLink 
 - - -
 
-[[Familia]] [[Dialictica del arma y la armadura]] [[Medios de comunicacion]]
+[[Familia]] [[Dialectica del arma y la armadura]] [[Medios de Comunicación]]
 
  Llegar a viejo
 ya no resulta una rareza. Ya no remite a ningún mérito, ninguna bendición
