@@ -2,8 +2,14 @@
 #ToTag #ToLink 
 - - -
 
-[[Familia]] [[Dialectica del arma y la armadura]] [[Medios de Comunicación]]
+[[Familia]]
+[[Dialectica del arma y la armadura]] 
+[[Medios de Comunicación]]
+[[El Ocaso del Anciano como Sujeto Social]]
 
+
+- - - 
+==esto esta guardado en una nota==
  Llegar a viejo
 ya no resulta una rareza. Ya no remite a ningún mérito, ninguna bendición
 ni privilegio individual. La vejez ya no se puede interpretar como un triunfo
@@ -11,7 +17,7 @@ del individuo sobre los peligros de la vida, sino como el conjuro progresivo
 de estos peligros por parte de la sociedad. El viejo se despersonaliza, y su
 edad lo va dejando sin nada que ofrecer; ha dejado, finalmente, de ser
 sujeto.
-
+- - - 
 Su teoría de la recapitulación sostenía que la infancia del
 individuo (0 a 4 años) está en correspondencia con la etapa animal del
 hombre, la niñez (4 a 8 años) con la etapa de la caza y la pesca, la

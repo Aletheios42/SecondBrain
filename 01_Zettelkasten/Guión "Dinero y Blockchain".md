@@ -1,8 +1,6 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-
-
 ## **1. Introducción sobre el dinero**
   - Comprender cómo el dinero evolucionó desde el trueque hasta el dinero digital.
   - Analizar el impacto de la tecnología blockchain y Bitcoin en la economía y la sociedad.

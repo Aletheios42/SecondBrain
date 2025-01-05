@@ -1,9 +1,12 @@
 **Tags:** #_Done 
 #Dialectica #ToLink 
 - - -
-Se refiere a las relaciones complejas entre la violencia, la protección, y las estructuras sociales o de poder.
+Se refiere a las relaciones complejas entre la violencia, la protección, y las estructuras sociales y de poder.
 
-Siendo el ciclo, el arma mejora para dañar a la armadura, desequilibrando la balanza de poder, esta situación motiva a la armadura a endurecerse hasta que puedo defenderse del arma recuperando su imbatibilidad., lo que provoca que el arma se afilé.
+Siendo el ciclo: 
+- El arma mejora para dañar a la armadura, liderando la escala de poder.
+- Motiva a la armadura a endurecerse hasta que puedo defenderse del arma recuperando su imbatibilidad.
+ Lo que provoca que el arma se afile siguendo el ciclo
 
 ej:
 - Resistencia bacteriana vs antibióticos

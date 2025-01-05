@@ -1,41 +1,34 @@
 **Tags:** #_SinFín
 #ToTag 
 - - -
-#### **Etario**
-- Perteneciente o relativo a un grupo de edad.
-- Dicho por un grupo de edad.
----
-#### **Compulsión**
-- Necesidad interna de actuar; impulso irresistible.
-  - **"Com-"**: Prefijo latino que indica "conjunto" o "acción conjunta".
-  - **"Pellere"**: Verbo latino que significa "empujar", "impulsar" o "forzar".
----
-#### **Vetusta**
-- Extremadamente viejo o arcaico.
+#### Axiológico --- Del griego "axios" (valioso) + "logos" (estudio)
+El estudio de la naturaleza de los valores y los juicios valorativos. Abarca el estudio de los valores morales, éticos y estéticos, la naturaleza de lo valioso, los criterios de evaluación y las jerarquías entre valores.
 
----
-#### **Inerme**
-- Sin armas; indefenso.
+#### Coercitivo --- Del latín "coercere" (contener)
+Forzoso.
 
----
-#### **Escuela**
-- Viene del término **"schole"**, que significa "ocio".
+#### Compulsión --- Del latín "com" (conjunto) + "pellere" (empujar)
+Necesidad interna de actuar; impulso irresistible.
 
----
-#### **Coercitivo**
-- Forzoso.
+#### Escuela --- Del griego "schole" (ocio)
+Centro de enseñanza. Originalmente referido al tiempo de ocio dedicado al aprendizaje.
 
----
-#### **Onanismo**
-- Masturbación.
+#### Etario --- Del latín "aetas" (edad)
+Perteneciente o relativo a un grupo de edad.
 
----
-#### **Rizoma**
-- Parte subterránea de una planta que puede conectarse entre sí.
-- **Metáfora de Deleuze y Guattari**: Simboliza lo no jerárquico y múltiple.
-- - - 
-#### Gargantuesco
- - Gigantesco o enorme. Deriva de Gargantúa, el personaje gigante en la obra de Rabelais.
+#### Gargantuesco --- De Gargantúa, personaje literario
+Gigantesco o enorme. Deriva de Gargantúa, el personaje gigante en la obra de Rabelais.
 
+#### Inerme --- Del latín "inermis" (sin armas)
+Sin armas; indefenso.
+
+#### Onanismo --- De Onán, personaje bíblico
+Masturbación.
+
+#### Rizoma --- Del griego "rhizoma" (masa de raíces)
+Parte subterránea de una planta que puede conectarse entre sí. Como metáfora filosófica (Deleuze y Guattari): simboliza lo no jerárquico y múltiple.
+
+#### Vetusta --- Del latín "vetustus" (viejo)
+Extremadamente viejo o arcaico.
 - - - 
 ## ***Sources:***

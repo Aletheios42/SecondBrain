@@ -1,40 +1,16 @@
-**Tags:** #_Todo
-#ToTag #ToLink 
+**Tags:** #_Done 
+#IngenieríaSocial 
 - - -
+Los medios masivos, no son simples instrumentos técnicos de mediación de la realidad. Son, ante todo, artefactos político-culturales de **construcción y deconstrucción de realidades** imprimiendo sus pautas y valores, se delinean estereotipos, se establecen mecanismos de premios y castigos a través de narraciones que sirven de refuerzo axiológico, se configura el discurso social por medio [[Resignificación]] y de [[Establecimiento de Agenda|Agenda Setting]] 
 
-Los medios masivos, sin embargo, no son simples instrumentos
-técnicos de mediación de la realidad. Son, ante todo, artefactos político-
-culturales de construcción y deconstrucción de realidades imprimiendo sus pautas y
-valores.
+Se establece una [[Dialectica del arma y la armadura|tensión]] entre los mecanismos de manipulación y la conciencia crítica del espectador.
 
-[[Dialictica del arma y la armadura]], el arma es la intencio de manipulacion, y la armadura la conciencia critca del espectador.
+La vía **argumentativa** del discurso es poco eficiente si se la compara con la **emotiva** , En psicología se habla de [[Transferencia afectiva]].
 
- Los medios de masas tienen la capacidad de tematizar la discusión, este tecnica se llama agenda ssetting,  también  sus rasgos, cualidades y atributos.341 O sea, su framing. (añade el poder del olvido: los medios inducen a olvidar.)
- los medios se están convirtiendo en el principal agente de
-socialización en detrimiento de la [[Familia]]. La socialización es el proceso de aprendizaje social a través del cual el individuo incorpora los elementos de una cultura. La
-socialización implica la adquisición de nor-mas, valores, costumbres,
-creencias, roles, expectativas, lenguajes y otros conocimientos
-socioculturales que le permiten al individuo vivir en su sociedad. 
+ Los medios se están convirtiendo en el principal agente de [[Socialización]] en detrimiento de la [[Familia]]. 
 
-s. La vía argumentativa del discurso es poco
-eficiente si se la compara con la emotiva , En psicología se habla de «transferencia afectiva»
+ «El efecto socializador de las emociones televisivas se produce sobre todo cuando el espectador no es consciente de las implicaciones ideológicas y éticas de las emociones». 
 
- modelos de comportamiento, se juega con la excitación
-emocional en tanto que energía activadora de esos modelos, se delinean
-estereotipos, se establecen mecanismos de premios y castigos a través de
-narraciones que sirven de refuerzo axiológico, se configura el discurso
-social por medio de la promoción de ciertas palabras o determinadas
-resignificaciones, 
-
- «El efecto socializador de
-las emociones televisivas se produce sobre todo cuando el espectador no es
-consciente de las implicaciones ideológicas y éticas de las emociones». efecto transparencia. 
-El poder socializador de los
-medios es directamente proporcional a la eficacia de su disimulo. En esto,
-sin embargo, encontramos una pista de su talón de Aquiles. Al depender del
-disimulo, el poder de los medios de comunicación puede que sea inmenso,
-pero no es absoluto. Esto significa que puede ser resistido.
-
-
+El **efecto transparencia** señala que la efectividad del poder socializador mediático radica en su capacidad de **ocultarse** cuanto más invisible sea su influencia en la construcción de la realidad social, más poderosa será su capacidad de moldear percepciones y comportamientos. Sin embargo, esta **dependencia del disimulo constituye simultáneamente su mayor fortaleza y su principal vulnerabilidad**, pues al ser un poder que requiere permanecer oculto para ser efectivo, **puede ser resistido una vez que se hace visible su mecanismo de manipulación.**
 - - - 
 ## ***Sources:***

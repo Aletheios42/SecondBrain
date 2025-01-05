@@ -2,9 +2,9 @@
 #ToTag #ToLink 
 - - -
 
-la familia supone, por definición, una estructura jerárquica. En
-nuestra moderna familia nuclear, compuesta de padres e hijos, la cima de
-esa jerarquía la ocupa la autoridad parental. La legitimidad de esta
+Es una estructura jerárquica compuesta de padres e hijos,
+
+la cima de esa jerarquía es ocupada por la autoridad parental. La legitimidad de esta
 autoridad se funda, a simple vista, en una distancia etaria. Pero tal distancia
 solo hace efectiva dicha legitimidad cuando implica algo más que una mera
 asimetría cronológica en favor del de mayor edad. Ser mayor que otro solo
@@ -13,16 +13,14 @@ cosas valiosas para el gobierno de sí y del grupo: experiencia,
 conocimientos, fortaleza, razón, recursos.
 
 La familia ha cumplido durante mucho tiempo funciones económicas,
-religiosas, educativas, protectoras y recreativas,  estan funciones estan siendo desplazadas hacian el estado.  . La familia perdía así sus funciones educativas,
+religiosas, educativas, protectoras y recreativas,  estan funciones estan siendo desplazadas hacian el estado. La familia perdía así sus funciones educativas,
 protectoras, religiosas y económicas, pero podía concentrarse en agudizar
 sus funciones afectivas.  No obstante genera un conflicto, porque todas las funciones primogenias cumplian un todo. y al diseccionarlo se pierden cosas esenciales como la autoridad(desarrollar)... degradandolo en mero compañerismo ¿Que hace que un hijo admirare a sus padres?
 
 Democratizacion de la familia, ablandamiento de la estructura jerarquica, y divorcio. Ataque al amor romantico
 
 
- El paso de los años parece traer
-consigo no más experiencia, sino más desactualización; no más
-conocimientos, sino menos creatividad; 
+ El paso de los años parece traer consigo no más experiencia, sino más desactualización; no más conocimientos, sino menos creatividad; 
 
 La figura de los padres se ha diluido , convirtiendose en amigos mayores proveedores de cosas, La actual crisis de la autoridad parental está dada, en gran medida, por el
 hecho de que el paso del tiempo a menudo parece no reportarle al individuo
