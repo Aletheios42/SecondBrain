@@ -1,6 +1,46 @@
 **Tags:** #_Investigar 
 #ToTag #ToLink 
 - - -
+Angular es un framework de typescript creado y mantenido por Microsoft
+Cada 6 meses google saca nueva version
+###### Features
+- template
+- Data binding
+- forms
+- routing
+- observables
+- PWA
+
+- - - 
+#### Typescript Proeyct
+###### npm init
+###### npm i typescript
+
+###### tsc init
+- tsc
+- - - 
+#### SPA (Single Page Application)
+- All render by client. no server communication
+angular tiene una funcion de enrutamiento para SPA
+- - - 
+#### Types
+ ###### - data types
+string, number, boolean, null, undefined, symbol, bigint
+any, unknown, never, void
+array[], [tuple], object, {object literal}
+Type1 | Type2  // union
+Type1 & Type2  // intersection
+type Custom = ...
+interface IName {...}
+"literal" | "values"
+(x: T) => R // functions
+<T>  // generics	
+
+###### - inference types
+###### -  Generics
+###### -  Literal types
+- - - 
+
 enrutamiento a mano.
 data binding (investigar)
 typescript

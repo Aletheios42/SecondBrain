@@ -1,0 +1,34 @@
+**Tags:** #_Todo
+#ToTag #ToLink 
+- - -
+- que hace el comando tsc (mirar tambien el flag -i)
+- que hace el coamnd node
+- preguntar por los paquetes tsc.config, package.josn y node:modules
+- que es un superset
+- framework vs libreria
+- quien desarrolla angular
+- preguntar por console.log
+- las 2 nomeclaturas para declarar un array  corchetes y menor-mayor
+- Filter method
+- find method.
+- reduce method
+- concat method 
+- join method
+- === triple igual 
+- diferencia entre , =, \==, \=== .
+- diferent sintax funtions(regular vs arrow vs function expresion)
+- optional parameters.
+- Parametros con default value
+- argumentos variadicos
+- T , como tipo generico
+- !: declaration with no assignment
+- Constructors
+- this (to refer the class)
+- $ to expand variables(la pregunta puede ser: cual de estas expresienes expando y le pongo los 3 tipos de comillas)
+- diferencia entre "private " y "#"
+- diferencia entre public, private, protected.
+- extend para las herencias y preguntas sobre constructor heredado.
+- keyword super, override, static.
+- setters and getters
+- - - 
+## ***Sources:***
