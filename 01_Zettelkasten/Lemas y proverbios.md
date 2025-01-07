@@ -19,5 +19,6 @@
 
 - Sapientia vos liberabit
 
+- "El estado hace como que nos paga y nosotros hacemos como que trabajamos" - proverbio de la URSS
 - - - 
 ## ***Sources:***

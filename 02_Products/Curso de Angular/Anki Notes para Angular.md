@@ -1,4 +1,4 @@
-**Tags:** #_Todo
+**Tags:** #_Investigar 
 #ToTag #ToLink 
 - - -
 - que hace el comando tsc (mirar tambien el flag -i)
@@ -30,5 +30,17 @@
 - extend para las herencias y preguntas sobre constructor heredado.
 - keyword super, override, static.
 - setters and getters
+- const, var , let
+- que es una interfaz
+- keyword export, import e implement 
+- keyword para acceder a los miembros, clase.miembro
+- Object destructuring y renombramiento , con let {var 1: newvar, var2} = value1, value 2 , value3 (comprobar la sintax y hacer preguntas d esto con objetos que es mas dificil)
+- decorators placeholder \#
+- flag en el tsconfig, experimentadecorator experimentadecoratormetadata
+- tsconfig outDir
+-  tsconfig sourcemap to debug
+- Can typescrip stop you from compiling or are they just warnings?
+
+
 - - - 
 ## ***Sources:***
