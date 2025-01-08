@@ -1,8 +1,9 @@
 **Tags:** #_Investigar 
-#Pedagogia #ToLink 
+#Pedagogía #ToLink 
 - - -
 - Recuperación activa   --> testearte
 -  Repetición espaciada --> Anki Notes  para evitar la curva del olvido
 - [[Método Feynman]]
+[[Música y Aprendizaje]]
 - - - 
 ## ***Sources:***
