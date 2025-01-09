@@ -1,5 +1,5 @@
 **Tags:** #_Investigar 
-#Pedagogía#ToLink 
+#Pedagogía #ToLink 
 - - -
 Realmente podemos recordar grandes textos? la poesia como forma de conectar con el conocimiento. ¿Podemos recordar la letras de las canciones sin musica? 
 

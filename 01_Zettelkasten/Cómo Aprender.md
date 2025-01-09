@@ -4,6 +4,7 @@
 - Recuperación activa   --> testearte
 -  Repetición espaciada --> Anki Notes  para evitar la curva del olvido
 - [[Método Feynman]]
-[[Música y Aprendizaje]]
+- [[Lírica y Aprendizaje]]
+- taxonomia de Bloom
 - - - 
 ## ***Sources:***

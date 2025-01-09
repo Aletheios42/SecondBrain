@@ -3,6 +3,15 @@
 - - -
 Perfecto, organizaré una recopilación extensa de ejercicios por niveles de dificultad y conceptos, sin incluir las soluciones:
 
+mirar leccion 38 del primer cursod e cristine, para copiar preguntas
+
+- Seccion 3: hacer una tabla csv del archivo /etc/passwd usando los comandos de manipulacion
+- Seccion 4: ejercicios sobre regular expresions (grep y creacion de archivos)
+- Seccion 4 Pregunta: haz una uinstruccion de comandos que haga listado de comandos para ver lo que hacer: respuesta man -k cmd | grep \^cmd |  tee -a output.txt
+- Seccion 4 , hacer una instruccion que busque los una opcion del manual de un cmando, respuesta: man cmd | grep -E '^\[\[:space:]]*-option'
+- Seccion 6  copiar ejercicios de seccion 8 del curso de cristine, 42,43,44
+- Seccion 6, dar un empaquetado al cual se le ha cambiado la extension, finjir un ejercicio, cuando en realidad quiero que lo diagnostiquen con file
+- Seccion 6 copiar algo de un usb , y pasarselo de vuelta con algo diferente
 NIVEL BÁSICO - INTRODUCCIÓN:
 
 Interacción básica:

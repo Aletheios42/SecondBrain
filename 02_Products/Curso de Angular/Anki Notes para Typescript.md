@@ -1,6 +1,7 @@
 **Tags:** #_Investigar 
 #ToTag #ToLink 
 - - -
+### Typescript
 - que hace el comando tsc (mirar tambien el flag -i)
 - que hace el coamnd node
 - preguntar por los paquetes tsc.config, package.josn y node:modules
