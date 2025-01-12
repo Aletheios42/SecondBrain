@@ -13,6 +13,7 @@ mirar leccion 38 del primer cursod e cristine, para copiar preguntas
 - Seccion 6, dar un empaquetado al cual se le ha cambiado la extension, finjir un ejercicio, cuando en realidad quiero que lo diagnostiquen con file
 - Seccion 6 copiar algo de un usb , y pasarselo de vuelta con algo diferente
 NIVEL BÁSICO - INTRODUCCIÓN:
+- seccion 8 : ejercico de crear usuarios y grupos y un script que salude(con el comado id) y hacerte cambiar de usuarios entre tty para que puedas saludarte
 
 Interacción básica:
 1. Crear un script que salude y muestre la fecha actual

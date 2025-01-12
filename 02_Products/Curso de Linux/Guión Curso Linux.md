@@ -15,7 +15,7 @@ enseñar la diferencia entre save y snapshot
 ## Paso 1: tty
 - navegamos por las tty y enseño los comandos tty , whoiam y 
 ## Paso 2:  comandos para navegacion por el sistema de archivos y algunos cmd
- - pwd ,ls(-a, -F, -d, -l,-R,-h,-s), cd( 4 formas de ir a /home, rutas relativas y absolutas,  algunos place holders como:  ".." "." "- " "~ "))
+ - pwd ,ls(-a, -F, -d, -l,-R,-h,-s, -o, ls-i), cd( 4 formas de ir a /home, rutas relativas y absolutas,  algunos place holders como:  ".." "." "- " "~ "))
 - Miscelanea: bc, date, cal
 ## Paso 3 Sistema de archivos de linux
 - explicar que es un sistema de archivos virtual,
@@ -77,9 +77,12 @@ enseñar la diferencia entre save y snapshot
 - hacer laboratiorio
 
 # Seccion 5 comandos y operadores y fd
- ## paso 1 que es un comando y un fd
+ ## paso 0 que es un comando 
  - que es un comando su sintaxis, infile < cmd -options arguments > outfile
-- filedescriptors, stdin, out err, /dev/null
+ - PATH
+ ## paso 1 filedescriptors and its types
+- filedescriptors(explicar los tipos de objectos, enlace , bloque, directorio etc..), stdin, out err, /dev/null
+- ln (-s) enclace duro/simbolico
 ## paso 2 redicrecciones y pipe
 - redirecciones con todo
 ## paso 3 operadores binarios
@@ -105,6 +108,38 @@ enseñar la diferencia entre save y snapshot
 - dd , lsblk
 
 # Seccion 7 edicion de texto: VIM
+
+## Paso0 modo normar o modo comando
+- w, q, a, :!
+## Paso1 modo insertar
+- i, I, a, A, o, O
+## Paso 2 modo visual
+- v, V, ctrl+v
+- momements:  hjkl,
+- ^, 0 , $, w, e, b, d, x, . ,  numeros
+- r
+## Paso 3 avanzado
+- macros 
+- registros
+- buffers
+- marks
+# Seccion 8 Permisos
+## Paso 0 superuser
+- cambiar a root , # vs $ en el promt
+- sudo, su, sudoer
+- cambiar el archivo de configuracion para que no te pida el sudo cuando have apt
+## paso 1 consultar permisios
+- explicar la filosofia de unix de multiser system,  se crea un grupo con el mismo nombre que tu usuario el cual se convierte en tu grupo primario
+-  id(-G, -g,-n),groups
+- default-group-owner, rwx como octal, (simbolic, u-g-o-a)
+## paso 2 Cambiar los permisos
+- chmod, chown , chgrp, 
+- id, mask umask
+- permisos especiales SUID(u+s), SGID(g+s), sticky bit(o+t) revisar el octal de todos
+## paso 3 agregar usuarios y grupos
+- addusr
+## paso 4 ejercicios
+- explicar ligeramente os scripts para hacer estos ejercicios
 - - - 
 diseñar un canvas de unix/linux.
 [[Ejercicios de Bash Scripting]]
