@@ -3,6 +3,26 @@
 - - -
 Perfecto, organizaré una recopilación extensa de ejercicios por niveles de dificultad y conceptos, sin incluir las soluciones:
 
+
+# Seccion 0 Instalacion
+
+Exercise 1 - Network Configuration
+1. Get internet working first,  Students should learn two ways to connect:
+   - Through NAT/Bridge settings in VirtualBox
+   - Through WiFi/IP configuration in the VM
+R: for centos nmtui, activate new connection, and select enp3n0
+for ubuntu, netplan apply 
+
+Exercise 2 - Setting up Clipboard Sharing
+   - Install Guest Additions
+   - Set up clipboard sharing
+
+Test clipboard sharing between:
+   - Host ↔ CentOS
+   - Host ↔ Ubuntu 
+   - CentOS ↔ Ubuntu
+
+
 mirar leccion 38 del primer cursod e cristine, para copiar preguntas
 
 - Seccion 3: hacer una tabla csv del archivo /etc/passwd usando los comandos de manipulacion
