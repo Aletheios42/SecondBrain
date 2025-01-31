@@ -46,7 +46,7 @@ group comands, subshells
 
 	1. usuarios y permisios: useradd/del,groupadd/del,groupmod.  sudo, su, chmod, chown, chgrp,id  chmod umask passwd,   sed, awk. 
 	2. Navigation pwd, cd, ls.
-	3. Exploring the System: file, less, diff, comm, diff3, patch, head, tail, sort uniq, psate, join, split, cut,  tr, strings, tee, wc	
+	3. Exploring the System: file, less, diff, comm, diff3, patch, head, tail, sort uniq, psate, join, split, cut, column,   tr, strings, tee, wc
 	4. Manipulating files and directories: cp,rsync, mv, mkdir, rm, ln, bzip2, (g)zip, tar 
 	5. Working with Commands: type, which, help, man, apropos, info, whatis, alias
 	6. Processes ps(este se merece una nota), renice, w, top , uptime, fg, bg(&), jobs, sleep, at, kill(este se merece una nota), shutdown, nohup

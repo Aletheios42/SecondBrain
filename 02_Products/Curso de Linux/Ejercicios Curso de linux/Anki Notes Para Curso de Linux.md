@@ -3,6 +3,8 @@
 - - -
 
 - - - 
+comandos
+grep con las flags -l -i -v- E
 tema 10seguridad
 110.1
 - SGID
