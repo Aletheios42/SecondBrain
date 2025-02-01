@@ -142,6 +142,6 @@ enseñar la diferencia entre save y snapshot
 - explicar ligeramente os scripts para hacer estos ejercicios
 - - - 
 diseñar un canvas de unix/linux.
-[[Ejercicios de Bash Scripting]]
+[[Ejercicios de apuntes por sección]]
 - - - 
 ## ***Sources:***

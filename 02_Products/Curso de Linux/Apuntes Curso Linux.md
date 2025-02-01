@@ -1,6 +1,30 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
+## Redirecciones
+- `<`: Redirige la entrada estándar (stdin) desde un archivo
+- `<<<`: Here string: redirige un string como entrada
+- `<<EOF`: Here document: permite introducir múltiples líneas de entrada
+- `>`: Redirige la salida estándar (stdout) a un archivo, sobrescribiéndolo
+- `>>`: Redirige la salida estándar (stdout) a un archivo, agregando al final
+- `<&`: Duplica descriptores de archivo para entrada
+- `>&`: Duplica descriptores de archivo para salida
+
+## Acceso a Documentación
+- `man`: Páginas del manual
+  - Secciones: 1 (comandos), 2 (llamadas al sistema), 3 (funciones de biblioteca)
+  - `man -k palabra_clave`: Buscar en páginas del manual
+  - `man -f comando`: Mostrar todas las páginas disponibles
+
+- `info`: Documentación GNU
+  - Más detallada que las páginas man
+  - Formato hipertexto
+  - Navegación: n (siguiente), p (anterior), u (arriba)
+
+- `--help`: Referencia rápida de comandos
+  - Disponible para la mayoría de utilidades GNU
+  - Muestra opciones comunes y usok
+
 # Operaciones del Sistema de Archivos y Procesamiento de Texto en Linux
 
 ## Navegación del Sistema de Archivos
@@ -53,6 +77,7 @@
 - `!`: Expansión del historial
   - `!!`: Ejecuta último comando
   - `!n`: Ejecuta comando número n
+archivo: ~/Bash_history
 
 ## Procesamiento de Texto
 ### Visualización y Manipulación de Archivos
@@ -88,7 +113,7 @@
   - `-s`: Comprime caracteres repetidos
 
 - `sed`: Editor de flujo para filtrar y transformar texto
-  - `s/patrón/reemplazo/`: Sustituye texto
+  - `s/patrón/reemplazo/`: Sustituye texto  (explicar la g de global)
   - `d`: Elimina líneas
   - `-i`: Edita archivos in situ
   - `p`: Imprime espacio de patrón
@@ -98,31 +123,7 @@
   - `-v`: Invertir coincidencia
   - `-r`: Búsqueda recursiva
   - `-n`: Mostrar números de línea
-  - `-E`: Regex extendido
-
-## Redirecciones
-- `<`: Redirige la entrada estándar (stdin) desde un archivo
-- `<<<`: Here string: redirige un string como entrada
-- `<<EOF`: Here document: permite introducir múltiples líneas de entrada
-- `>`: Redirige la salida estándar (stdout) a un archivo, sobrescribiéndolo
-- `>>`: Redirige la salida estándar (stdout) a un archivo, agregando al final
-- `<&`: Duplica descriptores de archivo para entrada
-- `>&`: Duplica descriptores de archivo para salida
-
-## Acceso a Documentación
-- `man`: Páginas del manual
-  - Secciones: 1 (comandos), 2 (llamadas al sistema), 3 (funciones de biblioteca)
-  - `man -k palabra_clave`: Buscar en páginas del manual
-  - `man -f comando`: Mostrar todas las páginas disponibles
-
-- `info`: Documentación GNU
-  - Más detallada que las páginas man
-  - Formato hipertexto
-  - Navegación: n (siguiente), p (anterior), u (arriba)
-
-- `--help`: Referencia rápida de comandos
-  - Disponible para la mayoría de utilidades GNU
-  - Muestra opciones comunes y usok
+  - `-E`: Regex extendido  //meter la chuleta
 
 - - - 
 ## ***Sources:***

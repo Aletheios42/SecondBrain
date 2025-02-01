@@ -1,8 +1,8 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-Perfecto, organizaré una recopilación extensa de ejercicios por niveles de dificultad y conceptos, sin incluir las soluciones:
 
+ejercicio usando md5sum on /etc/passwd
 
 # Seccion 0 Instalacion
 
@@ -23,7 +23,8 @@ Test clipboard sharing between:
    - CentOS ↔ Ubuntu
 
 
-mirar leccion 38 del primer cursod e cristine, para copiar preguntas
+mirar leccion 38 del primer curso de cristine, para copiar preguntas
+
 
 - Seccion 3: hacer una tabla csv del archivo /etc/passwd usando los comandos de manipulacion
 - Seccion 4: ejercicios sobre regular expresions (grep y creacion de archivos)
@@ -34,7 +35,6 @@ mirar leccion 38 del primer cursod e cristine, para copiar preguntas
 - Seccion 6 copiar algo de un usb , y pasarselo de vuelta con algo diferente
 NIVEL BÁSICO - INTRODUCCIÓN:
 - seccion 8 : ejercico de crear usuarios y grupos y un script que salude(con el comado id) y hacerte cambiar de usuarios entre tty para que puedas saludarte
-
 
 - - - 
 ## ***Sources:***
