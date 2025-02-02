@@ -18,7 +18,7 @@ a parent process producing a child process.(zombie)
 
 Un Process Control Block (PCB) que contiene:
 
-Process ID único
+Process ID único: PID
 Program Counter
 Registros de CPU
 Estado del proceso
