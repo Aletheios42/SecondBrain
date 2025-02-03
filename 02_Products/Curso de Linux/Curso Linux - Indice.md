@@ -1,11 +1,11 @@
 **Tags:** #_Todo
-#ToTag #ToLink 
+#Linux #Cursos #ToLink 
 - - -
 Prequisitos: 
 - Curso de VirtualBox (Virtualizacion 0)
 - Curso de  Vim (opcional pero vendria genial hacerlo antes)
 - un ordenador en condiciones
-# Linux Fundamentals
+# Linux Basics
  ## Linux Architecture
 - **uname**: Display system information (`uname -a`, `uname -r`, `uname -m`)
 - Kernel (monolithic vs microkernel)
@@ -28,10 +28,11 @@ Prequisitos:
  - **Others**
      - Arch Linux, Manjaro, Slackware, Gentoo
  
- ## File System Hierarchy**
-- Key directories (/bin, /etc, /var, /home, /usr, /tmp, /proc, /sys)
-- File types (regular, directory, symbolic links, device files, blocks)
+ ## **File System Hierarchy**
+ [[Sistema de Archivos de Linux]]
+[[Directorios de root (Sistema) en Linux]]
 
+- File types: regular, directory, symbolic links, device files, blocks.
 # Bash Interpreter
 GNU Bash o simplemente Bash (Bourne-again shell) es una interfaz de usuario de línea de comandos popular, específicamente un shell de Unix; así como un lenguaje de scripting. 
 ## Text Editors
@@ -39,295 +40,338 @@ GNU Bash o simplemente Bash (Bourne-again shell) es una interfaz de usuario de l
 	- --help, -set, sintax, tabs, buffers, registers, macros, marcas y marcas de archivo " m, \` " colorscheme, tutor
  - **nano**: Basic usage (save, exit, search)
  - **emacs**: Basic commands (Ctrl+X, Ctrl+S, Ctrl+C
-
 ## [[Atajos de Bash]]
+Aquí tienes el documento actualizado con los comandos en **negrita**, las descripciones faltantes añadidas y los cambios listados para que puedas revisarlos fácilmente:
+
+---
 ## Programas del sistema I
 #### Miscellaneous
-tty ->
-isthistty ->
-date: Display or set the system date and time
-cal: Display a calendar
-bc -> calculadora
-reboot:
-shutdown: Shutdown or reboot the system
-####  Documentation Access
-- [[Buildtin vs Command]]
-- Ejercicio de usar el man y explicar que significan los ... y mas detalles
+- **tty**: Muestra el nombre del terminal actual
+- **date**: Display or set the system date and time
+- **cal**: Display a calendar
+- **bc**: Calculadora de precisión arbitraria
+- **reboot**: Reinicia el sistema
+- **shutdown**: Shutdown or reboot the system
+#### Documentation Access
+ [[Buildtin vs Command]]
+ Ejercicio de usar el man y explicar que significan los ... (acepta multiples )
+- **man**: Manual pages
+  - **Sections**: 1 (commands), 2 (system calls), 3 (library functions)
+  - mandb
+  - **man -k keyword**: Search manual pages
+  - **man -f command**: Show all available pages
+  - - man -w: ubicacion de los manuales 
+  - - man -a: Lista las versiones disponibles
+  
+- **info**: GNU documentation
+  - More detailed than man pages
+  - Hypertext format
+  - **Navigation**: `n` (next), `p` (previous), `u` (up)
 
-**man**: Manual pages
-        Sections: 1 (commands), 2 (system calls), 3 (library functions)
-	     man -k keyword: Search manual pages
-	     man -f command: Show all available pages
-            
-**info**: GNU documentation
-	More detailed than man pages
-    Hypertext format
-    Navigation: n (next), p (previous), u (up)
-            
-**--help**: Quick reference for commands
-    Available for most GNU utilities
-    Shows common options and usage
-            
+- **--help**: Quick reference for commands
+  - Available for most GNU utilities
+  - Shows common options and usage
 #### 📂 Manipulación de archivos y directorios
-- [[Rutas en Linux]]
-- Ejercicio para listar las rutas de los manuales
-- [[Globbing]]:  
+ [[Rutas en Linux]]
+ Ejercicio para listar las rutas de los archivos de los manuales
+ [[Globbing]]:
 
-ls → Lista archivos y directorios
-	options: -R, -l , -i, -a, -d, t
-cd → Cambia de directorio
-	options:  "- , ~, /"
-pwd → Muestra la ruta del directorio actual
-mkdir → Crea un directorio
-	-p
-rmdir → Elimina un directorio vacío
-rm → Elimina un directorio con contenido
-	-f, -r, -i
-cp → Copia archivos o directorios
-	-r
-mv → Mueve o renombra archivos
-ln  -> thace enlaces
-	options: -s ,
-#### 📝 Visualización y 🔍 Analisis de archivos
-- [[Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
-- Ejercicio con printf sobre el ascci hexadecimanl octal binario etc..
+- **ls**: Lista archivos y directorios
+  - **options**: `-R` (recursive), `-l` (long format), `-i` (inode), `-a` (all), `-d` (directories), `-t` (sort by time)
+- **cd**: Cambia de directorio
+  - **options**: `-` (previous directory), `~` (home directory), `/` (root directory)
+- **pwd**: Muestra la ruta del directorio actual
+- **mkdir**: Crea un directorio
+  - **-p**: Crea directorios padres si no existen
+- **rmdir**: Elimina un directorio vacío
+- **rm**: Elimina archivos o directorios
+  - **-f**: Fuerza la eliminación sin preguntar
+  - **-r**: Elimina directorios y su contenido recursivamente
+  - **-i**: Pregunta antes de eliminar
+- **cp**: Copia archivos o directorios
+  - **-r**: Copia directorios recursivamente
+- **mv**: Mueve o renombra archivos
+- **ln**: Crea enlaces
+  - **-s**: Crea enlaces simbólicos
+#### 📝 Visualización y 🔍 Análisis de archivos
+ [[Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
+ Ejercicio con printf sobre el ASCII, hexadecimal, octal, binario, etc.
+ Ejercicio con echo y stat (touch puede molar)
 
-cat → Muestra el contenido de un archivo
-	-E
-tac → Muestra el contenido de un archivo en orden inverso
-tee → Redirige salida a un archivo y a la vez la muestra en pantalla
-less → Visualiza archivos de texto
-head → Muestra las primeras líneas de un archivo
-	-n
-tail → Muestra las últimas líneas de un archivo
-	-n
-echo -> 
-printf -> 
-touch -> Change file timestamps
-stat -> Muestra el estado del archivo
-file → Determina el tipo de archivo
-diff → Compara archivos línea por línea
-diff3 → Compara tres archivos y muestra diferencias
-patch → Aplica diferencias a archivos
-
+- **cat**: Muestra el contenido de un archivo
+  - **-E**: Muestra `$` al final de cada línea
+- **tac**: Muestra el contenido de un archivo en orden inverso
+- **tee**: Redirige salida a un archivo y a la vez la muestra en pantalla
+- **less**: Visualiza archivos de texto
+- **head**: Muestra las primeras líneas de un archivo
+  - **-n**: Especifica el número de líneas a mostrar
+- **tail**: Muestra las últimas líneas de un archivo
+  - **-n**: Especifica el número de líneas a mostrar
+- **echo**: Muestra texto en la salida estándar
+- **printf**: Formatea y muestra texto
+- **touch**: Cambia las marcas de tiempo de un archivo o lo crea si no existe
+- **stat**: Muestra el estado del archivo
+- **file**: Determina el tipo de archivo
+- **diff**: Compara archivos línea por línea
+- **diff3**: Compara tres archivos y muestra diferencias
+- **patch**: Aplica diferencias a archivos
 #### Historial de comandos
-- bash_history
+ bash_history
 
- history -> display cmd hisotry
-	!n: Execute nth command from history
-	!-n: 
-	!!: Repeat the last command
-	!string: Execute the most recent command starting with string
-	Ctrl+R: Search command history interactively
+- **history**: Muestra el historial de comandos
+  - **!n**: Ejecuta el comando número `n` del historial
+  - **!-n**: Ejecuta el comando `n` posiciones antes del último
+  - **!!**: Repite el último comando
+  - **!string**: Ejecuta el comando más reciente que comienza con `string`
+  - **Ctrl+R**: Busca en el historial de comandos interactivamente
 - - -
+### Meter ejercicios de programas sistema I
+- - - 
 ## How Sentences Are Made
 #### [[Secuencias de Escape en Caracteres]]
 #### Sentences: Basic units of execution
-- <infile cmd1 operador cmd2 > outfile
-- Binary Operators "&&, ||, ;, |"
-- [[Redirecciones en Unix-Linux]]
+Sintax  ---> <infile cmd1 operador cmd2 > outfile
+ Binary Operators "&&, ||, ;, |"
+ [[Redirecciones en Unix-Linux]]
 #### Expansiones
-Pathname expansion:
-Tilde Expansion: \`date\`
-Arithmetic Expansion: $()  --> Append: expr
-[[Expansión de Llaves]]: {a,b,c} {a..c}
-Parameter Expansion: $var 
-#### Command susbtitution "<(), double qutes, $() "
-- ejercicio con variables de entorno y env -i para demostras esto
-- ejecucion de comandos exec y eval
+- Pathname expansion:
+- Tilde Expansion: \`date\`
+- Arithmetic Expansion: $()  --> Append: expr
+- [[Expansión de Llaves]]: {a,b,c} {a..c}
+- Parameter Expansion: $var 
 #### quoting 
 - single quote
 - double quote
 - invertida quote (deprecated)
-
-### Muchisimos ejercicios sobre lo visto hasta ahora
-- - - 
+#### Command susbtitution "<(), double qutes, $() "
+ [[Curso Linux - Lab - Monitoreo de la Ejecución de un Comando en una Shell[]] 
+ ejercicio con variables de entorno y env -i para demostras esto
+ 
+- comandos exec y eval
+---
 ## Programas del sistema II
 #### Variable managment
-env: Display environment variables
-printenv ->
-locale ->
-set: Set or display shell options and positional parameters
-unset: unset or display shell enviroments
-export: Set environment variables
-	option: -p
-source: Execute commands from a file
-alias: Create command aliases
-unalias: Remove command aliases
-exit: Exit the shell
-#### Selección y Sustituciónde Texto
-- Buscar los ejercicios del sepe
+- **env**: Display environment variables
+- **printenv**: Display environment variables
+- **locale**: Display locale settings
+- **set**: Set or display shell options and positional parameters
+- **unset**: Unset or display shell environments
+- **export**: Set environment variables
+  - **option**: `-p` (Display exported variables)
+- **source**: Execute commands from a file
+- **alias**: Create command aliases
+- **unalias**: Remove command aliases
+- **exit**: Exit the shell
+#### Selección y Sustitución de Texto
+Buscar los ejercicios del sepe
+Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mirarlo en el manual.
 
-tr → Sustituye o elimina caracteres
-	-d, -s, -t
-paste → Une líneas de archivos
-join → Une líneas de archivos basadas en un campo común
-split → Divide archivos en partes más pequeñas
-cut → Extrae secciones de líneas en archivos
-	-d, -f
-column → Formatea texto en columnas
-strings → Extrae cadenas imprimibles de archivos binarios
+- **tr**: Sustituye o elimina caracteres
+  - **-d**: Delete characters
+  - **-s**: Squeeze repeated characters
+  - **-t**: Truncate
+- **paste**: Une líneas de archivos
+- **join**: Une líneas de archivos basadas en un campo común
+- **split**: Divide archivos en partes más pequeñas
+- **cut**: Extrae secciones de líneas en archivos
+  - **-d**: Delimiter
+  - **-f**: Fields
+- **column**: Formatea texto en columnas
+- **strings**: Extrae cadenas imprimibles de archivos binarios
 #### Filtrado de texto
-- [[Chuleta_Regex_apuntes.jpg]]
-	Tools: grep, sed, awk, find(en algunas distros, ademas en algunas se puede poner la flag -regex)
-- [[Curso de Linux - Ejercicio - Regex]] y buscar mas ejercicios del sepe
+ [[Chuleta_Regex_apuntes.jpg]]
+ **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
+ [[Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
-sort → Ordena líneas de un archivo
-	-n
-uniq → Filtra líneas duplicadas
-wc → Cuenta líneas, palabras y caracteres en un archivo
-	-c, -w, -l
-grep -> filtrado
-	-E, -i, -n, v, -f, -r
-sed → Procesamiento y edición de texto.
-	s/OldPattern/NewPattern/(g)   / puede ser cambiado por otro caracter, necesario si en el patron aparece el delimitador.
-awk → Procesamiento de texto avanzado.
+- **sort**: Ordena líneas de un archivo
+  - **-n**: Sort numerically
+- **uniq**: Filtra líneas duplicadas
+- **wc**: Cuenta líneas, palabras y caracteres en un archivo
+  - **-c**: Count bytes
+  - **-w**: Count words
+  - **-l**: Count lines
+- **grep**: Filtrado de texto
+  - **-E**: Extended regex
+  - **-i**: Ignore case
+  - **-n**: Show line numbers
+  - **-v**: Invert match
+  - **-f**: Read patterns from a file
+  - **-r**: Recursive search
+- **sed**: Procesamiento y edición de texto.
+  - **s/OldPattern/NewPattern/(g)**: Sustituye patrones (el delimitador `/` puede ser cambiado por otro carácter si es necesario).
+- **awk**: Procesamiento de texto avanzado.
 #### Searching Files
-- Lab: buscar muchos archivos del sistema
+Lab: buscar muchos archivos del sistema
 
-locate / updatedb  → Find files by name / Actualiza la base de datos de locate
-find: Search for files in a directory hierarchy
-	exec "+ , /"
-	lots of flags
-xargs: Build and execute command lines from standard input
+- **locate / updatedb**: Find files by name / Actualiza la base de datos de locate
+- **find**: Search for files in a directory hierarchy
+  - **exec**: Execute a command on found files
+	  - **+**: Placeholder for multiple files
+	  - **/**: Search from root directory
+  - **lots of flags**: Consultar `man find` para más opciones.
+- **xargs**: Build and execute command lines from standard input
 #### Compression and Sync
-- mirar el ejercicio de christine
+Mirar el ejercicio de christine
 
-gzip -> Compress files
-bzip2  -> Compress files
-xz -> Compress files
-tar -> Archive files
-cpio -> Copy files to and from archives
-rsync: Sync files/directories
-shasum
-
+- **gzip**: Compress files
+- **bzip2**: Compress files
+- **xz**: Compress files
+- **tar**: Archive files
+- **cpio**: Copy files to and from archives
+- **rsync**: Sync files/directories
+- **shasum**: Compute and check SHA checksums
 - - - 
-
-==Espacio para explicar cosas del sistema desde demonios hasta probablemente conectarse al wifi o yo que se.==
+### Meter ejercicios de programas sistema II
+- - - 
 ## manejar mi enviroment
- - [[Curso Linux - Lab - Explorando Las Variables de Bash]]
- 
+ [[Curso Linux - Lab - Explorando Las Variables de Bash]]
+[[Curso Linux - Lab - Tmux Primeros Pasos]]
 [[Variables de Bash]] 
- Archivos de configuracion bashrc y profile
+Ejercicio añadir tmux a tu bashrc
+
+ - Archivos de configuracion bashrc y profile
 	 - .bash_profile 
 	 - .bashrc 
 	 - .bash_logout 
 	 - .bash_history
+	 
+ - [[Multiplexores]]
+	- screen 
+	- [[Tmux]]
 - - -
 ## Programas del sistema III
-#### 🔒 Gestión de usuarios 
+#### 🔒 Gestión de usuarios
 [[Curso Linux - Lab - Gestión de Usuarios y Permisos]]
-- root # vs regular user $
-- Archivos: /etc/passwd /etc/shadow /etc/skel
-- sudoer
-- privilegios del usuario instalador
-- User and Group ID Numbering Conventions 
+ **root #** vs **regular user $**
+ Archivos: `/etc/passwd`, `/etc/shadow`, `/etc/skel`
+ **sudoer**
+ **privilegios del usuario instalador**
+ **User and Group ID Numbering Conventions**
 
-su → Cambia de usuario pero no de enviroment
-	-l/ --login, - : para ejecutar una shell como root, es decir con su enviroment
-sudo → Ejecuta comandos como root
-	-u
-whoami → Muestra el usuario actual
-who → Muestra usuarios conectados
-id → Muestra UID y GID del usuario actual
-	options: -u, -n
-groups → Muestra grupos de un usuario
-	options: -u, -n
-(add/del)user → Crea/Elimina  un nuevo usuario (diferencia con useradd)
-usermod→ 
-	-a, -G
-(add/del)group→ Crea/Elimina un nuevo usuario (diferencia con useradd)
-groupmod → 
-chage ->
-mask -> restar
-umask → Configura permisos por defecto
-#### 🔒 Gestión de permisos 
-mirar laboratorio del sepe
-- permisos Linux - Unix
-- [[Permisos Especiales Unix-Linix]]
-- “a(all), u(user), g(group), o(other)”
--  symbolic   vs octal  0xxxx
+- **su**: Cambia de usuario pero no de environment
+  - **-l / --login**: Ejecuta una shell como root con su environment
+  - **-**: Ejecuta una shell como root con su environment
+- **sudo**: Ejecuta comandos como root
+  - **-u**: Ejecuta como otro usuario
+- **whoami**: Muestra el usuario actual
+- **who**: Muestra usuarios conectados
+- **id**: Muestra UID y GID del usuario actual
+  - **-u**: Muestra solo el UID
+  - **-n**: Muestra el nombre en lugar del ID
+- **groups**: Muestra grupos de un usuario
+  - **-u**: Muestra solo el UID
+  - **-n**: Muestra el nombre en lugar del ID
+- **(add/del)user**: Crea/Elimina un nuevo usuario (diferencia con `useradd`)
+- **usermod**: Modifica un usuario
+  - **-a**: Añade al usuario a un grupo
+  - **-G**: Especifica grupos adicionales
+- **(add/del)group**: Crea/Elimina un nuevo grupo (diferencia con `groupadd`)
+- **groupmod**: Modifica un grupo
+- **chage**: Cambia la caducidad de la contraseña de un usuario
+- **mask**: Resta permisos
+- **umask**: Configura permisos por defecto
 
-su → Cambia de usuario pero no de enviroment
-	- : para el enviroment del argumento
-sudo → Ejecuta comandos como root
-	-u
-whoami → Muestra el usuario actual
-who → Muestra usuarios conectados
-id → Muestra UID y GID del usuario actual
-groups → Muestra grupos de un usuario
-(add/del)user → Crea/Elimina  un nuevo usuario (diferencia con useradd)
-usermod→ 
-	-a, -G
-(add/del)group→ Crea/Elimina un nuevo usuario (diferencia con useradd)
-groupmod → 
-passwd → Cambia contraseña de usuario
-chmod → Cambia permisos de archivos
-	 06777 , -w ,  u:x  
-chown → Cambia propietario de un archivo
-chgrp → Cambia grupo de un archivo
+#### 🔒 Gestión de permisos
+ Mirar laboratorio del sepe
+ **permisos Linux - Unix**
+ [[Permisos Especiales Unix-Linux]]
+ **“a(all), u(user), g(group), o(other)”**
+ **symbolic vs octal 0xxxx**
+
+- **su**: Cambia de usuario pero no de environment
+  - **-**: Para el environment del argumento
+- **sudo**: Ejecuta comandos como root
+  - **-u**: Ejecuta como otro usuario
+- **whoami**: Muestra el usuario actual
+- **who**: Muestra usuarios conectados
+- **id**: Muestra UID y GID del usuario actual
+- **groups**: Muestra grupos de un usuario
+- **(add/del)user**: Crea/Elimina un nuevo usuario (diferencia con `useradd`)
+- **usermod**: Modifica un usuario
+  - **-a**: Añade al usuario a un grupo
+  - **-G**: Especifica grupos adicionales
+- **(add/del)group**: Crea/Elimina un nuevo grupo (diferencia con `groupadd`)
+- **groupmod**: Modifica un grupo
+- **passwd**: Cambia la contraseña de un usuario
+- **chmod**: Cambia permisos de archivos
+  - **06777**: Permisos en formato octal
+  - **-w**: Quita permisos de escritura
+  - **u:x**: Añade permiso de ejecución al usuario
+- **chown**: Cambia el propietario de un archivo
+- **chgrp**: Cambia el grupo de un archivo
+
 #### 🛠 Gestión de procesos y señales
+ Ejercicios en **64. Managing process priority**
+ [[Procesos en Linux]]
+ **cmd &**: Ejecuta un comando en segundo plano
+ **zombies**: Procesos terminados pero no liberados
 
-- ejercicios en 64.Maniging process priority
-- Multiplexores
-	- screen 
-	- tmux
-- [[Procesos en Linux]]
-- cmd **&** para el background
-- zombies
-ps → Lista procesos activos
-	a, u, x, e, l , f
-	si la tty= ? es un proceso de red
-	las 3 sintaxis , unix, bekerley, GNU
-pgrep
-	-u, -a, -t
-bg → Envía un proceso en segundo plano
-fg → Devuelve un proceso a primer plano
-jobs → Lista procesos en segundo plano
-	options -->  -l
-	ejercicio con sleep y moverlo del frnt al back y al front otra vez.
-	y luego ejecutas un sleep en el background y lo pasas al fore
-top → Muestra procesos en tiempo real
-	en la parte de arriba se muestran las medias
-kill → Termina un proceso por PID
-	options: -s, %
-	- tabla de señales
-	- ejercicios de cristine 63. sending signals to process
-killall → Termina procesos por nombre(sigterm)
-pkill → Termina procesos por coincidencia de nombre
-	options -a, -g
-nice  -> Run process priority
-- nice level, priority on linux, ranges 
-renice: Change process priority
-w -> Show who is logged in and what they are doing
-uptime: Show system uptime
-sleep: Delay for a specified time
-at: Schedule a command to run at a specific time
-nohup: Run a command immune to hangups
+- **ps**: Lista procesos activos
+  - **a**: Muestra procesos de todos los usuarios
+  - **u**: Muestra formato de usuario
+  - **x**: Muestra procesos sin terminal
+  - **e**: Muestra environment
+  - **l**: Formato largo
+  - **f**: Formato de árbol
+  - Si **tty=?**: Es un proceso de red
+  - Las 3 sintaxis: Unix, Berkeley, GNU
+- **pgrep**: Busca procesos por nombre
+  - **-u**: Filtra por usuario
+  - **-a**: Muestra el comando completo
+  - **-t**: Filtra por terminal
+- **bg**: Envía un proceso a segundo plano
+- **fg**: Devuelve un proceso a primer plano
+- **jobs**: Lista procesos en segundo plano
+  - **-l**: Muestra PIDs
+  - Ejercicio con `sleep` y moverlo entre foreground y background.
+- **top**: Muestra procesos en tiempo real
+  - En la parte superior se muestran las medias
+- **kill**: Termina un proceso por PID
+  - **-s**: Especifica una señal
+  - **%**: Termina un proceso en segundo plano
+  - **Tabla de señales**: Consultar `man kill`
+  - Ejercicios de Christine: **63. Sending signals to process**
+- **killall**: Termina procesos por nombre (SIGTERM)
+- **pkill**: Termina procesos por coincidencia de nombre
+  - **-a**: Muestra el comando completo
+  - **-g**: Filtra por grupo
+- **nice**: Ejecuta un proceso con prioridad modificada
+  - **nice level, priority on Linux, ranges**
+- **renice**: Cambia la prioridad de un proceso
+- **w**: Muestra quién está conectado y qué está haciendo
+- **uptime**: Muestra el tiempo de actividad del sistema
+- **sleep**: Retrasa la ejecución por un tiempo especificado
+- **at**: Programa un comando para ejecutarse en un momento específico
+- **nohup**: Ejecuta un comando inmune a cierres de sesión
 #### ⏳ Gestión de memoria y rendimiento
-- [[Paquete - Sysstat]]
-- ejercicio de usar cut y grep en archivos del sistema para imitar comandos de esta paquete (hacerlo antes de ver los comandos) ejemp imitar sar con cut grep y top
-free  → Muestra uso de memoria
-vmstat → Información sobre CPU, memoria, swap
-iostat → Estadísticas de CPU y discos
-uptime → Muestra tiempo encendido del sistema
-dstat → Alternativa a vmstat
-sar → Registra uso de CPU y memoria
-####  Partitions and Disks
-dd: Convert and copy files
-df: Display disk space usage
-gparted: Partition editor
-mount: Mount a filesystem
-umount: Unmount a filesystem
-fsck: Check and repair a filesystem
-fdisk: Partition table manipulator
-mkfs: Create a filesystem
-genisoimage: Create ISO files
-whodid: Check file ownership
-md5sum: Compute and check MD5 message digest
+ [[Paquete - Sysstat]]
+ Ejercicio de usar `cut` y `grep` en archivos del sistema para imitar comandos de este paquete (hacerlo antes de ver los comandos). Ejemplo: imitar `sar` con `cut`, `grep` y `top`.
+
+- **free**: Muestra el uso de memoria
+- **vmstat**: Información sobre CPU, memoria, swap
+- **iostat**: Estadísticas de CPU y discos
+- **uptime**: Muestra el tiempo encendido del sistema
+- **dstat**: Alternativa a `vmstat`
+- **sar**: Registra el uso de CPU y memoria
+#### Partitions and Disks
+- **dd**: Convierte y copia archivos
+- **df**: Muestra el uso del espacio en disco
+- **gparted**: Editor de particiones
+- **mount**: Monta un sistema de archivos
+- **umount**: Desmonta un sistema de archivos
+- **fsck**: Verifica y repara un sistema de archivos
+- **fdisk**: Manipulador de tabla de particiones
+- **mkfs**: Crea un sistema de archivos
+- **genisoimage**: Crea archivos ISO
+- **whodid**: Verifica la propiedad de un archivo
+- **md5sum**: Calcula y verifica el resumen MD5
+- - - 
+### Meter ejercicios de programas sistema III
+- - - 
 # Bash Scripting
 
 ##  Shell Scripting Basics
+
 - Shebang: #!/bin/bash, #!/usr/bin/env bash
 - Variables: Declaration, usage, scope
 - Local vs Global Variables:
@@ -341,6 +385,8 @@ md5sum: Compute and check MD5 message digest
 - if-else: Syntax and examples
 - case: Syntax and examples
 ## Loops
+Ejercicio copia 100 veces "Me encanta aprender Linux"(de las 3 maneras esta bien)
+
 - for: Syntax and examples
 - while: Syntax and examples
 - until: Syntax and examples
