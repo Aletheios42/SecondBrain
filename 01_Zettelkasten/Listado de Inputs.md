@@ -2,8 +2,12 @@
 #Productividad  #ToLink
 
 ---
-
 - [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] Vim Book
+- [ ]  Investigar sobre la relacion entre las shell la terminal y el kernel. y todos los tipos de variables de entorno
 - [ ] Curso de udemy de Angular
 - [ ] Curso de udemy de linux 1
 - [ ] Curso de udemy de linux 2

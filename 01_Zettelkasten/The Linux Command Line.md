@@ -5,11 +5,10 @@ notas para hacer de aqui:
 [[Comandos Linux]]
 [[Redes]]
 [[Terminal]]
-[[Expresiones Regulares]]
 [[Vim]]
-[[Expansión de Llaves{}]]
+[[Expansión de Llaves]]
 [[Sustitución de Procesos en Bash]]
-[[Arquitectura de Enlaces en Linux]]
+[[Sistema de Archivos de Linux]]
 [[Bash]]
 [[Redirecciones en Unix-Linux]]
 [[SSH]]
@@ -32,14 +31,14 @@ command disappears.
 
 trap-> señales
 wait-> asincron
-makefifo-makenod, para usar pipes en scripts
 # COMMANDS
 command -optionsFlag/--fullnameOption arguments
 
-group comands, subshells
+group comands, 
+subshells
 {cmd1, cmd2, [cmd3 ....]}
 (cmd1, cmd2, [cmd3 ....])
-<(cmd)  o >(cmd)
+<(cmd)  
 	
 	//TODO Buscarles categoria
 	date, cal, free, exit, who, whoami, script .
@@ -66,27 +65,9 @@ ssh.
 # [[Sistema de Permisos en Linux]]
 # [[Atajos de Bash]]
 
-![[Shourtcouts_Bash.jpg]]
-# Rutas en Linux
-Las rutas en Linux se pueden expresar de dos formas: absolutas y relativas.
-
-Ruta absoluta: Comienza desde la raíz (/), por ejemplo: /usr/bin.
-Ruta relativa: Comienza desde el directorio actual y utiliza símbolos especiales como . y ...
-Nota: En la mayoría de los casos, el ./ puede ser omitido. Por ejemplo, cd bin tiene el mismo efecto que cd ./bin, ya que el sistema asume que estamos refiriéndonos al directorio actual.
-Leyenda de símbolos:
-/: Directorio raíz (root).
-.: Directorio actual.
-..: Directorio superior (padre).
-~: Directorio home del usuario actual.
-
-Comandos útiles para cambiar de directorio
-
-cd	Cambia al directorio home del usuario actual.
-cd -	Cambia al directorio anterior.
-cd ~user_name	Cambia al directorio home del usuario user_name. Ejemplo: cd ~bob.
+# [[Rutas en Linux]]
 # Nombrar Archivos
 En Linux, los archivos tienen algunas particularidades importantes. Los archivos que comienzan con un punto (.) son ocultos y no se muestran con el comando ls a menos que se use ls -a. Los nombres de archivos son sensibles a mayúsculas y minúsculas, lo que significa que "File1" y "file1" son archivos diferentes. A diferencia de otros sistemas, Linux no utiliza extensiones de archivo para determinar su tipo o propósito; esto se basa en otros factores. Aunque Linux permite nombres largos con espacios y puntuación, se recomienda evitar espacios en los nombres de archivos y usar guiones bajos (_) en su lugar. También es mejor limitar los caracteres de puntuación a puntos, guiones y guiones bajos.
-// hacer nota sobre expansiones en bash
 # quoting
 double quote
 ej: bash hace split por defecto para evitarlo dobles comillas
@@ -124,35 +105,12 @@ done inside double quotes to selectively prevent an expansion.
 The balance for user me is: $5.00
 para hacer pitar el ordenador:
 echo -e "\a"    # El flag -e es necesario para interpretar caracteres especiales
-# Linux FILESYSTEM
-particiones investigar.
+# [[Sistema de Archivos de Linux]]
 mount y fstab
 fat, ext4, brfs, NFS(investigar)
 en /boot hay vmlinuz, initramfs, config, system.map
 
-| **Directorio**    | **Descripción**                                                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **`/dev`**        | Contiene los nodos de dispositivos; "Todo es un archivo", incluyendo dispositivos del sistema.                                        |
-| **`/etc`**        | Archivos de configuración del sistema y scripts de inicio. Algunos archivos importantes: `/etc/crontab`, `/etc/fstab`, `/etc/passwd`. |
-| **`/home`**       | Directorios personales de los usuarios. Los usuarios solo pueden escribir en su propio directorio.                                    |
-| **`/lib`**        | Contiene bibliotecas compartidas necesarias para los programas del sistema. Similar a los archivos DLL en Windows.                    |
-| **`/lost+found`** | Usado para la recuperación parcial de archivos tras una corrupción del sistema de archivos. Suele estar vacío.                        |
-| **`/media`**      | Contiene puntos de montaje para medios extraíbles, como USBs o CD-ROMs. Se montan automáticamente.                                    |
-| **`/mnt`**        | Directorios para montar dispositivos manualmente (en sistemas más antiguos).                                                          |
-| **`/opt`**        | Contiene software opcional, generalmente software comercial.                                                                          |
-| **`/proc`**       | Sistema de archivos virtual mantenido por el kernel de Linux; proporciona información sobre el sistema.                               |
-| **`/root`**       | Directorio home del superusuario (root).                                                                                              |
-| **`/sbin`**       | Archivos binarios esenciales para la administración del sistema, generalmente solo accesibles para el root.                           |
-| **`/tmp`**        | Directorio para archivos temporales, que se puede limpiar al reiniciar el sistema.                                                    |
-| **`/usr`**        | Contiene los programas y archivos de soporte para usuarios regulares.                                                                 |
-| **`/usr/bin`**    | Programas ejecutables instalados por la distribución de Linux.                                                                        |
-| **`/usr/lib`**    | Bibliotecas compartidas necesarias para los programas en `/usr/bin`.                                                                  |
-| **`/usr/local`**  | Directorio para programas no incluidos en la distribución pero instalados por el administrador del sistema.                           |
-| **`/usr/sbin`**   | Programas de administración del sistema no esenciales, pero utilizados por el administrador del sistema.                              |
-| **`/usr/share`**  | Archivos de datos compartidos como iconos, fondos de pantalla, configuraciones predeterminadas, etc.                                  |
-| **`/var`**        | Contiene archivos que cambian frecuentemente como bases de datos, correos de usuarios y archivos de spool.                            |
-| **`/var/log`**    | Archivos de registro (logs) que registran la actividad del sistema, importantes para el diagnóstico y seguridad.                      |
-
+# [[Directorios del Sistema en Linux]]
 
 # Entorno
 Son los datos de configuracion del sistema que pueden ser usados por los programas.
@@ -160,54 +118,17 @@ tambien hay variables de terminal, que escribe bash. Al bootear se cargan los st
 
 # Editores de texto
 - [Vim manual](ftp://ftp.vim.org/pub/vim/doc/book/vimbook-OPL.pdf)
-- [Tutorial de vim de The Linux Command Linue](http://linuxcommand.org/lc3_adv_vimvigor.php)
+- [Tutorial de vim de The Linux Command Linue](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
 
-# [[Expresiones Regulares]]
-Es una notación para reconocer patrones de texto. su estandard se describe en POSIX
-Set de carcteres {^ , $, . \[ , \] , \{, \}, -, ?, +, *, (, ), \|, \\}
+# [[Chuleta_Regex_Apuntes.jpg]]
+- Es una notación para reconocer patrones de texto. su estandard se describe en POSIX. Set de carcteres {^ , $, . \[ , \] , \{, \}, -, ?, +, *, (, ), \|, \\}
 
-## Wildcards en la Shell
-Los **wildcards** (o comodines) son caracteres especiales que permiten especificar grupos de nombres de archivo de forma rápida y eficiente. Este proceso también se conoce como **globbing**. Los wildcards son herramientas esenciales para trabajar con archivos y directorios en la terminal. los wildcards se expanden en order "sort" 
-
----
-## ¿Qué son los Wildcards? Hacer Nota sobre expresiones regulares
-
-Los wildcards permiten seleccionar archivos o directorios basados en patrones de caracteres. Estos patrones se pueden usar con cualquier comando que acepte nombres de archivo como argumentos, permitiendo construir criterios de selección sofisticados.
-
----
-## Scripting
+# [[Globbing]]
+# Scripting
 Se puede cambiar el separador por defecto " " a otro utilizando IFS, tambien existe el OLD_IFS, hacer un programa rollo grademe , para practicar los scripts.
 http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
 shift, stat
 Los argumentos posicionales en bash son:
-$0 - Es el nombre del script o shell que se está ejecutando
-$1 - Primer argumento
-$2 - Segundo argumento
-$3 - Tercer argumento
-...y así sucesivamente
-También hay otros especiales:
-$# - Número total de argumentos
-$@ - Todos los argumentos como palabras separadas
-$* - Todos los argumentos como una sola cadena
-${parameter:-word} 
-${parameter:?word} 
-${parameter:+word} 
-${!prefix*}
-${!prefix@}
-${#prefix}
-${parameter:offset}
-${parameter:offset:length}
-${parameter#pattern}
-${parameter##pattern}
-${parameter/pattern/string}
-${parameter//pattern/string}
-${parameter/%pattern/string}
-${parameter/#pattern/string}
-${parameter,,pattern}
-${parameter,pattern}
-${parameter^^pattern}
-${parameter^pattern}
-base#number
 bc program
 mirar los arrays en bash
 

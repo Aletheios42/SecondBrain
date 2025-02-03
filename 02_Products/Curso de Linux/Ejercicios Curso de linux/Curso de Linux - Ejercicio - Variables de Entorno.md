@@ -1,8 +1,7 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-
- Ejercicio sobre la variable GROUPS para introducir los arrays.
+Ejercicio sobre la variable GROUPS para introducir los arrays.
 
 haz estos comandos
  ``` bash

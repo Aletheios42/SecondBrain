@@ -42,7 +42,7 @@ ICTT bridges deployed through [**AvaCloud**](https://avacloud.io/) will automa
 
 Precompilados: son las librerias de la blockchain, se almacenan como binarios en el entorno de ejecucion(el cliente); tu nodo, y se llaman con interfaces.
 
-![[precompilados_EVM.png]]
+![[Chuleta_EVM_Firmware.png]]
 
 - - - 
 ## ***Sources:***

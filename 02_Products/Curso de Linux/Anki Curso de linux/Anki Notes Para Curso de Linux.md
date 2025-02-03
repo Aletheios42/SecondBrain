@@ -2,7 +2,7 @@
 #ToTag #ToLink 
 - - -
 y todas las de cristine
-
+- meter anki notes de todas las variables de bash 
 - - - 
 comandos
 grep con las flags -l -i -v- E

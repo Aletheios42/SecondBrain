@@ -8,5 +8,6 @@ El sistema de archivos Linux organiza el almacenamiento físico en cuatro estruc
 - Bloques de datos, donde reside el contenido real de los archivos.
 
 En Linux se puede acceder a los archivos a través del Nombre o [[Enlace Duro]]  o a través de un acceso directo o [[Enlace Simbólico]] .
+
 - - - 
 ## ***Sources:***

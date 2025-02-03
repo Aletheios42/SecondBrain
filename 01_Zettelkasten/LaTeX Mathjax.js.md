@@ -6,7 +6,7 @@ LaTeX es un potente lenguaje de marcado, constituye un estándar universal para 
 MathJax es una librería de JavaScript de código abierto diseñada para renderizar ecuaciones matemáticas en páginas web, especialmente aquellas escritas en LaTeX, MathML o Asciimath. Esta herramienta permite a los navegadores visualizar de manera correcta y consistente notación matemática, independientemente del navegador o dispositivo. Además, es compatible con Obsidian a través de plugins.
 
 El objetivo es producir este tipo de apuntes:  
-![[LaTeX_Example.jpg]]
+![[LaTeX_Potential.jpg]]
 
 "La notación `{}` en LaTeX sirve como introducción al sintagma, lo que la hace ideal para expandir los argumentos complejos de una función. Ejemplo:  
 \[
@@ -15,15 +15,15 @@ El objetivo es producir este tipo de apuntes:
 
 ## Operaciones Matemáticas  
 > [!details] Ver imagen  
-> [Ver imagen](LaTeX_Operaciones.jpg)  
+> [Ver imagen](Chuleta_LaTeX_Operaciones.jpg)  
 
 ## Texto  
 > [!details] Ver imagen  
-> [Ver imagen](LaTeX_Texto.jpg)  
+> [Ver imagen](Chuleta_LaTeX_Texto.jpg)  
 
 ## Espacios  
 > [!details] Ver imagen  
-> [Ver imagen](LaTeX_Espacios.jpg)  
+> [Ver imagen](Chuleta_LaTeX_Espacios.jpg)  
 
 Además, para web tiene integración de CSS:
 ```css
