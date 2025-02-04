@@ -1,7 +1,7 @@
 **Tags:** #_Done 
 #Linux   #Bash  
 - - -
- Especificar grupos de nombres de archivo de forma rápida y eficiente. . Los **wildcards**  permiten seleccionar archivos o directorios basados en patrones de caracteres.
+ Es un lenguaje de marcado simple. Especificar grupos de nombres de archivo de forma rápida y eficiente. . Los **wildcards**  permiten seleccionar archivos o directorios basados en patrones de caracteres.
  
   Estos patrones se pueden usar con cualquier comando que acepte nombres de archivo como argumentos, permitiendo construir criterios de selección sofisticados.
  los wildcards se expanden en order "sort" 

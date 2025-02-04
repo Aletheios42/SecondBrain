@@ -1,29 +1,39 @@
 **Tags:** #_Todo 
 #Linux 
 - - -
-[[Jobs en Linux]]
-Un proceso es una instancia en ejecución de un programa que consiste en:
+Un **proceso** es una instancia en ejecución de un programa que consiste en:
+Un programa puede lanzar otros programas, lo que se expresa en el esquema de procesos como un **proceso padre** que produce un **proceso hijo**.
 
-Un espacio de direcciones virtual privado y protegido
-Un conjunto de segmentos de memoria que incluyen:
+- **Espacio de direcciones virtual privado y protegido**.
+- **Segmentos de memoria**:
+  - **Texto**: Código ejecutable.
+  - **Datos**: Variables globales/estáticas.
+  - **Heap**: Memoria dinámica.
+  - **Stack**: Variables locales e información de llamadas.
+## Tipos de Procesos
+1. **Foreground (Primer plano)**: Requieren interacción con el usuario.
+2. **[[Jobs en Linux|Background ]]:**: Se ejecutan sin intervención del usuario.
+3. **Daemon (Demonios)**: Procesos del sistema que corren en segundo plano.
+## Estados de un Proceso
+- **Running**: En ejecución.
+- **Sleeping**: Esperando un recurso.
+- **Zombie**: Proceso finalizado que aún está en la tabla de procesos.
+- **Stopped**: Detenido por el usuario.
+## Diferencia entre Programa y Proceso
+- **Programa**: Conjunto de instrucciones escritas en un lenguaje de programación (código fuente o binario).
+- **Proceso**: Instancia en ejecución de un programa, con su propio espacio de memoria y estado.
+## Process Control Block (PCB)
+Estructura que contiene información sobre un proceso:
 
-Texto (código ejecutable)
-Datos (variables globales/estáticas)
-Heap (memoria dinámica)
-Stack (variables locales/información de llamadas)
-
-The fact that a program can launch other programs is expressed in the process scheme as
-a parent process producing a child process.(zombie)
-//Daemon
-
-Un Process Control Block (PCB) que contiene:
-
-Process ID único: PID
-Program Counter
-Registros de CPU
-Estado del proceso
-Información de scheduling -> "renice -n PID" cambia la prioridad
-
+- **Process ID único (PID)**.
+- **Program Counter**.
+- **Registros de CPU**.
+- **Estado del proceso**.
+- **Información de scheduling**: Prioridad del proceso (se puede modificar con `renice -n PID`).
+- - - 
+==Meterlos==
+- **PID (Process ID):** Identificador único de un proceso.  
+- **PPID (Parent Process ID):** ID del proceso padre.  
 - - - 
 ## ***Sources:***
-https://www.youtube.com/watch?v=7ge7u5VUSbE
+- https://www.youtube.com/watch?v=7ge7u5VUSbE

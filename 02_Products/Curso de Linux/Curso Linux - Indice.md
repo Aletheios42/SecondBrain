@@ -29,7 +29,7 @@ Prequisitos:
      - Arch Linux, Manjaro, Slackware, Gentoo
  
  ## **File System Hierarchy**
- [[Sistema de Archivos de Linux]]
+[[Sistema de Archivos de Linux]]
 [[Directorios de root (Sistema) en Linux]]
 
 - File types: regular, directory, symbolic links, device files, blocks.
@@ -37,11 +37,11 @@ Prequisitos:
 GNU Bash o simplemente Bash (Bourne-again shell) es una interfaz de usuario de línea de comandos popular, específicamente un shell de Unix; así como un lenguaje de scripting. 
 ## Text Editors
 - **vi/vim**: Modes (normal, insert, command), basic commands (`:wq`, `:q!`, `dd`, `yy`, `p`) 
-	- --help, -set, sintax, tabs, buffers, registers, macros, marcas y marcas de archivo " m, \` " colorscheme, tutor
- - **nano**: Basic usage (save, exit, search)
- - **emacs**: Basic commands (Ctrl+X, Ctrl+S, Ctrl+C
+	- --help, -set, sintax, tabs, buffers, registers, macros, marcas y marcas de archivo " m, \` " colorscheme, :tutor
+- **nano**: Basic usage (save, exit, search)
+- **emacs**: Basic commands (Ctrl+X, Ctrl+S, Ctrl+C
 ## [[Atajos de Bash]]
-Aquí tienes el documento actualizado con los comandos en **negrita**, las descripciones faltantes añadidas y los cambios listados para que puedas revisarlos fácilmente:
+[[Curso de Linux - Ejercicio - Bash Atajos y navegacion]]
 
 ---
 ## Programas del sistema I
@@ -55,6 +55,8 @@ Aquí tienes el documento actualizado con los comandos en **negrita**, las descr
 #### Documentation Access
  [[Buildtin vs Command]]
  Ejercicio de usar el man y explicar que significan los ... (acepta multiples )
+Ejercicio mirar en los manuales los comandos de miscelanea
+
 - **man**: Manual pages
   - **Sections**: 1 (commands), 2 (system calls), 3 (library functions)
   - mandb
@@ -301,10 +303,12 @@ Ejercicio añadir tmux a tu bashrc
 - **chgrp**: Cambia el grupo de un archivo
 
 #### 🛠 Gestión de procesos y señales
- Ejercicios en **64. Managing process priority**
- [[Procesos en Linux]]
- **cmd &**: Ejecuta un comando en segundo plano
- **zombies**: Procesos terminados pero no liberados
+Ejercicios en **64. Managing process priority**
+[[Jobs en Linux]]  y [[Procesos en Linux]]
+[[Curso de Linux - Ejercicio - Procesos]]
+**cmd &**: Ejecuta un comando en segundo plano
+**zombies**: Procesos terminados pero no liberados
+Si **tty=?**: Es un proceso de red
 
 - **ps**: Lista procesos activos
   - **a**: Muestra procesos de todos los usuarios
@@ -313,7 +317,6 @@ Ejercicio añadir tmux a tu bashrc
   - **e**: Muestra environment
   - **l**: Formato largo
   - **f**: Formato de árbol
-  - Si **tty=?**: Es un proceso de red
   - Las 3 sintaxis: Unix, Berkeley, GNU
 - **pgrep**: Busca procesos por nombre
   - **-u**: Filtra por usuario
@@ -354,6 +357,9 @@ Ejercicio añadir tmux a tu bashrc
 - **dstat**: Alternativa a `vmstat`
 - **sar**: Registra el uso de CPU y memoria
 #### Partitions and Disks
+[[Curso de Linux - Ejercicio -  Usbs en Linux]]
+[[Curso de Linux - Ejercicio -  Hacer Paticiones y Formatearlas]]
+
 - **dd**: Convierte y copia archivos
 - **df**: Muestra el uso del espacio en disco
 - **gparted**: Editor de particiones

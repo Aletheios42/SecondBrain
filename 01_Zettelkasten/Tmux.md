@@ -1,8 +1,6 @@
 **Tags:** #_Todo
 #Linux #CLI #Chuletas #ToLink 
 - - -
-
-==Mejorar Mucho esta idea== 
 tmux maneja las sesiones atraves de un servidor en el background y se conecta a las terminales del sistema a traves de ssh, por lo que lo hace persistente. ya que si el ssh se cae, el server de tmux sigue persistente.
 
 - **Sesión**: Es un entorno de trabajo independiente que puede contener múltiples ventanas. Las sesiones se mantienen en el background incluso si se desconecta SSH, lo que permite recuperarlas más tarde.
@@ -14,7 +12,6 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 Aquí tienes una lista más completa de los comandos de **CLI de tmux** que te pueden ser útiles:
 
 ---
-
 ### **Gestión de sesiones**
 - `tmux new-session` o `tmux new`: Crea una nueva sesión.
 - `tmux new -s <nombre_sesión>`: Crea una nueva sesión con un nombre específico.
@@ -56,14 +53,6 @@ Aquí tienes una lista más completa de los comandos de **CLI de tmux** que te p
 - `tmux clock-mode`: Muestra un reloj en el panel actual.
 - `tmux list-keys`: Muestra todos los atajos de teclado configurados.
 - `tmux list-commands`: Muestra una lista de todos los comandos de tmux.
-
----
-
----
-
-Con estos comandos, deberías tener un control completo sobre tus sesiones, ventanas y paneles en tmux. ¡Espero que te sean útiles! 😊
-
-
 
 | Gestión de sesiones y ventanas             | Gestión de paneles                            |
 | ------------------------------------------ | --------------------------------------------- |
