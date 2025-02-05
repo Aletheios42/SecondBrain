@@ -193,7 +193,6 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 #### Filtrado de texto
  [[Chuleta_Regex_apuntes.jpg]]
  **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
- 
  [[Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
 - **sort**: Ordena líneas de un archivo
@@ -363,15 +362,19 @@ Si **tty=?**: Es un proceso de red
 
 - **dd**: Convierte y copia archivos
 - **df**: Muestra el uso del espacio en disco
-- **gparted**: Editor de particiones
+- **du:**
+- **fdisk/gparted**: Editor de particiones MBR/GPT
 - **mount**: Monta un sistema de archivos
 - **umount**: Desmonta un sistema de archivos
+- **findmount**: Encuentra la ruta de un dispositivo de almacenamiento.
 - **fsck**: Verifica y repara un sistema de archivos
 - **fdisk**: Manipulador de tabla de particiones
 - **mkfs**: Crea un sistema de archivos
 - **genisoimage**: Crea archivos ISO
 - **whodid**: Verifica la propiedad de un archivo
 - **md5sum**: Calcula y verifica el resumen MD5
+- **makeswap:**
+- **swapoff:** 
 - - - 
 ### Meter ejercicios de programas sistema III
 - - - 
