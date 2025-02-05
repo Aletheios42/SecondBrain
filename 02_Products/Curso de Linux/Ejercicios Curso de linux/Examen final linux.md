@@ -1,11 +1,6 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-
-Aquí tienes los dos bloques de preguntas bien organizados:  
-
----  
-
 ### **Preguntas cortas sobre Linux**  
 
 1. ¿Cuáles son las tres principales familias de distribuciones de Linux?  
@@ -37,7 +32,7 @@ Aquí tienes los dos bloques de preguntas bien organizados:
    almacenamiento/backup/logs/error  
    ```  
 7. Crear un archivo dentro del directorio más profundo de la estructura creada en el ejercicio anterior.  
-8. Mover el archivo creado en el ejercicio anterior desde **"almacenamiento/backup/logs/error"** a **"proyectos/clienteX/docs"** manteniendo su nombre y permisos.  
+8. Mover el *archivo* creado en el ejercicio anterior desde **"almacenamiento/backup/logs/error"** a **"proyectos/clienteX/docs"** manteniendo su nombre y permisos.  
 9. Copiar el archivo desde **"proyectos/clienteX/docs"** a **"proyectos/clienteX/codigo/src"**, asegurando que conserve su contenido y atributos.  
 10. Eliminar la copia del archivo que se encuentra en **"proyectos/clienteX/codigo/src"**.  
 11. Crear un enlace duro al archivo original que quedó en **"proyectos/clienteX/docs"** dentro de **"almacenamiento/backup"**.  

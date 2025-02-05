@@ -26,7 +26,7 @@ Prequisitos:
      - Package management: `zypper`
      - Configuration: `/etc/zypp/`, `/etc/sysconfig/`
  - **Others**
-     - Arch Linux, Manjaro, Slackware, Gentoo
+     - Arch Linux, Manjaro, Slackware, Gentoo, parrot , kali linux
  
  ## **File System Hierarchy**
 [[Sistema de Archivos de Linux]]
@@ -180,9 +180,20 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
   - **-f**: Fields
 - **column**: Formatea texto en columnas
 - **strings**: Extrae cadenas imprimibles de archivos binarios
+#### Searching Files
+ [[Curso de Linux - Ejercicio - Busca Archivos por el Sistema]]
+
+- **locate / updatedb**: Find files by name / Actualiza la base de datos de locate
+- **find**: Search for files in a directory hierarchy
+  - **exec**: Execute a command on found files
+	  - **+**: Placeholder for multiple files
+	  - **/**: Search from root directory
+  - **lots of flags**: Consultar `man find` para más opciones.
+- **xargs**: Build and execute command lines from standard input
 #### Filtrado de texto
  [[Chuleta_Regex_apuntes.jpg]]
  **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
+ 
  [[Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
 - **sort**: Ordena líneas de un archivo
@@ -202,16 +213,6 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 - **sed**: Procesamiento y edición de texto.
   - **s/OldPattern/NewPattern/(g)**: Sustituye patrones (el delimitador `/` puede ser cambiado por otro carácter si es necesario).
 - **awk**: Procesamiento de texto avanzado.
-#### Searching Files
-Lab: buscar muchos archivos del sistema
-
-- **locate / updatedb**: Find files by name / Actualiza la base de datos de locate
-- **find**: Search for files in a directory hierarchy
-  - **exec**: Execute a command on found files
-	  - **+**: Placeholder for multiple files
-	  - **/**: Search from root directory
-  - **lots of flags**: Consultar `man find` para más opciones.
-- **xargs**: Build and execute command lines from standard input
 #### Compression and Sync
 Mirar el ejercicio de christine
 
@@ -445,7 +446,7 @@ Legacy init systems: /etc/init.d/, /etc/inittab
 #  Networking
 #### 📡 Redes y conectividad ([[Paquete - Sysstat]])
 ip  → Herramienta compleja para redes
-	-a, -r
+	options: a, r, l, 
 ping → Prueba conectividad con una dirección
 	-c
 traceroute → Rastrea la ruta hasta un host

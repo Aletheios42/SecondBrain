@@ -32,6 +32,7 @@ Estructura que contiene información sobre un proceso:
 - **Información de scheduling**: Prioridad del proceso (se puede modificar con `renice -n PID`).
 - - - 
 ==Meterlos==
+- clases forward backwards y daemon
 - **PID (Process ID):** Identificador único de un proceso.  
 - **PPID (Parent Process ID):** ID del proceso padre.  
 - - - 

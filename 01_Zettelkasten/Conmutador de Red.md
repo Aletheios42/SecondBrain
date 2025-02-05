@@ -1,8 +1,10 @@
 **Tags:** #_Todo
 #Redes  #ToLink 
 - - -
-Son conectores inteligentes de dispositivos de red, remiten un mensaje de alguno de sus dispositivos conectados a otro dispositivo conectado. Es capaz de elegir a quien remitir los paquetes gracias a su tabla de direcciones MAC
-
+ [[ Capa 2 (Enlace) OSI]]
+ 
+==COMO VA A UTILIZAR PORT FORDWI si no hay direcciones ip== 
+Remite [[Petición Ethenet|Peticiones de Ethernet]] a través de [[Port Forwarding]] a [[ Dirección Mac | Direcciónes MAC]] almacenadas en [[Tabla CAM]]  
 - - - 
 ## ***Sources:***
 - [Modem vs Router - What's the difference?](https://www.youtube.com/watch?v=Mad4kQ5835Y&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcIvvg)

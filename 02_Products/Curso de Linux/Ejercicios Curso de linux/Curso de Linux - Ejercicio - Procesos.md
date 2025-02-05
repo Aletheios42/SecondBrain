@@ -33,7 +33,7 @@ pgrep -l ssh  # Buscar procesos relacionados con SSH
 ### **📖 Teoría**  
 - Comandos básicos para ejecutar y controlar procesos:  
   - `&` (Ejecutar en segundo plano).  
-  - `jobs` (Listar trabajos en la sesión actual).  
+  - `jobs` (Listar trabajos en la sesión actual). 
   - `fg` y `bg` (Mover procesos entre primer y segundo plano).  
 - **Señales de proceso:**  
   - `SIGKILL (9)`: Mata un proceso inmediatamente.  
@@ -147,10 +147,6 @@ sudo systemctl start sshd
 - `renice` → Cambia la prioridad de un proceso en ejecución.  
 - `top` / `htop` → Monitorean procesos y permiten ajustar prioridades.  
 - `systemctl` → Gestiona servicios del sistema.  
-
----
-
-Este documento está listo para que lo uses en clase. ¿Necesitas algún ajuste adicional?
 
 - - - 
 ## ***Sources:***

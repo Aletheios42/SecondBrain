@@ -1,6 +1,11 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
+
+buscar por frecuencias
+buscar un patron con numero
+buscar un patron con letra
+
 Preparación: Descargar el texto de El Señor de los Anillos
 Descarga un libro similar, como The Fellowship of the Ring, de Project Gutenberg:
 

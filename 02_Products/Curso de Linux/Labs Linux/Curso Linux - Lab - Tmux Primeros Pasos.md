@@ -27,7 +27,7 @@
 ==Hacer mas patrones de trabajo==
 	- 3 terminales divider el primer contenerdor en veritcal y luego el del la izquieda en vertical
 	- 5 terminales: divides en vertical, despues el del la derecha se vuelve a dividir en vertical y despeus el contenedor de mas a la derecha(el mas nuevo) se divide en horizontal, cambias el focus al de la izquierda del todo y lo devides en horizontal tambien. (mue probablemente tienes que hacer resize en las divisiones verticales para ajustar bien al trabajo concreto)
-###  Patron de trabajo -|
+###  Patron de trabajo 1
 ``` bash
 # Inicia tmux
 tmux
