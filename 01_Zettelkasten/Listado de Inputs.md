@@ -3,9 +3,9 @@
 
 ---
 - [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Gaussian
+- [ ] Mendelei
+- [ ] sci-hub
 - [ ] Vim Book
 - [ ]  Investigar sobre la relacion entre las shell la terminal y el kernel. y todos los tipos de variables de entorno
 - [ ] Curso de udemy de Angular

@@ -21,16 +21,17 @@ Dirección Anfitrión: (dejar vacío)
 Puerto Huésped: 22
 Dirección Huésped: (dejar vacío)
 
+# Corriendo el Medio de Booteo ISO
 - - - 
 ``` bash
 # Para poder tener el teclado en espñol
 loadkeys es
 ```
 - - - 
-# Internet 
- SI lo haces desde maquina virtual con NAT ya tienes internet 
-==CON EL CABLE CONECTADO EN VBOX==
-### Como usar IWCTL
+## Internet 
+### Comprobar arquitectura de red en caso de virtualizar
+==CON EL CABLE CONECTADO EN LAS OPCIONES EXPERTO DE RED EN VBOX==
+### Como usar IWCTL (USB - BareMetal)
 ``` bash
 iwctl
 > scan devices
@@ -40,7 +41,7 @@ iwctl
 exit
 ping archlinux.org
 ```
-# Conectarte por ssh
+## Conectarte por ssh
 En el medio de instalacion:
 ``` bash
 # Mirar  si la red enp0s3 o eth0 estan UP
@@ -48,7 +49,7 @@ ip a
 ```
 ==Ver como se resuelve no tener la tarjate de red activa(probable systemctl)==
 
-### ACTIVAR EL DEMONIO SSH
+### ACTIVAR EL DEMONIO SSH(En el medio de instalacion)
 Activamos ssh. El medio de instalación de Arch trae sshd, pero no siempre está habilitado. Actívalo manualmente:
 ```bash
 systemctl start sshd
@@ -74,72 +75,83 @@ cat /sys/firmware/efi/fw_platform_size
 timedatectl set-ntp true
 ```
 
-2. Partition disk (example for UEFI with /dev/nvme0n1):
+### Establecer sistema de archivos
+
+```markdown
+# Instalación de Arch Linux: Particionado, Formateo y Montaje
+
+Para instalar Arch Linux correctamente, debemos seguir tres pasos fundamentales:  
+1. **Configurar la tabla de particiones** utilizando `fdisk`.  
+2. **Formatear las particiones** con los sistemas de archivos adecuados.  
+3. **Montar las particiones** en los puntos correspondientes para la instalación.  
+
+---
+
+## 1️⃣ Configurar la Tabla de Particiones
+
+Primero, verificamos los discos disponibles:  
+
 ```bash
-# Create:
-# /dev/nvme0n1p1: EFI (550M)
-# /dev/nvme0n1p2: swap (RAM x 1.5)
-# /dev/nvme0n1p3: root (remaining)
-# Ver discos disponibles
 fdisk -l
-
-# Iniciar fdisk
-fdisk /dev/sda
-
-# Crear particiones:
-g   # Nueva tabla GPT
-n   # Nueva partición boot (500M)
-    # (presiona Enter para defaults)
-    # Last sector: +500M
-t   # Cambiar tipo a EFI (1)
-
-n   # Nueva partición swap (2GB)
-    # Last sector: +2G
-t   # Cambiar tipo a Linux swap (19)
-
-n   # Nueva partición root (resto)
-    # (usa valores default)
-
-w   # Guardar y salirV
 ```
 
-3. Format partitions:
+Iniciamos `fdisk` en el disco destino (`/dev/sdX` debe ser reemplazado por el disco correcto en tu sistema):  
+
 ```bash
-mkfs.fat -F32 /dev/nvme0n1p1
-mkswap /dev/nvme0n1p2
-mkfs.btrfs /dev/nvme0n1p3
+fdisk /dev/sdX
 ```
 
-4. Mount and create subvolumes for snapshots:
+Dentro de `fdisk`, creamos las particiones:
+
 ```bash
-mount /dev/nvme0n1p3 /mnt
-btrfs subvolume create /mnt/@
-btrfs subvolume create /mnt/@home
-btrfs subvolume create /mnt/@snapshots
-umount /mnt
-```
+g      # Crear nueva tabla de particiones GPT
 
-5. Mount subvolumes:
+n      # Crear partición EFI
+       # (presiona Enter para valores por defecto)
+       # Último sector: +550M
+t      # Cambiar tipo de partición
+1      # Seleccionar la partición EFI
+uefi   # Cambiar tipo a EFI System (ESP)
+
+n      # Crear partición swap
+       # Último sector: +2G  (Ajusta según tu RAM)
+t      # Cambiar tipo de partición
+2      # Seleccionar la partición swap
+swap   # Cambiar tipo a Linux swap
+
+n      # Crear partición raíz (resto del disco)
+       # (presiona Enter para valores por defecto)
+
+w      # Guardar cambios y salir
+```
+## 2️⃣ Formatear las Particiones
+
+Una vez creadas las particiones, debemos formatearlas correctamente:
+
 ```bash
-mount -o noatime,compress=zstd,space_cache=v2,subvol=@ /dev/nvme0n1p3 /mnt
-mkdir -p /mnt/{boot,home,.snapshots}
-mount -o noatime,compress=zstd,space_cache=v2,subvol=@home /dev/nvme0n1p3 /mnt/home
-mount -o noatime,compress=zstd,space_cache=v2,subvol=@snapshots /dev/nvme0n1p3 /mnt/.snapshots
-mount /dev/nvme0n1p1 /mnt/boot
-swapon /dev/nvme0n1p2
+mkfs.fat -F32 /dev/sdX1   # Formatear partición EFI en FAT32
+mkswap /dev/sdX2          # Configurar partición swap
+swapon /dev/sdX2          # Activar swap
+mkfs.ext4 /dev/sdX3       # Formatear raíz en EXT4
 ```
 
-6. Install base system:
+> 💡 *Se usa EXT4 para la raíz por simplicidad. Si prefieres Btrfs o XFS, ajusta el formato.*
+## 3️⃣ Montar las Particiones
+Finalmente, montamos las particiones en los puntos adecuados:
+```bash
+mount /dev/sdX3 /mnt      # Montar la raíz
+mkdir -p /mnt/boot        # Crear directorio de boot
+mount /dev/sdX1 /mnt/boot # Montar EFI en boot
+```
+Con esto, el sistema de archivos está listo y podemos continuar con la instalación de Arch Linux. 
 ```bash
 pacstrap /mnt base linux linux-firmware btrfs-progs base-devel vim
 ```
-
-7. Generate fstab:
+1. Generate fstab:
 ```bash
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
-
-8. Chroot and configure:
+1. Chroot and configure:
 ```bash
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
@@ -150,14 +162,14 @@ echo "LANG=en_US.UTF-8" > /etc/locale.conf
 echo "hostname" > /etc/hostname
 ```
 
-9. Install and configure bootloader:
+2. Install and configure bootloader:
 ```bash
 pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-10. Set root password and create user:
+3. Set root password and create user:
 ```bash
 passwd
 useradd -m -G wheel username

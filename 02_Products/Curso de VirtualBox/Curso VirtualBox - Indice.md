@@ -9,5 +9,6 @@ host lv2
 host lv3
 
 Containers: Docker (/etc/docker/), Podman
+==Mirar como se virtualizan sistemas con y sin Efi==
 - - - 
 ## ***Sources:***

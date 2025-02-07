@@ -151,6 +151,7 @@ Sintax  ---> <infile cmd1 operador cmd2 > outfile
  
 - comandos exec y eval
 ---
+
 ## Programas del sistema II
 #### Variable managment
 - **env**: Display environment variables

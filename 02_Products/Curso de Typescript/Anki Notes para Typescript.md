@@ -41,7 +41,5 @@
 - tsconfig outDir
 -  tsconfig sourcemap to debug
 - Can typescrip stop you from compiling or are they just warnings?
-
-
 - - - 
 ## ***Sources:***
