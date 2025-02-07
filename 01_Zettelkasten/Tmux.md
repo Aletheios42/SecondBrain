@@ -1,6 +1,7 @@
 **Tags:** #_Todo
 #Linux #CLI #Chuletas #ToLink 
 - - -
+==Prefix + ?: lista los comandos==
 tmux maneja las sesiones atraves de un servidor en el background y se conecta a las terminales del sistema a traves de ssh, por lo que lo hace persistente. ya que si el ssh se cae, el server de tmux sigue persistente.
 
 - **Sesión**: Es un entorno de trabajo independiente que puede contener múltiples ventanas. Las sesiones se mantienen en el background incluso si se desconecta SSH, lo que permite recuperarlas más tarde.
@@ -23,7 +24,6 @@ Aquí tienes una lista más completa de los comandos de **CLI de tmux** que te p
 - `tmux rename-session -t <nombre_actual> <nuevo_nombre>`: Renombra una sesión existente.
 
 ---
-
 ### **Gestión de ventanas**
 - `tmux new-window`: Crea una nueva ventana en la sesión actual.
 - `tmux new-window -n <nombre_ventana>`: Crea una nueva ventana con un nombre específico.

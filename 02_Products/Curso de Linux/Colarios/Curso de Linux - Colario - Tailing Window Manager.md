@@ -1,7 +1,7 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-# [[Curso Linux - Lab - Tmux Primeros Pasos| Mirar bloque de paneles probablemente se pueda ver junto o al menos seguido Bloque de paneles]]
+# [[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Tmux Primeros Pasos| Mirar bloque de paneles probablemente se pueda ver junto o al menos seguido Bloque de paneles]]
 
 - enseñar a mover el focus entre escritorios
 - enseñar a mover ventanas entre escritorios

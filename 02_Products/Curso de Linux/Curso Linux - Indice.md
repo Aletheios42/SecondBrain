@@ -39,14 +39,14 @@ GNU Bash o simplemente Bash (Bourne-again shell) es una interfaz de usuario de l
 - **vi/vim**: Modes (normal, insert, command), basic commands (`:wq`, `:q!`, `dd`, `yy`, `p`) 
 	- --help, -set, sintax, tabs, buffers, registers, macros, marcas y marcas de archivo " m, \` " colorscheme, :tutor
 - **nano**: Basic usage (save, exit, search)
-- **emacs**: Basic commands (Ctrl+X, Ctrl+S, Ctrl+C
+- **emacs**: Basic commands (Ctrl+X, Ctrl+S, Ctrl+C)
 ## [[Atajos de Bash]]
 [[Curso de Linux - Ejercicio - Bash Atajos y navegacion]]
 
 ---
 ## Programas del sistema I
 #### Miscellaneous
-- **tty**: Muestra el nombre del terminal actual
+- **tty**: Muestra el nombre del shelll actual
 - **date**: Display or set the system date and time
 - **cal**: Display a calendar
 - **bc**: Calculadora de precisión arbitraria
@@ -96,7 +96,7 @@ Ejercicio mirar en los manuales los comandos de miscelanea
 - **ln**: Crea enlaces
   - **-s**: Crea enlaces simbólicos
 #### 📝 Visualización y 🔍 Análisis de archivos
- [[Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
+ [[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
  Ejercicio con printf sobre el ASCII, hexadecimal, octal, binario, etc.
  Ejercicio con echo y stat (touch puede molar)
 
@@ -136,6 +136,7 @@ Sintax  ---> <infile cmd1 operador cmd2 > outfile
  Binary Operators "&&, ||, ;, |"
  [[Redirecciones en Unix-Linux]]
 #### Expansiones
+[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Expansiones]]
 - Pathname expansion:
 - Tilde Expansion: \`date\`
 - Arithmetic Expansion: $()  --> Append: expr
@@ -182,7 +183,7 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 - **column**: Formatea texto en columnas
 - **strings**: Extrae cadenas imprimibles de archivos binarios
 #### Searching Files
- [[Curso de Linux - Ejercicio - Busca Archivos por el Sistema]]
+ [[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Busca Archivos por el Sistema]]
 
 - **locate / updatedb**: Find files by name / Actualiza la base de datos de locate
 - **find**: Search for files in a directory hierarchy
@@ -191,10 +192,11 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 	  - **/**: Search from root directory
   - **lots of flags**: Consultar `man find` para más opciones.
 - **xargs**: Build and execute command lines from standard input
+	- I
 #### Filtrado de texto
  [[Chuleta_Regex_apuntes.jpg]]
  **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
- [[Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
+ [[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
 - **sort**: Ordena líneas de un archivo
   - **-n**: Sort numerically
@@ -227,8 +229,8 @@ Mirar el ejercicio de christine
 ### Meter ejercicios de programas sistema II
 - - - 
 ## manejar mi enviroment
- [[Curso Linux - Lab - Explorando Las Variables de Bash]]
-[[Curso Linux - Lab - Tmux Primeros Pasos]]
+ [[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Explorando Las Variables de Bash]]
+[[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Tmux Primeros Pasos]]
 [[Variables de Bash]] 
 Ejercicio añadir tmux a tu bashrc
 
@@ -244,7 +246,7 @@ Ejercicio añadir tmux a tu bashrc
 - - -
 ## Programas del sistema III
 #### 🔒 Gestión de usuarios
-[[Curso Linux - Lab - Gestión de Usuarios y Permisos]]
+[[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Gestión de Usuarios y Permisos]]
  **root #** vs **regular user $**
  Archivos: `/etc/passwd`, `/etc/shadow`, `/etc/skel`
  **sudoer**
@@ -306,7 +308,7 @@ Ejercicio añadir tmux a tu bashrc
 #### 🛠 Gestión de procesos y señales
 Ejercicios en **64. Managing process priority**
 [[Jobs en Linux]]  y [[Procesos en Linux]]
-[[Curso de Linux - Ejercicio - Procesos]]
+[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Procesos]]
 **cmd &**: Ejecuta un comando en segundo plano
 **zombies**: Procesos terminados pero no liberados
 Si **tty=?**: Es un proceso de red
@@ -358,8 +360,8 @@ Si **tty=?**: Es un proceso de red
 - **dstat**: Alternativa a `vmstat`
 - **sar**: Registra el uso de CPU y memoria
 #### Partitions and Disks
-[[Curso de Linux - Ejercicio -  Usbs en Linux]]
-[[Curso de Linux - Ejercicio -  Hacer Paticiones y Formatearlas]]
+[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Usbs en Linux]]
+[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Hacer Paticiones y Formatearlas]]
 
 - **dd**: Convierte y copia archivos
 - **df**: Muestra el uso del espacio en disco
