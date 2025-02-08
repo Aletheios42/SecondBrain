@@ -9,11 +9,7 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 - **Ventana**: Es una instancia dentro de una sesión que puede contener múltiples paneles. Cada ventana puede ejecutar diferentes tareas.
 
 - **Panel**: Es una división dentro de una ventana que permite ejecutar comandos de forma independiente. Puedes dividir una ventana en múltiples paneles para trabajar en varias tareas simultáneamente.
-
-Aquí tienes una lista más completa de los comandos de **CLI de tmux** que te pueden ser útiles:
-
----
-### **Gestión de sesiones**
+### **Gestión de sesiones** (desde fuera de tmux ya que hablas con el servidor)
 - `tmux new-session` o `tmux new`: Crea una nueva sesión.
 - `tmux new -s <nombre_sesión>`: Crea una nueva sesión con un nombre específico.
 - `tmux list-sessions` o `tmux ls`: Lista todas las sesiones activas.
@@ -24,7 +20,7 @@ Aquí tienes una lista más completa de los comandos de **CLI de tmux** que te p
 - `tmux rename-session -t <nombre_actual> <nuevo_nombre>`: Renombra una sesión existente.
 
 ---
-### **Gestión de ventanas**
+### **Gestión de ventanas**(dentro de tmux pues hablas con el cliente)
 - `tmux new-window`: Crea una nueva ventana en la sesión actual.
 - `tmux new-window -n <nombre_ventana>`: Crea una nueva ventana con un nombre específico.
 - `tmux list-windows`: Lista todas las ventanas en la sesión actual.

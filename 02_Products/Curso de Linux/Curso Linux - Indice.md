@@ -171,8 +171,8 @@ Buscar los ejercicios del sepe
 Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mirarlo en el manual.
 
 - **tr**: Sustituye o elimina caracteres
-  - **-d**: Delete characters
-  - **-s**: Squeeze repeated characters
+ - **-d**: Delete characters
+ - **-s**: Squeeze repeated characters
   - **-t**: Truncate
 - **paste**: Une líneas de archivos
 - **join**: Une líneas de archivos basadas en un campo común
