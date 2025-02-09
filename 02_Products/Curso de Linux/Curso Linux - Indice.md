@@ -427,7 +427,9 @@ Ejercicio copia 100 veces "Me encanta aprender Linux"(de las 3 maneras esta bien
 - systemd 
 - systemctl
 - journalctl
-- Networkctl
+- localectl
+- datetimectl(revisar)
+- networkctl
 Legacy init systems: /etc/init.d/, /etc/inittab
 ## Package Management
 - RPM-based: rpm, yum, dnf
