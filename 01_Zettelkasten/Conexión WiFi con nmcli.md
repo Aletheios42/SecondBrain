@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#Linux #WIFI
+#Linux #WIFI #Redes
 - - -
 Este procedimiento detalla cómo conectarte a la red Wi-Fi "Eventos" usando `nmcli`.
 ### 1. Eliminar configuraciones previas
@@ -35,18 +35,15 @@ nmcli connection up "Eventos"
 ### 4. Verificar conexiones activas
 
 Confirma que estás conectado verificando las conexiones activas:
-
 ```bash
 nmcli connection show --active
 ```
-
-nmcli connection show --active: Muestra todas las conexiones activas en ese momento.
 ### Alternativa: Uso de comodín para la interfaz
 Si no estás seguro del nombre de tu interfaz Wi-Fi, puedes usar * en lugar de wlan0:
 
 ```bash
 nmcli connection add type wifi con-name "Eventos" ifname "*" ssid "Eventos" wifi-sec.key-mgmt wpa-psk wifi-sec.psk "42Madrid"
 ```
-ifname "*": Indica que se debe usar cualquier interfaz Wi-Fi disponible.
+ifname "\*": Indica que se debe usar cualquier interfaz Wi-Fi disponible.
 - - - 
 ## ***Sources:***

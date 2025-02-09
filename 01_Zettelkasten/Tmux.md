@@ -3,11 +3,8 @@
 - - -
 ==Prefix + ?: lista los comandos==
 tmux maneja las sesiones atraves de un servidor en el background y se conecta a las terminales del sistema a traves de ssh, por lo que lo hace persistente. ya que si el ssh se cae, el server de tmux sigue persistente.
-
 - **Sesión**: Es un entorno de trabajo independiente que puede contener múltiples ventanas. Las sesiones se mantienen en el background incluso si se desconecta SSH, lo que permite recuperarlas más tarde.
-  
 - **Ventana**: Es una instancia dentro de una sesión que puede contener múltiples paneles. Cada ventana puede ejecutar diferentes tareas.
-
 - **Panel**: Es una división dentro de una ventana que permite ejecutar comandos de forma independiente. Puedes dividir una ventana en múltiples paneles para trabajar en varias tareas simultáneamente.
 ### **Gestión de sesiones** (desde fuera de tmux ya que hablas con el servidor)
 - `tmux new-session` o `tmux new`: Crea una nueva sesión.
@@ -18,17 +15,12 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 - `tmux kill-session -t <nombre_sesión>`: Cierra una sesión específica.
 - `tmux kill-server`: Cierra todas las sesiones y detiene el servidor de tmux.
 - `tmux rename-session -t <nombre_actual> <nuevo_nombre>`: Renombra una sesión existente.
-
----
 ### **Gestión de ventanas**(dentro de tmux pues hablas con el cliente)
 - `tmux new-window`: Crea una nueva ventana en la sesión actual.
 - `tmux new-window -n <nombre_ventana>`: Crea una nueva ventana con un nombre específico.
 - `tmux list-windows`: Lista todas las ventanas en la sesión actual.
 - `tmux kill-window -t <número_ventana>`: Cierra una ventana específica.
 - `tmux rename-window <nuevo_nombre>`: Renombra la ventana actual.
-
----
-
 ### **Gestión de paneles**
 - `tmux split-window`: Divide el panel actual horizontalmente.
 - `tmux split-window -v`: Divide el panel actual verticalmente.
@@ -39,9 +31,6 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 - `tmux swap-pane -U`: Intercambia el panel actual con el de arriba.
 - `tmux swap-pane -D`: Intercambia el panel actual con el de abajo.
 - `tmux kill-pane`: Cierra el panel actual.
-
----
-
 ### **Otros comandos útiles**
 - `tmux detach-client`: Desconecta el cliente actual de la sesión (deja la sesión en segundo plano).
 - `tmux source-file ~/.tmux.conf`: Recarga la configuración de tmux desde el archivo `.tmux.conf`.

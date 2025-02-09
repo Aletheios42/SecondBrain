@@ -41,5 +41,29 @@ vscode con angular essential y angular lsp plugins
 ### Projecto de prueba
 npm start  to dev server
 localhost : 4200
+
+
+Part 4: Angular
+
+Angular CLI & Setup
+Components
+Modules
+Templates
+Data Binding
+Directives
+Services
+Dependency Injection
+Routing
+Forms (Template & Reactive)
+HTTP Client
+Observables & RxJS
+Pipes
+Guards
+Interceptors
+State Management
+Unit Testing
+Angular Material
+Performance Optimization
+Deployment
 - - - 
 ## ***Sources:***

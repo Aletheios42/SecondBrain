@@ -1,5 +1,5 @@
 **Tags:** #_Todo
-#Linux #Cursos #ToLink 
+#Linux #Cursos 
 - - -
 Prequisitos: 
 - Curso de VirtualBox (Virtualizacion 0)
@@ -60,7 +60,7 @@ Ejercicio mirar en los manuales los comandos de miscelanea
 - **man**: Manual pages
   - **Sections**: 1 (commands), 2 (system calls), 3 (library functions)
   - mandb
-  - **man -k keyword**: Search manual pages
+  - **man -k keyword**: Search manual pages. man -f . te da una lista de todos tus manuales
   - **man -f command**: Show all available pages
   - - man -w: ubicacion de los manuales 
   - - man -a: Lista las versiones disponibles
@@ -105,6 +105,7 @@ Ejercicio mirar en los manuales los comandos de miscelanea
 - **tac**: Muestra el contenido de un archivo en orden inverso
 - **tee**: Redirige salida a un archivo y a la vez la muestra en pantalla
 - **less**: Visualiza archivos de texto
+	- press h to see help page
 - **head**: Muestra las primeras líneas de un archivo
   - **-n**: Especifica el número de líneas a mostrar
 - **tail**: Muestra las últimas líneas de un archivo
@@ -148,7 +149,7 @@ Sintax  ---> <infile cmd1 operador cmd2 > outfile
 - invertida quote (deprecated)
 #### Command susbtitution "<(), double qutes, $() "
  [[Curso Linux - Lab - Monitoreo de la Ejecución de un Comando en una Shell[]] 
- ejercicio con variables de entorno y env -i para demostras esto
+ ejercicio con variables de entorno y env -i para demostras esto , meter ejericio de hacer un prompt en tu bashrc
  
 - comandos exec y eval
 ---
@@ -183,7 +184,7 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 - **column**: Formatea texto en columnas
 - **strings**: Extrae cadenas imprimibles de archivos binarios
 #### Searching Files
- [[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Busca Archivos por el Sistema]]
+ [[Linux - Ejercicio - Busca Archivos por el Sistema]]
 
 - **locate / updatedb**: Find files by name / Actualiza la base de datos de locate
 - **find**: Search for files in a directory hierarchy
@@ -195,6 +196,8 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
 	- I
 #### Filtrado de texto
  [[Chuleta_Regex_apuntes.jpg]]
+ Meter ejercicios de regex, de url mirar el viedo de luke smith
+ Meter ejercicios de sed, de url mirar el viedo de luke smith
  **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
  [[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
@@ -536,8 +539,10 @@ nslookup → Consulta registros DNS
 - tracing
 - gdb
 - Apparmor
+- grooff y formateo de documentos
 ## Exercises to add
 - Agregar binarios al path
 
 - - - 
 ## ***Sources:***
+- https://iximiuz.com/en/

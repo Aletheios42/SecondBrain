@@ -21,5 +21,14 @@ done
 ```bash
 echo "directorio1 directorio2 directorio3" | xargs -n1 -I {} cp -r "Curso de Linux"/* {}
 ```
+# Ejercicio 2 
+crea un script que cambie el una palabra por otro en los archivos y directorios de un proyecto:
+sol.
+``` bash 
+find . -depth -name "*Typescript*" | while read -r file; do
+    newname=$(echo "$file" | sed 's/Typescript/Html/g')
+    mv "$file" "$newname"
+done
+```
 - - - 
 ## ***Sources:***

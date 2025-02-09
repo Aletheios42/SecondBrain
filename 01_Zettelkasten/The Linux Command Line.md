@@ -1,4 +1,4 @@
-**Tags:** #_Investigar
+*Tags:** #_Investigar
 #Linux #LibroLeido #CLI
 - - -
 notas para hacer de aqui:

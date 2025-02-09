@@ -1,58 +1,96 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-es un superset de javascript agrega una capa de tipado fuerte y  se transpila con el comando tsc.
-
-# Instalar typescript
-==Hacer de esto una nota==
-por proyecto:
-``` npx
+# TypeScript Overview
+TypeScript is a superset of JavaScript that adds strong typing. It transpiles to JavaScript using the `tsc` command.
+## Installation
+Project-specific:
+```bash
 npm install typescript
+npx tsc        # Run compiler 
 ```
-para correr el compilador
-``` npx
-npx tsc
+System-wide installation also possible.
+Note: Even if transpilation fails, it still outputs JavaScript. TypeScript doesn't run directly in browsers.
+# 1. Basic Types and Variables
+## Variable Declarations
+- `const`: Immutable
+- `let`: Block-scoped
+- `var`: Function-scoped
+- Null assignment implications
+- `!`: Non-null assertion operator
+## Variable Types
+- Primitive Types: `number`, `string`, `boolean`, `null`, `undefined`, `void`, `symbol`, `bigint`
+- Difference between `Number` (object) vs `number` (primitive)
+- Arrays: Two syntaxes: `type[]` or `Array<type>`
+- Objects: Can define structure inline or with interfaces
+- Type Inference: TypeScript automatically detects types
+- Union Types: `type1 | type2`
+- Type Aliases: `type CustomType = existing types`
+# 2. Functions
+Three declaration types:
+```typescript
+function name(params){}
+const name = function(params){}
+const name = (params) => {}
 ```
-en el sistema:
+- Type inference for return values
+- Optional parameters: `param?`
+- Default parameters: `param = value`
+- Rest parameters: `...args`
+- Generic functions: `<T>`
+# 3. Classes
+```typescript
+class Example {
+    constructor() {}
+    method() {}
+}
+```
+- Access modifiers: `public`, `private`, `protected`
+- `private` vs `#` private fields
+- `this` keyword refers to class instance
+- Inheritance using `extends`
+- `super` for parent class access
+- Static members
+- Getters/setters
+# 4. Interfaces
+```typescript
+interface Example {
+    property: type;
+}
+```
+- Alternative to generics
+- Force class structure
+- `implements` keyword
+- Object structure definition
+# 5. Advanced Features
+- Destructuring: `let {prop1: newName, prop2} = object`
+- String interpolation: `${variable}`
+- Array methods:
+  - `filter()`
+  - `find()`
+  - `reduce()`
+  - `concat()`
+  - `join()`
+- Equality operators: `=` (assignment), `==` (loose equality), `===` (strict equality)
+- Decorators (experimental feature)
+# 6. Compiler Configuration
+tsconfig.json options:
+```json
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "strict": true
+    }
+}
+```
 
-aunque falle la transpilacion te da output de javascript
-typescript no corre en el navegador
-
-# Tipos de variabes
-Asignaciones una o 2 lineas
-- ==No se si hay problemas con la declaracion del mismo nombre en la variable, falla o hace shadow==
-- Base vs primitive types
-- primitivos(pedirle al chatgpt un listado, con su sintaxis)
-- Number vs number como tipos
-- Asignar a null te hace const(mejorar esta linea)
-- arrays
-- Objetos - Hacer declarar nu array de objetos
-- Type inference
-- Uniones
-- aliases type (nativo typescript)
-- Generics
-- \[value, ...array] que es estoy?
-- \<T> Marcado de typescrip , typesafe yet flexible.. ==revisar==
-- private vs public
- 
-# Funciones
-- Se puede asignar tipos a los parametros hay tres tipos de declaracion de funciones
-- Typescript es capaz de hacer inferencia en el tipo del return
-- any
-- Problemas con los conflictos de nombres
-# Classes
-- Herencia
-- metodos
-- scoopes
-- contructor
-- this
-# Interfaces
-nativas de typesscript
--  son alternativas a l \<T>
-- fuerzan a las clases a tener cierto formato
-# Compilador
-archivo de configuracion tsconfig.json
-- modo estricto
+TypeScript errors don't prevent compilation to JavaScript but provide development-time type checking.
+# 7. Module System
+- `export` to make available
+- `import` to use
+- Member access using dot notation: `class.member`
 - - - 
 ## ***Sources:***
 - [Typescript Oficial site](https://www.typescriptlang.org/docs/)
