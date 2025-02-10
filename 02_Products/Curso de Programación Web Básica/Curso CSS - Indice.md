@@ -1,7 +1,31 @@
 **Tags:** #_Todo
-#ToTag #ToLink 
+#CSS #DesarrolloWeb #ToLink 
 - - -
-## 1. Fundamentos
+Håkon Wium Lie was working at CERN at the same time as Tim Berners‐Lee. He immediately recognised the potential of the World Wide Web and its language, HTML. He also realised that the expressive power of the language was in danger of being swamped by visual features. Lie proposed a new format to describe the presentation of HTML documents: Cascading Style Sheets.
+win explorer 3 fue el primero en darle soporte y tiene una especifacion cerrada
+# Añadir
+- css resset, normlizer 
+-  cheatsheet user agen(etilos por defecto de los navegadores)
+- los comentarios son /\*\*/
+- Si te pones encima de vs ves una paleta de colores
+- color rgba legacy |  rgb(n1 n2 n3 / opacidad(opcional)) moderno | trasparent palabra clave | oklch(mas moderno) && hsl |  ==Encontrar hoja de colores==
+- border , se combina con tamaño, style, color(current color), 
+## Fundamentos
+puedes llamar a style desde donde quieras, pero mejor desde el head
+## Selectores
+ por etiquetas
+- puedes llamar al selector como un elemento por ejemplo h1, y todos los elementos h1 cambiaran(buen ejercicio)
+por clases
+- en css hay que ponerle un "." del nombre de la clase
+show
+- revisar esto
+## Fuentes
+- font-family se hereda, se le pueden dar fallbacks 
+## Herencia
+no todo se hereda 
+atributos: inheri
+- - - 
+todo copiado del gpt solo tomar como referencia
 ### Sintaxis básica
 ```css
 selector {
@@ -44,7 +68,7 @@ div ~ p { } /* Hermanos generales */
 ::first-letter
 ::selection
 ```
-## 2. Box Model
+## Box Model
 ```css
 .elemento {
     /* Content */
@@ -67,7 +91,8 @@ div ~ p { } /* Hermanos generales */
     box-sizing: border-box; /* incluye padding y border en width/height */
 }
 ```
-## 3. Layout
+## Layout
+En su originen eran elementos tablas en el libro de David Siegel’s Creating Killer Websites  
 ### Display
 ```css
 .elemento {
@@ -93,7 +118,7 @@ div ~ p { } /* Hermanos generales */
     z-index: 1;
 }
 ```
-## 4. Flexbox
+## Flexbox
 ```css
 .contenedor {
     display: flex;
@@ -109,7 +134,7 @@ div ~ p { } /* Hermanos generales */
     align-self: center;
 }
 ```
-## 5. Grid
+## Grid
 ```css
 .contenedor {
     display: grid;
@@ -128,7 +153,7 @@ div ~ p { } /* Hermanos generales */
     grid-area: header;
 }
 ```
-## 6. Tipografía
+## Tipografía
 ```css
 .texto {
     font-family: Arial, sans-serif;
@@ -141,7 +166,7 @@ div ~ p { } /* Hermanos generales */
     letter-spacing: 2px;
 }
 ```
-## 7. Colores y Fondos
+## Colores y Fondos
 ```css
 .elemento {
     /* Colores */
@@ -162,7 +187,7 @@ div ~ p { } /* Hermanos generales */
     background: radial-gradient(circle, #fff, #000);
 }
 ```
-## 8. Transformaciones y Transiciones
+## Transformaciones y Transiciones
 ```css
 .elemento {
     /* Transformaciones */
@@ -185,7 +210,7 @@ div ~ p { } /* Hermanos generales */
     animation: slide 2s infinite;
 }
 ```
-## 9.Debug
+## Debug
 ```css
 /* Outline para debug */
 * {
@@ -194,6 +219,10 @@ div ~ p { } /* Hermanos generales */
 ```
 - - - 
 ## ***Sources:***
-- [Catalogo de fuentes](https://kagi.com/search?q=fonts.googlefont)
-- [cheetsheet de CSS](https://htmlcheatsheet.com/css/)
-- [Hoja de apuntes css](https://htmlcheatsheet.com/css/)
+- [Biblioteca y Tutorial](https://manz.dev/)
+-  [Standard Dessarrollo Web](https://developer.mozilla.org/en-US/)
+- [Estilos en tiempo real](https://codi.link/%7C%7C)
+Catalogos:
+- [Catalogo y Apuntes CSS](https://htmlcheatsheet.com/css/)
+- [Catalogo de Fuentes CSS](https://kagi.com/search?q=fonts.googlefont)
+- [Catalogo de Diseños CSS](https://csszengarden.com/pages/alldesigns/)
