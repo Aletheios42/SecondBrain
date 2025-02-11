@@ -96,7 +96,7 @@ Ejercicio mirar en los manuales los comandos de miscelanea
 - **ln**: Crea enlaces
   - **-s**: Crea enlaces simbólicos
 #### 📝 Visualización y 🔍 Análisis de archivos
- [[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
+ [[02_Products/Linux/Labs Linux/Curso Linux - Lab - Examen exhaustivo de archivos de sistema]]
  Ejercicio con printf sobre el ASCII, hexadecimal, octal, binario, etc.
  Ejercicio con echo y stat (touch puede molar)
 
@@ -137,7 +137,7 @@ Sintax  ---> <infile cmd1 operador cmd2 > outfile
  Binary Operators "&&, ||, ;, |"
  [[Redirecciones en Unix-Linux]]
 #### Expansiones
-[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Expansiones]]
+[[Curso de Linux - Ejercicio -  Expansiones]]
 - Pathname expansion:
 - Tilde Expansion: \`date\`
 - Arithmetic Expansion: $()  --> Append: expr
@@ -199,7 +199,7 @@ Ejercicio para añadir en el manual los atajos de bash y de tmux, y asi poder mi
  Meter ejercicios de regex, de url mirar el viedo de luke smith
  Meter ejercicios de sed, de url mirar el viedo de luke smith
  **Tools**: `grep`, `sed`, `awk`, `find` (en algunas distros, además en algunas se puede poner la flag `-regex`)
- [[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
+ [[Curso de Linux - Ejercicio - Regex]] y buscar más ejercicios del sepe
 
 - **sort**: Ordena líneas de un archivo
   - **-n**: Sort numerically
@@ -232,8 +232,8 @@ Mirar el ejercicio de christine
 ### Meter ejercicios de programas sistema II
 - - - 
 ## manejar mi enviroment
- [[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Explorando Las Variables de Bash]]
-[[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Tmux Primeros Pasos]]
+ [[02_Products/Linux/Labs Linux/Curso Linux - Lab - Explorando Las Variables de Bash]]
+[[02_Products/Linux/Labs Linux/Curso Linux - Lab - Tmux Primeros Pasos]]
 [[Variables de Bash]] 
 Ejercicio añadir tmux a tu bashrc
 
@@ -249,7 +249,7 @@ Ejercicio añadir tmux a tu bashrc
 - - -
 ## Programas del sistema III
 #### 🔒 Gestión de usuarios
-[[02_Products/Curso de Linux/Labs Linux/Curso Linux - Lab - Gestión de Usuarios y Permisos]]
+[[02_Products/Linux/Labs Linux/Curso Linux - Lab - Gestión de Usuarios y Permisos]]
  **root #** vs **regular user $**
  Archivos: `/etc/passwd`, `/etc/shadow`, `/etc/skel`
  **sudoer**
@@ -311,7 +311,7 @@ Ejercicio añadir tmux a tu bashrc
 #### 🛠 Gestión de procesos y señales
 Ejercicios en **64. Managing process priority**
 [[Jobs en Linux]]  y [[Procesos en Linux]]
-[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio - Procesos]]
+[[Curso de Linux - Ejercicio - Procesos]]
 **cmd &**: Ejecuta un comando en segundo plano
 **zombies**: Procesos terminados pero no liberados
 Si **tty=?**: Es un proceso de red
@@ -363,8 +363,8 @@ Si **tty=?**: Es un proceso de red
 - **dstat**: Alternativa a `vmstat`
 - **sar**: Registra el uso de CPU y memoria
 #### Partitions and Disks
-[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Usbs en Linux]]
-[[02_Products/Curso de Linux/Ejercicios Curso de linux/Curso de Linux - Ejercicio -  Hacer Paticiones y Formatearlas]]
+[[Curso de Linux - Ejercicio -  Usbs en Linux]]
+[[Curso de Linux - Ejercicio -  Hacer Paticiones y Formatearlas]]
 
 - **dd**: Convierte y copia archivos
 - **df**: Muestra el uso del espacio en disco

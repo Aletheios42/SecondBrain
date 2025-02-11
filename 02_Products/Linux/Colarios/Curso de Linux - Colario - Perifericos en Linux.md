@@ -20,7 +20,29 @@ Debe mostrar algo como:
 ```
 layout:     es
 ```
+
+==ideas para mejorar el parrafo==
+
+listar configuracion actual de teclado:
+xmodmap -pke
+
+por defecto:
+setxkbmap -option
+sexkbmap -option terminate:la norma que cambia las teclas
+
+xev para hacer pruebas
+
+
+## Hdmi
+xrand
+
+## bluethooth
+
+
+
+
 ## **🛠️ 2. Cambio Permanente en Arch Linux**
+==ESTO NO VA AQUI==
 ### **📌 Opción 1: Usar `localectl` (Recomendado)**
 Este comando cambia el teclado en **Xorg y en la terminal (TTY)**:
 ```bash
@@ -69,14 +91,6 @@ Guarda y recarga i3 con:
 i3-msg reload
 ```
 ## Teclado
-listar configuracion actual de teclado:
-xmodmap -pke
-
-por defecto:
-setxkbmap -option
-sexkbmap -option terminate:la norma que cambia las teclas
-
-xev para hacer pruebas
 
 - - - 
 ## ***Sources:***

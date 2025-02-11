@@ -1,8 +1,9 @@
 **Tags:** #_Todo
 #CSS #DesarrolloWeb #ToLink 
 - - -
-Håkon Wium Lie was working at CERN at the same time as Tim Berners‐Lee. He immediately recognised the potential of the World Wide Web and its language, HTML. He also realised that the expressive power of the language was in danger of being swamped by visual features. Lie proposed a new format to describe the presentation of HTML documents: Cascading Style Sheets.
-win explorer 3 fue el primero en darle soporte y tiene una especifacion cerrada
+Håkon Wium Lie, trabajando en el CERN junto a Tim Berners-Lee, vio el potencial de la Web y HTML, pero advirtió que su diseño podía verse afectado por el desorden visual. Para solucionarlo, propuso las Hojas de Estilo en Cascada (CSS), un sistema para separar la estructura del contenido de su presentación.  
+
+Internet Explorer 3 fue el primer navegador en implementarlo, aunque con una especificación cerrada.
 # Añadir
 - css resset, normlizer 
 -  cheatsheet user agen(etilos por defecto de los navegadores)
@@ -10,8 +11,7 @@ win explorer 3 fue el primero en darle soporte y tiene una especifacion cerrada
 - Si te pones encima de vs ves una paleta de colores
 - color rgba legacy |  rgb(n1 n2 n3 / opacidad(opcional)) moderno | trasparent palabra clave | oklch(mas moderno) && hsl |  ==Encontrar hoja de colores==
 - border , se combina con tamaño, style, color(current color), 
-## Fundamentos
-puedes llamar a style desde donde quieras, pero mejor desde el head
+- puedes llamar a style desde donde quieras, pero mejor desde el head
 ## Selectores
  por etiquetas
 - puedes llamar al selector como un elemento por ejemplo h1, y todos los elementos h1 cambiaran(buen ejercicio)
@@ -24,6 +24,7 @@ show
 ## Herencia
 no todo se hereda 
 atributos: inheri
+## [[Flexbox CSS]]
 - - - 
 todo copiado del gpt solo tomar como referencia
 ### Sintaxis básica
@@ -68,72 +69,14 @@ div ~ p { } /* Hermanos generales */
 ::first-letter
 ::selection
 ```
-## Box Model
-```css
-.elemento {
-    /* Content */
-    width: 200px;
-    height: 100px;
-    
-    /* Padding */
-    padding: 10px; /* todos los lados */
-    padding: 10px 20px; /* vertical horizontal */
-    padding: 10px 20px 15px 25px; /* arriba derecha abajo izquierda */
-    
-    /* Border */
-    border: 1px solid black;
-    border-radius: 5px;
-    
-    /* Margin */
-    margin: 10px;
-    
-    /* Box sizing */
-    box-sizing: border-box; /* incluye padding y border en width/height */
-}
-```
+## [[Box Model CSS]]
+
 ## Layout
 En su originen eran elementos tablas en el libro de David Siegel’s Creating Killer Websites  
-### Display
-```css
-.elemento {
-    display: block; /* elemento de bloque */
-    display: inline; /* elemento en línea */
-    display: inline-block; /* híbrido */
-    display: none; /* oculta el elemento */
-}
-```
-### Position
-```css
-.elemento {
-    position: static; /* default */
-    position: relative; /* relativo a su posición normal */
-    position: absolute; /* relativo al ancestro posicionado más cercano */
-    position: fixed; /* relativo al viewport */
-    position: sticky; /* híbrido entre relative y fixed */
-    
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}
-```
-## Flexbox
-```css
-.contenedor {
-    display: flex;
-    flex-direction: row | column;
-    justify-content: flex-start | center | flex-end | space-between | space-around;
-    align-items: stretch | flex-start | center | flex-end;
-    gap: 10px;
-}
+- ### [[Display CSS]]
+- ### [[Position]]
 
-.item {
-    flex: 1; /* grow | shrink | basis */
-    order: 1;
-    align-self: center;
-}
-```
+## [[Flexbox CSS]]
 ## Grid
 ```css
 .contenedor {
@@ -153,40 +96,8 @@ En su originen eran elementos tablas en el libro de David Siegel’s Creating Ki
     grid-area: header;
 }
 ```
-## Tipografía
-```css
-.texto {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-```
-## Colores y Fondos
-```css
-.elemento {
-    /* Colores */
-    color: #ff0000;
-    color: rgb(255, 0, 0);
-    color: rgba(255, 0, 0, 0.5);
-    color: hsl(0, 100%, 50%);
-    
-    /* Fondos */
-    background-color: #fff;
-    background-image: url('imagen.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    /* Gradientes */
-    background: linear-gradient(to right, #fff, #000);
-    background: radial-gradient(circle, #fff, #000);
-}
-```
+## [[Tipografía CSS]]
+## [[Colores y Fondos CSS]]
 ## Transformaciones y Transiciones
 ```css
 .elemento {
