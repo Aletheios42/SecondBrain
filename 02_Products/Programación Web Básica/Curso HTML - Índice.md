@@ -1,17 +1,16 @@
 **Tags:** #_Todo
 #HTML #DesarrolloWeb  #ToLink 
 - - -
-==Manteniendo el contenido tengo que dividir los elementos en body y head==
-==ademas en el body tengoq ue separar entre lo semantico y la agrupacion==
-prerrequisitos:
+Prerrequisitos:
 - Editor de código (copilot opcional)
 - navegador google-chrome
 - live previews / live server
 ##  Introducción a HTML5
 HTML es el lenguaje de marcado estándar web desde 1993
-Fue inventado por Tim Berners‐Lee junto con http (protocolo de transferencia de hipertexto) en el cern
+Fue inventado por Tim Berners‐Lee junto con http (protocolo de transferencia de hipertexto) en el cern.
+
 ✅ Se encaga de describir el contenido
-❌ No se encarga del estilo, pues lo hace CSS
+❌ No se encarga del estilo, pues lo hace [[Curso CSS - Indice|CSS]]
 ❌ No se encarga de la interactividad, pues lo hace javascript
 
 En HTML, los elementos se construyen a partir de etiquetas, atributos y contenido. Un **elemento** es la combinación de:
@@ -24,46 +23,57 @@ En HTML, los elementos se construyen a partir de etiquetas, atributos y contenid
 | **Etiqueta (Tag)** | Marca el inicio o fin de un elemento. Se escribe entre `< >`.                              |
 | **Elemento**       | Incluye la etiqueta de apertura, el contenido y la etiqueta de cierre.                     |
 | **Atributo**       | Proporciona información adicional sobre un elemento. Se define en la etiqueta de apertura. |
-- Cuando un navegador encuentra `<!DOCTYPE html>` al inicio de un documento HTML, lo representa en **modo estándar**. Si no se usa un `DOCTYPE`, el navegador entra en **modo quirks**, lo que puede provocar que ciertos contenidos no se muestren correctamente. 
-- El punto de entrada se suele llamar index.html porque el navegador lo busca por defecto
-- Comentarios <-!-- ---->
-- Ya no se puede escribir XML
+- Cuando un navegador encuentra `<!DOCTYPE html>` al inicio de un documento HTML, lo representa en **modo estándar**.  
+  Si no se usa un `DOCTYPE`, el navegador entra en **modo quirks**, lo que puede provocar que ciertos contenidos no se muestren correctamente.
+- El punto de entrada se suele llamar `index.html` porque el navegador lo busca por defecto.
+- Comentarios `<!-- ... -->`
+- Ya no se puede escribir XML en HTML5.
 ##  Elementos en HTML
 Hay 121 elementos en HTML5 y los principales son:
-### Listado de elementos HTML
-- `<html>`: Contenedor raíz de una página web.
-- `<head>`: Contiene metadatos como idioma y estilos.
-- `<title>`: Define el título de la página (visible en la pestaña del navegador).
-- `<body>`: Contiene el contenido visible de la página.
+### **Listado de elementos HTML**
+#### **Elementos del `body`**
+##### **Elementos semánticos**
+La semántica en HTML5 significa utilizar etiquetas que describen su propósito en lugar de depender solo de `<div>` y `<span>`.  
+Esto ayuda a la accesibilidad, SEO y mantenimiento del código.
+```html
+<header>Cabecera del sitio</header>
+<nav>Menú de navegación</nav>
+<main>Contenido principal</main>
+<aside>Información relacionada</aside>
+<article>Artículo independiente </article>
+<footer>Pie de página</footer>
+```
+##### **Elementos de agrupación**
 - `<div>`: Elemento contenedor genérico.
-- `<span>`, `<strong>`, `<em>`: Texto en línea con diferentes estilos.
+- `<span>`: Texto en línea sin estilo predeterminado.
+##### **Elementos de contenido**
 - `<h1>` - `<h6>`: Encabezados de diferentes niveles.
 - `<p>`: Párrafo de texto.
 - `<a>`: Enlace a otra página o recurso.
-- `<img>`: Inserta imágenes. No necesita cierre.
-	- Atributos: src, alt, tittle, loading lazy(no cargues cosas arriba, va a dar un parpadeo)
-- `<ul>`, `<ol>`, `<li>`: Listas desordenadas, ordenadas y elementos de lista. 
-- `<table>`, `<tr>`, `<td>`: Tablas y celdas. 
+  - Se puede usar `rel="noreferrer"` para no enviar datos a la página destino. 
+  - Se puede usar `href="mailto:correo@ejemplo.com"` o `href="tel:+123456789"` para correos y teléfonos. 
+  - Se puede usar `download` para permitir descargas directas. 
+- `<ul>`, `<ol>`, `<li>`: Listas desordenadas, ordenadas y elementos de lista.
+  - Se puede cambiar el estilo de los números y guiones con `type`.
+- `<table>`, `<tr>`, `<td>`: Tablas y celdas.
 - `<form>`: Formularios de entrada de datos.
-	- fieldset, legend, label(for o embolber input con label), placeholder
-- `<input>`, `<textarea>`, `<button>`: Elementos de formulario. No necesita cierre y ay muchos tipos
-Algunos de estos elemento tienen atributos propios, investigar cual con cual
-##  Etiquetas en HTML
-Las **etiquetas** se utilizan para marcar el inicio y el fin de un elemento. Se escriben entre `< >`. Existen dos tipos principales:
-- **Etiqueta de apertura**: Indica el inicio de un elemento. Ejemplo: `<p>`.
-- **Etiqueta de cierre**: Indica el final de un elemento. Ejemplo: `</p>`.
-## Atributos en HTML
-Los **atributos** proporcionan información adicional sobre un elemento. Siempre se colocan en la **etiqueta de apertura** y suelen tener un **nombre** y un **valor**, separados por `=`.
-Ejemplo:
-```html
-<a href="https://www.ejemplo.com">Visita Ejemplo</a>
-```
-Explicación:
-- `<a>`: Etiqueta de apertura.
-- `href`: Atributo.
-- `"https://www.ejemplo.com"`: Valor del atributo.
-- "Visita Ejemplo": Contenido del elemento.
-- `</a>`: Etiqueta de cierre.
+	  - `<fieldset>`, `<legend>`, `<label>`, `<input>`, `<textarea>`, `<button>`.
+	  - `<input>` admite muchos tipos (`email`, `password`, `number`, etc.). 
+	  - Se debe usar `required` en campos obligatorios. 
+	  - Se puede usar `<datalist>` para sugerencias de entrada. 
+- Diferencia entre `<button type="submit">` y `<input type="submit">`. 
+- `<img>`: Inserta imágenes. No necesita cierre.
+  - Atributos: `src`, `alt`, `title`, `loading="lazy"`.
+- `<video>`: Reproduce videos.
+  - Atributos: `autoplay`, `controls`, `muted`. 
+- `<iframe>`: Inserta otras páginas web.
+  - Se pueden bloquear integraciones con metadatos en `header`. 
+  - Se usa `allow` para permisos y `allowfullscreen` para pantalla completa. 
+- `<canvas>`: Lienzo para gráficos dinámicos. 
+- `<dialog>`: Ventana de diálogo modal (`open`). 
+- `<script>`: Código JavaScript.
+  - Cuidado con `window` y colisiones de `id`. 
+  - Permite eventos como `showModal()`. 
 ### Listado de atributos comunes
 - `id`: Identificador único del elemento.
 	- cada id se añade al objeto window(no es optimo ponerle id a todo)
@@ -72,7 +82,6 @@ Explicación:
 - `name`: Nombre del elemento (usado en formularios).
 - `src`: Fuente de un recurso (imágenes, videos, etc.).
 - `alt`: Texto alternativo en imágenes.
-- `href`: Enlace de anclaje en `<a>`.
 - `target`: Especifica dónde abrir un enlace.
 - `title`: Muestra un texto emergente al pasar el cursor.
 - `checked`: Indica que un `<input>` tipo checkbox o radio está seleccionado.
@@ -83,8 +92,10 @@ Explicación:
 - `hidden`: Oculta un elemento sin eliminarlo del DOM. Booleano
 - `multiple`: Permite seleccionar múltiples archivos en `<input type="file">`.
 - `selected`: Marca una opción por defecto en `<select>`.
-## SEO
-Aquí tienes un conjunto de etiquetas `<meta>` y `<link>` esenciales para colocar en el `<head>` de tu documento HTML. Estas etiquetas ayudan con **SEO, redes sociales, rendimiento y compatibilidad**.
+- `download` en un enlace (\<a>) permite descargar un recurso disponible directamente de tu servidor. 
+#### **Elementos del head**
+Los siguientes elementos son esenciales para optimizar el SEO, mejorar la compatibilidad entre dispositivos, y facilitar la compartición en redes sociales. Una implementación adecuada de estas etiquetas mejora la visibilidad del sitio en motores de búsqueda y la experiencia de usuario.
+- head se puede poner varias veces
 ### 📌 **Meta Tags Esenciales**
 ```html
 <!-- Configuración del conjunto de caracteres -->
@@ -108,18 +119,19 @@ Aquí tienes un conjunto de etiquetas `<meta>` y `<link>` esenciales para coloca
 <!-- Control de indexación para motores de búsqueda -->
 <meta name="robots" content="index, follow">  <!-- O "noindex, nofollow" si quieres bloquearlo -->
 
-<!-- No se que poner revisar con chat gpt -->
+<!-- Etiqueta canonical: Indica la URL preferida para evitar contenido duplicado en los motores de búsqueda -->
 <link rel="canonical" href="https://www.ejemplo.com/pagina-principal">
 
 <!-- Prevención de detección de número de teléfono en iOS -->
 <meta name="format-detection" content="telephone=no">
 
+<!-- para adptar el color del banner del navegador -->
+<meta name=theme-color content='#09f" 
+
 <!-- Configuración de idioma -->
 <meta http-equiv="content-language" content="es">
-
 ```
 ### 📌 **Meta Tags para Redes Sociales (Open Graph & Twitter Cards)**
-
 ```html
 <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
 <meta property="og:title" content="Título de la página">
@@ -137,7 +149,6 @@ Aquí tienes un conjunto de etiquetas `<meta>` y `<link>` esenciales para coloca
 <meta name="twitter:site" content="@tuusuario">
 ```
 ### 📌 **Etiquetas `<link>` Importantes**
-
 ```html
 <!-- Favicon -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -159,37 +170,13 @@ Aquí tienes un conjunto de etiquetas `<meta>` y `<link>` esenciales para coloca
 <!-- Sitemap para SEO -->
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
-<!-- Canonical (evita contenido duplicado) -->
-<link rel="canonical" href="https://www.ejemplo.com">
-
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+<!-- Evitar envío de datos de referencia al enlazar a otras páginas -->
+<link rel="noreferrer" href="https://www.ejemplo.com">
+
 ```
-- - - 
-### AÑADIR
-- en el head para indicar la codificacion  \<meta charset="uft-8">
-- \<meta name=viewport content="width=device-width">
-- \<meta name=robots content=index, follow"
-- \<meta name=theme-color content='#09f" para adptar el color del banner del navegador
-- link rel=ico type image  href.... para el favico.ico
-- meta name description content="msg" (SEO) es el campo de la descripcion del navegdor, aunque a veces google no te respeta y pone la que el quiere
-- open graph
-- tambien hay añadir mas elementos como small, foot o aside, main
-- head se puede poner varias veces
-- al linkear a otras paginas rel="nonreferer" para no mandar datos a la pagina destino
-- se puede usar href con mails y telefonos y whatsapp
-- atributo download y wrappping con a, solo hay que decir que tienes que tener el recurso en tu server
-- ol le salen numeros, ul le salen guiones, y tiene atributos para cambiar los guinos nuemros y demas 1:15 midudev html
-- type, darle caña a esto y especificar email.
-- required en los formularios
-- datalist
-- button typo summit vs input
-- etiqueta video(autoplay, controles, muted)
-- iframe estudiar este elemento para integrar paginas web (puedes evitar con metadatos en header que tu pagina sea incluida en otra pagina) allow para los permisos y allow fullscreen
-- canvas  para dibujar
-- Dialog(open)
-- script. el objeto window (cuidado con hash colition con los nombres de las id)y eventos showmodal
-- ==Que es la semantica==
 - -  - 
 ## ***Sources:***
 - [Cheatsheet de HTML](https://htmlcheatsheet.com/html/)
@@ -197,3 +184,4 @@ Aquí tienes un conjunto de etiquetas `<meta>` y `<link>` esenciales para coloca
 - [Libro sobre Programación de Web Básica](https://resilientwebdesign.com/)
 -  [Standard Dessarrollo Web](https://developer.mozilla.org/en-US/)
 - [Para ver previews](https://www.opengraph.xyz/)
+- [Editor en linea - Catalogo de Componentes y Red social de Front](https://codepen.io/)

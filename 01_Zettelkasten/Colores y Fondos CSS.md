@@ -1,7 +1,7 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-Este selector es muy completo y está optimizado para trabajar con colores y fondos en CSS moderno. Puedes copiarlo y adaptarlo según tus necesidades.
+ color rgba legacy |  rgb(n1 n2 n3 / opacidad(opcional)) moderno | trasparent palabra clave | oklch(mas moderno) && hsl |  ==Encontrar hoja de colores==
 
 ```css
 .selector {

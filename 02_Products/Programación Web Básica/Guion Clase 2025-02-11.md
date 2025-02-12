@@ -1,12 +1,23 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-### Eneseñar [[Guía de Inicio Rápido para Github]]
-### Enseñar elementos Básicos Html
-### Enseñar [[Flexbox CSS]]
+# Teoria
+### [[Guía de Inicio Rápido para Github]]
+### [[Curso HTML - Índice]]
+- ##### Ver [[Head de HTML Modelo]]
+### [[Curso CSS - Indice]]
+### [[Box Model CSS]]
+### [[Flexbox CSS]]
 
-### Enseñar fuentes
+### [[Tipografía CSS]]
+### [[Colores y Fondos CSS]]
+### [[La consola de javascript del navegador]]
 
 
+# Adicional
+- Enseñar Catalogos
+- Enseñar CodePen.io
+- Github Acctions CD/CI con trafico publico
+- Copiar elementos conocidos y clonar pequeñas paginas
 - - - 
 ## ***Sources:***
