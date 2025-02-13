@@ -3,6 +3,9 @@
 
 ---
 - [ ] 
+- [ ] 
+- [ ] 
+- [ ] pandoc
 - [ ] Gaussian
 - [ ] Mendelei
 - [ ] sci-hub

@@ -1,6 +1,7 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
+
 Part 2: JavaScript Fundamentals
 
 JavaScript Basics

@@ -188,8 +188,9 @@ Esto ayuda a la accesibilidad, SEO y mantenimiento del código.
 - `<canvas>`: Lienzo para gráficos dinámicos. 
 - `<dialog>`: Ventana de diálogo modal (`open`). 
 - `<script>`: Código JavaScript.
-  - Cuidado con `window` y colisiones de `id`. 
-  - Permite eventos como `showModal()`. 
+	- El atributo type="module"  indica que el archivo JavaScript se ejecuta como un módulo de ECMAScript (ESM) en lugar de un script tradicional.(Soporta import/export)
+	- Cuidado con `window` y colisiones de `id`. 
+	- Permite eventos como `showModal()`. 
 #### Atributos HTML
 ##### Atributos Generales
 - `id`: Identificador único del elemento.
