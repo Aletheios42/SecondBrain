@@ -67,3 +67,4 @@ Performance Optimization
 Deployment
 - - - 
 ## ***Sources:***
+- https://angular.dev/playground
