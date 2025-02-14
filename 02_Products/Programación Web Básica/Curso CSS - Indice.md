@@ -1,8 +1,6 @@
 **Tags:** #_Todo
 #CSS #DesarrolloWeb #ToLink 
 - - -
-# CSS Fundamentals
-
 ## Historia
 Håkon Wium Lie, trabajando en el CERN junto a Tim Berners-Lee, propuso las **Hojas de Estilo en Cascada (CSS)** para separar la estructura del contenido de su presentación, resolviendo los problemas de desorden visual en la web.  
 **Internet Explorer 3** fue el primer navegador en implementarlo, aunque con una especificación cerrada.
@@ -32,29 +30,27 @@ No todos los atributos se heredan. Para heredar un valor específico, usa la pro
 - **Por ID**: Se utiliza un `#` antes del nombre del ID (ej. `#mi-id`).
 - **Por atributos**: Se seleccionan elementos con atributos específicos (ej. `[type="text"]`).
 
-## Estructura
-
-### [[Selectores principales CSS]]
-### [[Unidades de Medida CSS]]
-### [[Box Model CSS]]
-### [[Flexbox CSS]]
+### ![[Selectores principales CSS]]
+### ![[Unidades de Medida CSS]]
+### ![[Box Model CSS]]
+### ![[Flexbox CSS]]
 
 ## Layout
 Originalmente, los diseños web se basaban en tablas (según David Siegel’s "Creating Killer Websites").
-- ### [[Display CSS]]
-- ### [[Position CSS]]
-- ### [[Grid CSS]]
+- ### ![[Display CSS]]
+- ### ![[Position CSS]]
+- ### ![[Grid CSS]]
 
-## Tipografía
+
+
+### ![[Tipografía CSS]]
 - **Fallbacks**: Se pueden definir fuentes alternativas por si la principal no está disponible.
-### [[Tipografía CSS]]
 
-## Colores y Fondos
+### ![[Colores y Fondos CSS]]
 - Definir colores y fondos con nombres, hexadecimales, RGB, etc.
-### [[Colores y Fondos CSS]]
 
-## [[Transformaciones y Transiciones CSS]]
-## [[Debug CSS]]
+## ![[Transformaciones y Transiciones CSS]]
+## ![[Debug CSS]]
 
 ## Otros Conceptos y Herramientas
 

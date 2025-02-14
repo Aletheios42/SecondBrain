@@ -1,8 +1,6 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
-# Transformaciones y Transiciones
-
 Las **transformaciones** y **transiciones** en CSS permiten modificar y animar los elementos de una página web, creando efectos visuales fluidos e interactivos.
 
 ### Transformaciones
@@ -54,7 +52,7 @@ Imagina un cuadro que se desplaza de izquierda a derecha y cambia de color al ha
     background-color: blue;
     transform: translate(50px, 0); /* Desplaza el cuadro 50px hacia la derecha */
 }
-
+```
 
 - - - 
 ## ***Sources:***

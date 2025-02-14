@@ -12,6 +12,6 @@ El uso de **`outline`** en CSS es una técnica común para depurar y visualizar 
 * {
     outline: 1px solid red !important;
 }
-
+```
 - - - 
 ## ***Sources:***
