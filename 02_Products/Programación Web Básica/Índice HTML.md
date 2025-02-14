@@ -11,7 +11,7 @@ HTML es el **esqueleto de la web** y define la estructura de las páginas. Es un
 Fue inventado por Tim Berners‐Lee junto con http (protocolo de transferencia de hipertexto) en el cern en 1993.
 
 ✅ Se encaga de describir el contenido
-❌ No se encarga del estilo, pues lo hace [[Curso CSS - Indice|CSS]]
+❌ No se encarga del estilo, pues lo hace [[Indice CSS|CSS]]
 ❌ No se encarga de la interactividad, pues lo hace javascript
 
 En HTML, los elementos se construyen a partir de etiquetas, atributos y contenido. Un **elemento** es la combinación de:  

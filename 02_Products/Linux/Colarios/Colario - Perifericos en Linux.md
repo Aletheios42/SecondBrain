@@ -4,7 +4,7 @@
  Todas las configuraciones son susceptibles de ser alteradas en la configuracion de la distribucion o de la shell
 ## Idioma
 Para cambiar el **layout del teclado a español** en Linux, hay varias formas según el entorno que uses. Aquí te dejo los métodos más comunes:
-## **🖥️ 1. Cambio Temporal (Para la Sesión Actual)**
+## **1. Cambio Temporal (Para la Sesión Actual)**
 Si solo quieres cambiar el teclado en la sesión actual sin reiniciar, usa:  
 
 ```bash
@@ -89,9 +89,9 @@ exec --no-startup-id xrandr --output HDMI-A-0 --mode 1920x1080 --right-of eDP
 
 
 
-## **🛠️ 2. Cambio Permanente en Arch Linux**
+## **2. Cambio Permanente en Arch Linux**
 ==ESTO NO VA AQUI==
-### **📌 Opción 1: Usar `localectl` (Recomendado)**
+### **Opción 1: Usar `localectl` (Recomendado)**
 Este comando cambia el teclado en **Xorg y en la terminal (TTY)**:
 ```bash
 sudo localectl set-x11-keymap es
@@ -110,7 +110,7 @@ System Locale: LANG=es_ES.UTF-8
 VC Keymap: es
 X11 Layout: es
 ```
-### **📌 Opción 2: Editar `/etc/default/keyboard` (Para Debian/Ubuntu y algunos Arch setups)**
+### **Opción 2: Editar `/etc/default/keyboard` (Para Debian/Ubuntu y algunos Arch setups)**
 Edita el archivo de configuración del teclado:
 ```bash
 sudo nano /etc/default/keyboard
@@ -125,7 +125,7 @@ Guarda (`Ctrl + X`, `Y`, `Enter`) y aplica los cambios con:
 sudo dpkg-reconfigure keyboard-configuration
 ```
 Si no usas Debian, simplemente reinicia para que se apliquen.
-### **📌 Opción 3: Configuración en i3**
+### **Opción 3: Configuración en i3**
 Si usas **i3**, agrégalo en tu archivo de configuración:
 ```bash
 nano ~/.config/i3/config

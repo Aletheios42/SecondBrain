@@ -1,7 +1,7 @@
 **Tags:** #_Done 
 #Linux  #ToLink 
 - - -
-### 📌 **Definir una Variable Local en una Función**
+### **Definir una Variable Local en una Función**
 ```bash
 mi_funcion() {
     local MI_VAR="Soy local"
@@ -11,7 +11,7 @@ mi_funcion
 echo "$MI_VAR"  # No mostrará nada, porque MI_VAR es local a la función
 ```
 
-### 📌 **Definir una Variable Global (de entorno)**
+### **Definir una Variable Global (de entorno)**
 ```bash
 MI_VAR="Soy global"
 export MI_VAR
@@ -19,11 +19,11 @@ echo "$MI_VAR"  # Esto mostrará "Soy global"
 # Después de exportarla, estará disponible en otros procesos:
 bash -c 'echo $MI_VAR'  # Sigue accesible en procesos hijos
 ```
-### 📌 **Eliminar una Variable**
+### **Eliminar una Variable**
 ```bash
 unset MI_VAR
 ```
-## 🔹 **Ejemplo Práctico de Variables Locales y Globales**
+## **Ejemplo Práctico de Variables Locales y Globales**
 ```bash
 #!/bin/bash
 
@@ -37,13 +37,13 @@ mi_funcion
 echo "Fuera de la función: GLOBAL_VAR=$GLOBAL_VAR"
 echo "Fuera de la función: LOCAL_VAR=$LOCAL_VAR"  # No se mostrará nada porque es local
 ```
-📌 **Salida esperada:**
+**Salida esperada:**
 ```
 Dentro de la función: GLOBAL_VAR=Soy una variable global, LOCAL_VAR=Soy una variable local
 Fuera de la función: GLOBAL_VAR=Soy una variable global
 Fuera de la función: LOCAL_VAR=
 ```
-### 🔹 **Resumen**
+### **Resumen**
 | **Comando**          | **Función**                                                          |
 | -------------------- | -------------------------------------------------------------------- |
 | `export VAR="valor"` | Define una variable global (de entorno) accesible en procesos hijos. |

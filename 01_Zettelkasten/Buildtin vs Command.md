@@ -15,4 +15,4 @@
 | **Ejecución** | Más lento (requiere un proceso) | Más rápido (parte del shell) |
 - - - 
 ## ***Sources:***
--  [[02_Products/Linux/Labs Linux/Curso Linux - Lab - Command Types and Process Execution Analysis]]
+-  [[Lab - Command Types and Process Execution Analysis]]
