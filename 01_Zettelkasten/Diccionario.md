@@ -13,6 +13,7 @@ Necesidad interna de actuar; impulso irresistible.
 #### Corifeo --- Del griego "κορυφαῖος" (koryphaîos, "líder")
 Líder del coro en el teatro griego antiguo; guía y portavoz del grupo coral que dialogaba con los actores principales. En la actualidad, se usa figurativamente para referirse a quien guía o lidera un grupo, especialmente en movimientos intelectuales, artísticos o políticos, actuando como cabecilla o portavoz principal de una tendencia o colectivo.
 
+ #### Draconiano
 #### Escuela --- Del griego "schole" (ocio)
 Centro de enseñanza. Originalmente referido al tiempo de ocio dedicado al aprendizaje.
 

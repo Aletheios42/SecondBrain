@@ -8,6 +8,9 @@ JavaScript (JS) es un lenguaje de programación dinámico, de un solo hilo y bas
 
 JavaScript está integrado en todos los navegadores modernos, eliminando la necesidad de instalación. Puede ejecutarse directamente en la consola del navegador (`F12` → Consola). Para entornos fuera del navegador, se emplea **Node.js**
 
+A diferencia de html y css, si el navegador detecta codigo javascript qmal escript este dejara de parsear el documento y lanzara un error.
+
+El potencial publicitario de internet motivo a ethan 
 La consola del navegador permite ejecutar código en tiempo real, depurar errores y monitorear variables. `console.log()` se usa para imprimir información:
 ### **2. Fundamentos del Lenguaje**
 #### **2.1. Variables y constantes**
@@ -468,3 +471,4 @@ test("Suma de 2 + 2 es 4", () => {
 -  [Curso de Dessarrollo Web](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 - [Espécificación Oficial](https://tc39.es/ecma262/)
 - [Cheatsheet JS](https://htmlcheatsheet.com/js/)
+- [Libro corto sobre la web](https://resilientwebdesign.com/)

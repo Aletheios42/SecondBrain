@@ -62,6 +62,7 @@ src/
  #### [[Archivos de Configuracion de Proyectos Angular]]
 
 ==explicar como se añaden eventos== se le pone on a las funciones
+## Event Binding
 ## Property Binding
 ## Attribute Binding
 In the previous lecture, you were introduced to "Property Binding" - a key Angular feature that allows you to bind element properties to dynamic values.
@@ -99,12 +100,14 @@ las señales son contenedores trazables que notifican al framwork ante cualquier
 
 - - - 
 ==decoradores typescript==
+==string interpolation== para cargar variables en el html
 ## Datos
 - Para los archivos se omite la extension ts
 - Angular no escanea tu repositorio, tenemos que eañadirlo al index.html y al main.ts k
 - tienes que poner en el angular.json las imagenes que cargas
 - Zone.js es parte del framework y notifica de cualquien evento en cualquier componente
 - variable de entorno $event para ahacer accesible en los html templates, la info de @Output para ahacer eaccesible en los html templates, la info de O#@Output
+- ?. es una dereferencia segura para los objetos
 - - -
 
 Part 4: Angular
@@ -131,4 +134,5 @@ Performance Optimization
 Deployment
 - - - 
 ## ***Sources:***
-- https://angular.dev/playground
+- [Angular Play Groud](https://angular.dev/playground)
+- [Catalogo Angular](https://uiverse.io/)

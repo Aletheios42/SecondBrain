@@ -40,7 +40,20 @@ explicar como inpunt()  funciona y su flexibilidad de tipos con \<>(typescript g
 
 # Output property para eventos sec2 34
 Dejarlo como estado otra vez, con decorador input, y añadir decorador output en el users.ts
-y añadir el campo id a los usuarios, y emitir evento
+y añadir el campo id a los usuarios, y emitir evento con this.id, desoues añadir al html de la app, que capture el id, con eso ya estaria creado nuestro custom event
 
+# Utilizar output en vez de decorador
+cmabiar Output por output y poenr el select sin decorador
+# Volver a dejarlo con decoradores
+# Añadir el componente tasks
+en el ts metemos con @Input el nombre para poder usarlo en el html en el html una expansion {{name}}
+exportamos el componente task a appcompoennt, y actualizamos su html con app-tasks y property binding, hacer un getter con find para escoger el nombre del array
+# Cambiar el control de errores
+typescript: entender ! al final de una sentencia y en las declaracion ?. 
+y despues de cambiar los requiered.. probamos otra forma mas.
+las uniones para aceptar  stirngs y undefined
+# Resumir el codigo de user
+en vez de recibir con input 3 propiedades una por miembro vamos a admitir solo una propiedad, la del objeto,  hacer la declaracion en linea
+# crear un alias y una interfaz para definir user, en el decorardor input de user
 - - - 
 ## ***Sources:***
