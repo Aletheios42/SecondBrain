@@ -1,6 +1,30 @@
 **Tags:** #_Todo
 #CSS
 - - -
+### **Estructura del Box Model**
+![[Box_Model_Diagram_CSS.jpg]]
+```css
+.caja {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+}
+```
+
+### **Box Sizing**
+Por defecto, `width` y `height` solo incluyen el contenido, excluyendo `padding` y `border`.  
+Para simplificar los cálculos:
+
+```css
+* {
+    box-sizing: border-box;
+}
+```
+
+
+### Listado de propiedades
 ```css
 .selector {
     /* Content */

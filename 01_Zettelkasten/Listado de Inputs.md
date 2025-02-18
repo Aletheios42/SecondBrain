@@ -4,7 +4,7 @@
 ---
 - [ ] 
 - [ ] 
-- [ ] 
+- [ ] punto de accesso wifi. 
 - [ ] pandoc
 - [ ] Gaussian
 - [ ] Mendelei
@@ -20,7 +20,7 @@
 - [x] LPIC1- part 2
 - [x] LPIC1- part 1
 - [ ] [Serie de videos para encontrar trabajo ](https://www.youtube.com/watch?v=AvN5y516H-8a)
-- [ ] Noah chomchy jerarqy of lenguajes.
+- [ ] Noah chomchy jerarqy of lenguajes y gramatica.
 - [x] Electronica DIY.
 - [x] Libro: The Linux Commnad Line.
 - [ ] Libro: Interpretación de los sueños.
