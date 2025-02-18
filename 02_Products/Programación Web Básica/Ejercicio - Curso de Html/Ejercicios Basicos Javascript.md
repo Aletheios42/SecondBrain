@@ -37,5 +37,3 @@
 
 10. **Contador regresivo hasta una fecha específica**  
    - Muestra los días, horas, minutos y segundos restantes hasta una fecha dada.  
-
-¿Quieres código para alguno en particular?

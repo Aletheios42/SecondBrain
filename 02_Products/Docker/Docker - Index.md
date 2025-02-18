@@ -1,6 +1,7 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
+[DOcker COurse](https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner)
 ### en win en linux y en mac
 ### que es compartir un kernel y compartimentacion
 ##### vm vs container. (la union es lo mejor)
