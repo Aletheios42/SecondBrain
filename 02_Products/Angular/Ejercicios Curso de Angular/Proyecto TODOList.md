@@ -55,5 +55,11 @@ las uniones para aceptar  stirngs y undefined
 # Resumir el codigo de user
 en vez de recibir con input 3 propiedades una por miembro vamos a admitir solo una propiedad, la del objeto,  hacer la declaracion en linea
 # crear un alias y una interfaz para definir user, en el decorardor input de user
+
+# Dejarlo todo como estaba otra vez
+
+# Displayea todos los users de manera dinamica
+usa @for e @if en taks
+# Crea un nuevo componente que se llame task dentro de tasks, y modifica el html de tasks para añadir un boton addtaks y una lista desordenada
 - - - 
 ## ***Sources:***

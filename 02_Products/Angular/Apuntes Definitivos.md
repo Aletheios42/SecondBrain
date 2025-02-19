@@ -1,5 +1,4 @@
 ## Índice general
-
 1. [Introducción a Angular](#introducción-a-angular)  
 2. [Instalación y configuración inicial](#instalación-y-configuración-inicial)  
 3. [Estructura de un proyecto Angular](#estructura-de-un-proyecto-angular)  
@@ -16,6 +15,15 @@
 9. [Formularios en Angular](#formularios-en-angular)  
 10. [Programación reactiva con RxJS](#programación-reactiva-con-rxjs)  
 11. [Pruebas (Testing)](#pruebas-testing)  
+==Meter==
+- in-templates
+- ? y !
+- no dar valores iniciales
+- @for/@if/@else son de angular 17>, los legacy son ngFor,  ngIf, ngtemplate
+- Click listener
+- $event para tener acceso a los eventos
+==Ejercicios==
+- displayear conditional content, modo normal y modo legacy 
 ## Introducción a Angular
 
 **Angular** es un **framework front-end** de código abierto desarrollado por Google, basado en **TypeScript**, que permite construir aplicaciones **SPA** (Single Page Applications) y **MPA** (Multiple Page Applications). Su sistema de enrutamiento proporciona un **modelo basado en componentes**, inyección de dependencias, enlace de datos bidireccional (*two-way binding*), herramientas para manejo de estado y un ecosistema robusto para pruebas y optimización.
@@ -23,29 +31,23 @@
 La idea principal es construir bloques de la aplicación de forma modular. Cada **componente** puede estar dividido en múltiples archivos (clase, template, estilos, etc.) y se integra con otros componentes para conformar un árbol de componentes más amplio.
 
 ### Diferencia clave entre librería y framework
-
 - **Framework (Ej. Angular):** Proporciona una estructura completa para el desarrollo, incluyendo enrutamiento, gestión de estado, compilación y más.  
 - **Biblioteca (Ej. React):** Se enfoca en la parte de la interfaz de usuario (UI) y deja la elección de herramientas complementarias al desarrollador.
-
 ### ¿Qué se puede construir en Angular?
 
 - **Componentes:** Son clases escritas en TypeScript que se asocian a un decorador `@Component`. Definen la lógica y vista que se muestra en pantalla.  
 - **Standalone Components:** A partir de Angular 14, se pueden crear componentes autónomos (*standalone*), prescindiendo de la necesidad de declararlos en un módulo.
 
 ---
-
 ## Instalación y configuración inicial
-
-Para desarrollar con Angular, se necesitan varias herramientas:
-
-12. **Node.js y npm**  
+1. **Node.js y npm**  
    - Descarga [Node.js](https://nodejs.org/es). Incluye el gestor de paquetes npm.  
    - **Node.js** permite ejecutar JavaScript en el servidor y proporciona un entorno para la instalación de dependencias.
 
-13. **TypeScript**  
+2. **TypeScript**  
    - Angular funciona sobre TypeScript (superset de JavaScript) con tipado estático y funcionalidades avanzadas de ESNext.
 
-14. **Angular CLI**  
+3. **Angular CLI**  
    - Instalar la CLI de Angular globalmente con:
      ```bash
      npm install -g @angular/cli
@@ -59,15 +61,12 @@ Para desarrollar con Angular, se necesitan varias herramientas:
      source ~/.bashrc
      ```
 
-15. **Visual Studio Code** (recomendado)  
+4. **Visual Studio Code** (recomendado)  
    - Plugins útiles: *Angular Essentials*, *Angular Language Service*.
 
 ---
-
 ## Estructura de un proyecto Angular
-
 ### Crear un Proyecto
-
 Para crear un nuevo proyecto Angular:
 
 ```bash

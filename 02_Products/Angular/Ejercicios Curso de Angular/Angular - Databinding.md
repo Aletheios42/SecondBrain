@@ -1,7 +1,4 @@
 **Ejercicio 1: Property Binding con un botón deshabilitado dinámicamente**
-
----
-
 ### Enunciado
 1. Define en tu componente una propiedad booleana que controle el estado de un botón.  
 2. Usa *property binding* para el atributo `disabled` en la plantilla.  
@@ -29,13 +26,10 @@ export class MiComponente {
 ---
 
 **Ejercicio 2: Attribute Binding con `attr.aria-label`**
-
----
-
 ### Enunciado
-4. Define en tu componente una propiedad que represente el texto de un atributo, por ejemplo: `valorAriaLabel`.  
-5. Usa `attr.` para enlazar dinámicamente el atributo `aria-label`.  
-6. Permite que el usuario cambie el valor a través de un campo de texto y observa cómo se actualiza el atributo.
+1. Define en tu componente una propiedad que represente el texto de un atributo, por ejemplo: `valorAriaLabel`.  
+2. Usa `attr.` para enlazar dinámicamente el atributo `aria-label`.  
+3. Permite que el usuario cambie el valor a través de un campo de texto y observa cómo se actualiza el atributo.
 
 ### Solución
 **Componente (TypeScript)**  
@@ -64,16 +58,13 @@ Asegúrate de haber importado el `FormsModule` en tu `AppModule` para usar `[(ng
 ---
 
 **Ejercicio 3: Class Binding y Style Binding**
-
----
-
 ### Enunciado
-7. Crea dos propiedades en tu componente:  
+1. Crea dos propiedades en tu componente:  
    - `esResaltado` (tipo boolean) para alternar una clase CSS.  
    - `colorTexto` (tipo string) para cambiar dinámicamente el color de un texto.  
-8. Usa `[class.nombreClase]="condicion"` para aplicar la clase cuando `esResaltado` sea `true`.  
-9. Usa `[style.propiedad]="valor"` para asignar la propiedad `colorTexto` al estilo CSS.  
-10. Proporciona controles (botón, `<select>`, etc.) para modificar ambas propiedades.
+2. Usa `[class.nombreClase]="condicion"` para aplicar la clase cuando `esResaltado` sea `true`.  
+3. Usa `[style.propiedad]="valor"` para asignar la propiedad `colorTexto` al estilo CSS.  
+4. Proporciona controles (botón, `<select>`, etc.) para modificar ambas propiedades.
 
 ### Solución
 **Componente (TypeScript)**  
@@ -119,8 +110,6 @@ export class MiComponente {
   text-decoration: underline;
 }
 ```
-
 ---
-
 ### Referencias y lecturas recomendadas
 - [Documentación oficial de Angular: Data Binding](https://angular.io/guide/binding
