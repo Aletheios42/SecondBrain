@@ -64,6 +64,7 @@ function saludo(nombre = "Usuario", edad = 18) {
 }
 saludo(); // "Hola, Usuario. Tienes 18 años."
 saludo("Ana"); // "Hola, Ana. Tienes 18 años."
+saludo("Ana", 30); // "Hola, Ana. Tienes 30 años."
 ```
 #### **Funciones Flecha (`=>`)**
 - Sintaxis más corta para funciones anónimas.

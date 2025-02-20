@@ -138,7 +138,8 @@ Guarda y recarga i3 con:
 ```bash
 i3-msg reload
 ```
-## Teclado
 
+## Audio Alsamixer
+para los perfiles de audio
 - - - 
 ## ***Sources:***

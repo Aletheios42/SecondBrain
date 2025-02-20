@@ -22,6 +22,9 @@
 - @for/@if/@else son de angular 17>, los legacy son ngFor,  ngIf, ngtemplate
 - Click listener
 - $event para tener acceso a los eventos
+- directives: son componentes sin template
+- property binding\[] mas event binding --->2 way binding(para coger un input de elementos input)
+- formModule, hace que loos \<forms> no envien ningun dato al back, lo tienes que hacer explicitamente, ya que formModule cambia el comportamiento por defecto del navegador
 ==Ejercicios==
 - displayear conditional content, modo normal y modo legacy 
 ## Introducción a Angular

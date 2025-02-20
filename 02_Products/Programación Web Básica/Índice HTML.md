@@ -54,7 +54,7 @@ En HTML, los elementos se construyen a partir de etiquetas, atributos y contenid
 </body>
 </html>
 ```
-- Comentarios `<!-- ... -->`
+- Comentarios `<!-- msg -->`
 - Cuando un navegador encuentra `<!DOCTYPE html>` al inicio de un documento HTML, lo representa en **modo estándar**. Si no se usa un `DOCTYPE`, el navegador entra en **modo quirks**, lo que puede provocar que ciertos contenidos no se muestren correctamente.
 - El punto de entrada se suele llamar `index.html` porque el navegador lo busca por defecto.
 - Ya no se puede escribir XML en HTML5.
