@@ -76,6 +76,16 @@ In addition, while most HTML syntax is valid template syntax, Angular does not s
 ## Css en anular
 https://angular.dev/guide/components/styling
 ## Componentes
+ejemplo:
+``` typescript
+@Component({
+  selector: 'app-root',          // 🔹 Defines the custom HTML tag <app-root>
+  standalone: true,              // 🔹 Declares this component as standalone (no NgModule needed)
+  imports: [],                   // 🔹 List of imported standalone components, directives, or pipes
+  templateUrl: './app.component.html',  // 🔹 Specifies the external HTML template
+  styleUrl: './app.component.css',      // 🔹 Specifies the external CSS file
+})
+```
 Every component has a few main parts:
 
 A @Componentdecorator that contains some configuration used by Angular.

@@ -15,39 +15,38 @@
 - Familiarizarse con la CLI de Angular.  
 - Entender la estructura inicial del proyecto (carpetas `app`, `assets`, `environments`, etc.).  
 
----
-
 **Ejercicio 2: Componente “Hola Mundo”**  
-4. Crea un nuevo componente:  
+1. Crea un nuevo componente:  
    ```bash
    ng generate component hola
    ```  
-5. En el archivo `hola.component.ts`, define una propiedad para mostrar en la plantilla, por ejemplo:  
+
+2. En el archivo `hola.component.ts`, define una propiedad para mostrar en la plantilla, por ejemplo:  
    ```typescript
    export class HolaComponent {
      mensaje: string = 'Hola Mundo desde Angular';
    }
    ```  
-6. En la plantilla `hola.component.html`, muestra la propiedad usando *interpolación*:  
+
+3. En la plantilla `hola.component.html`, muestra la propiedad usando *interpolación*:  
    ```html
    <h1>{{ mensaje }}</h1>
    ```  
-7. Incluye el selector `<app-hola>` en el `app.component.html` para visualizarlo.  
+
+4. Incluye el selector `<app-hola>` en el `app.component.html` para visualizarlo.  
 
 **Objetivos**:  
 - Practicar creación de componentes con Angular CLI.  
 - Entender la interpolación y cómo se muestran datos en la plantilla.  
 
----
-
 **Ejercicio 3: Data Binding y eventos**  
-8. En tu componente principal (`AppComponent` o uno nuevo) crea una propiedad `contador = 0;`.  
-9. En la plantilla, muestra el valor de `contador`:  
+1. En tu componente principal (`AppComponent` o uno nuevo) crea una propiedad `contador = 0;`.  
+2. En la plantilla, muestra el valor de `contador`:  
    ```html
    <p>Valor actual: {{ contador }}</p>
    <button (click)="incrementar()">Incrementar</button>
    ```  
-10. Implementa la lógica en el archivo TypeScript:  
+3. Implementa la lógica en el archivo TypeScript:  
    ```typescript
    incrementar() {
      this.contador++;
@@ -89,21 +88,21 @@
 
 ---
 
-**Ejercicio 5: Listado y directiva `*ngFor`**  
-14. Crea un arreglo en el componente, por ejemplo:  
+**Ejercicio 5: Listado y directiva `*For`**  
+1. Crea un arreglo en el componente, por ejemplo:  
    ```typescript
    nombres: string[] = ['Ana', 'Luis', 'María', 'Carlos'];
    ```  
-15. En la plantilla, utiliza `*ngFor` para mostrar la lista:  
+2. En la plantilla, utiliza `*For` para mostrar la lista:  
    ```html
    <ul>
-     <li *ngFor="let nombre of nombres">{{ nombre }}</li>
+     <li *For="let nombre of nombres">{{ nombre }}</li>
    </ul>
    ```  
 16. Opcional: agrega un botón o campo de texto para añadir nuevos nombres al arreglo.  
 
 **Objetivos**:  
-- Familiarizarse con la directiva estructural `*ngFor`.  
+- Familiarizarse con la directiva estructural `*For`.  
 - Administrar y renderizar colecciones en la plantilla.  
 
 ### Referencias y lecturas recomendadas

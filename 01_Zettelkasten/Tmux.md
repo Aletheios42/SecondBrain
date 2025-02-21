@@ -6,6 +6,9 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 - **Sesión**: Es un entorno de trabajo independiente que puede contener múltiples ventanas. Las sesiones se mantienen en el background incluso si se desconecta SSH, lo que permite recuperarlas más tarde.
 - **Ventana**: Es una instancia dentro de una sesión que puede contener múltiples paneles. Cada ventana puede ejecutar diferentes tareas.
 - **Panel**: Es una división dentro de una ventana que permite ejecutar comandos de forma independiente. Puedes dividir una ventana en múltiples paneles para trabajar en varias tareas simultáneamente.
+## Tmux CLI
+prefix + : , introduce la linea de comandos que tiene autocompletado y GUI, es la forma mas eficiente de trabajar con tmux
+usa :source-file ~/.config/.tmux.config para cargar cambios en la configuracion
 ### **Gestión de sesiones** (desde fuera de tmux ya que hablas con el servidor)
 - `tmux new-session` o `tmux new`: Crea una nueva sesión.
 - `tmux new -s <nombre_sesión>`: Crea una nueva sesión con un nombre específico.
@@ -38,32 +41,35 @@ tmux maneja las sesiones atraves de un servidor en el background y se conecta a 
 - `tmux clock-mode`: Muestra un reloj en el panel actual.
 - `tmux list-keys`: Muestra todos los atajos de teclado configurados.
 - `tmux list-commands`: Muestra una lista de todos los comandos de tmux.
+## Atajos de teclado
 
-| Gestión de sesiones y ventanas             | Gestión de paneles                            |
-| ------------------------------------------ | --------------------------------------------- |
-| **Gestión de sesiones**                    | **Gestión de paneles**                        |
-| `Ctrl + b + d`  Desconectar sesión         | `Ctrl + b + %`  Dividir verticalmente         |
-| `Ctrl + b + s`  Listar sesiones            | `Ctrl + b + "`  Dividir horizontalmente       |
-| `Ctrl + b + (`  Cambiar a sesión anterior  | `Ctrl + b + o`  Cambiar al siguiente panel    |
-| `Ctrl + b + )`  Cambiar a siguiente sesión | `Ctrl + b + ;`  Cambiar al panel anterior     |
-| `Ctrl + b + L`  Última sesión activa       | `Ctrl + b + x`  Cerrar panel actual           |
-| **Gestión de ventanas**                    | `Ctrl + b + espacio`  Cambiar diseño          |
-| `Ctrl + b + c`  Crear nueva ventana        | `Ctrl + b + z`  Maximizar/restaurar panel     |
-| `Ctrl + b + w`  Listar ventanas            | `Ctrl + b + q`  Mostrar números de paneles    |
-| `Ctrl + b + n`  Siguiente ventana          | `Ctrl + b + m`  Marcar(destacar) panel actual |
-| `Ctrl + b + p`  Ventana anterior           | `Ctrl + b + M`  Desmarcar panel actual        |
-| `Ctrl + b + ,`  Renombrar ventana          | `Ctrl + b + l`  Cambiar al último panel       |
-| `Ctrl + b + &`  Cerrar ventana actual      | `Ctrl + b + Up`  Mover panel arriba           |
-|                                            | `Ctrl + b + Down`  Mover panel abajo          |
-|                                            | `Ctrl + b + Left`  Mover panel izquierda      |
-|                                            | `Ctrl + b + Right`  Mover panel derecha       |
+| Gestión de sesiones y ventanas          | Gestión de paneles                         |
+| --------------------------------------- | ------------------------------------------ |
+| **Gestión de sesiones**                 | **Gestión de paneles**                     |
+| `prefix: d`  Desconectar sesión         | `prefix: %`  Dividir verticalmente         |
+| `prefix: s`  Listar sesiones            | `prefix: "`  Dividir horizontalmente       |
+| `prefix: (`  Cambiar a sesión anterior  | `prefix: o`  Cambiar al siguiente panel    |
+| `prefix: )`  Cambiar a siguiente sesión | `prefix: ;`  Cambiar al panel anterior     |
+| `prefix: L`  Última sesión activa       | `prefix: x`  Cerrar panel actual           |
+| **Gestión de ventanas**                 | `prefix: espacio`  Cambiar diseño          |
+| `prefix: c`  Crear nueva ventana        | `prefix: z`  Maximizar/restaurar panel     |
+| `prefix: w`  Listar ventanas            | `prefix: q`  Mostrar números de paneles    |
+| `prefix: n`  Siguiente ventana          | `prefix: m`  Marcar(destacar) panel actual |
+| `prefix: p`  Ventana anterior           | `prefix: M`  Desmarcar panel actual        |
+| `prefix: ,`  Renombrar ventana          | `prefix: l`  Cambiar al último panel       |
+| `prefix: &`  Cerrar ventana actual      | `prefix: Up`  Mover panel arriba           |
+|                                         | `prefix: Down`  Mover panel abajo          |
+|                                         | `prefix: Left`  Mover panel izquierda      |
+|                                         | `prefix: Right`  Mover panel derecha       |
 
-| Copiar y pegar                       | Otros comandos útiles                   |
-| ------------------------------------ | --------------------------------------- |
-| `Ctrl + b + [`  Entrar en modo copia | `Ctrl + b + ?`  Mostrar lista de atajos |
-| `Ctrl + b + ]`  Pegar texto copiado  | `Ctrl + b + :`  Prompt de comandos      |
-|                                      | `Ctrl + b + r`  Recargar configuración  |
-|                                      | `Ctrl + b + t`  Mostrar hora actual     |
-|                                      | `Ctrl + b + i`  Info de la ventana      |
+| Copiar y pegar                    | Otros comandos útiles                |
+| --------------------------------- | ------------------------------------ |
+| `prefix: [`  Entrar en modo copia | `prefix: ?`  Mostrar lista de atajos |
+| `prefix: ]`  Pegar texto copiado  | `prefix: :`  Prompt de comandos      |
+|                                   | `prefix: r`  Recargar configuración  |
+|                                   | `prefix: t`  Mostrar hora actual     |
+|                                   | `prefix: i`  Info de la ventana      |
+
+- - - 
 ## ***Sources:***
 - [Learn tmux (Part 1) Boost your Linux Productivity with this 5-part Course!](https://www.youtube.com/watch?v=UxbiDtEXuxg&list=PLT98CRl2KxKGiyV1u6wHDV8VwcQdzfuKe)
