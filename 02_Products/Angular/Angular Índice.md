@@ -1,6 +1,8 @@
 **Tags:** #_Todo
 #ToTag #ToLink 
 - - -
+==transcribir==
+https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/43788666#search
 # [[Setup Angular]]
 # Qué es Angular
 **Angular** es un **framework front-end** de código abierto desarrollado por Google, basado en **TypeScript**, que permite construir  SPA y MPA), su sistema de enrutamiento proporciona un **modelo basado en componentes**, inyección de dependencias, enlace de datos bidireccional (*two-way binding*), herramientas para manejo de estado y un ecosistema robusto para pruebas y optimización. 
@@ -61,7 +63,86 @@ src/
 
  #### [[Archivos de Configuracion de Proyectos Angular]]
 
+## Html en Angular
+Some differences between templates and standard HTML syntax include:
+
+Comments in the template source code are not included in the rendered output
+Component and directive elements can be self-closed (e.g., <UserProfile />)
+Attributes with certain characters (i.e., [], (), etc.) have special meaning to Angular. See binding docs and adding event listeners docs for more information.
+The @ character has a special meaning to Angular for adding dynamic behavior, such as control flow, to templates. You can include a literal @ character by escaping it as an HTML entity code (&commat; or &#64;).
+Angular ignores and collapses unnecessary whitespace characters. See whitespace in templates for more details.
+Angular may add comment nodes to a page as placeholders for dynamic content, but developers can ignore these.
+In addition, while most HTML syntax is valid template syntax, Angular does not support \<script> element in templates. For more information, see the Security page.
+## Css en anular
+https://angular.dev/guide/components/styling
+## Componentes
+Every component has a few main parts:
+
+A @Componentdecorator that contains some configuration used by Angular.
+An HTML template that controls what renders into the DOM.
+A CSS selector that defines how the component is used in HTML.
+A TypeScript class with behaviors, such as handling user input or making requests to a server.
+``` ts
+@Component({
+  selector: 'profile-photo',
+  template: `<img src="profile-photo.jpg" alt="Your profile photo">`,
+})
+export class ProfilePhoto { }
+```
+The object passed to the @Component decorator is called the component's metadata. This includes the selector, template, and other properties described throughout this guide.
+
+Components can optionally include a list of CSS styles that apply to that component's DOM:
+
+
+``` ts
+@Component({
+  selector: 'profile-photo',
+  template: `<img src="profile-photo.jpg" alt="Your profile photo">`,
+  styles: `img { border-radius: 50%; }`,
+})
+export class ProfilePhoto { }
+```
+
+
+y default, a component's styles only affect elements defined in that component's template. 
+
+You can alternatively choose to write your template and styles in separate files:
+
+@Component({
+  selector: 'profile-photo',
+  templateUrl: 'profile-photo.html',
+  styleUrl: 'profile-photo.css',
+})
+export class ProfilePhoto { }
+check
+This can help separate the concerns of presentation from behavior in your project. You can choose one approach for your entire project, or you decide which to use for each component.
+
+Both templateUrl and styleUrl are relative to the directory in which the component resides.
+## Servicios
+## Inyeccion de dependencias
+Se usa para no instanciar un servicio, pues este tiene que sincronizarse en todas las clases en las que se importa, el decorador @injectable es la clave para no instanciar.
+funcion inject y sistema de tokens
+"DI" is a design pattern and mechanism for creating and delivering some parts of an app to other parts of an app that require them.
+
+Tip: Check out Angular's Essentials before diving into this comprehensive guide.
+
+When you develop a smaller part of your system, like a module or a class, you may need to use features from other classes. For example, you may need an HTTP service to make backend calls. Dependency Injection, or DI, is a design pattern and mechanism for creating and delivering some parts of an application to other parts of an application that require them. Angular supports this design pattern and you can use it in your applications to increase flexibility and modularity.
+
+In Angular, dependencies are typically services, but they also can be values, such as strings or functions. An injector for an application (created automatically during bootstrap) instantiates dependencies when needed, using a configured provider of the service or value.
 ==explicar como se añaden eventos== se le pone on a las funciones
+## Enrutamiento
+Archivos de configuración de rutas:
+
+app.routes.ts (para definir las rutas)
+app.config.ts (en tu proyecto puede estar configurado para inicializar el módulo raíz)
+Si aún no tienes un módulo de rutas separado, puedes generarlo con el CLI:
+
+bash
+Copy
+ng generate module app-routing --flat --module=app
+Esto creará un archivo (por ejemplo, app-routing.module.ts) en la carpeta src/app y lo importará en el módulo raíz (usualmente app.module.ts). En tu caso, parece que usas app.routes.ts y app.config.ts para la configuración.
+
+## Señales
 ## Event Binding
 ## Property Binding
 ## Attribute Binding
@@ -92,12 +173,16 @@ By adding attr in front of the attribute name you want to bind dynamically, you'
 ## State/events(zone A) y señales
 las señales son contenedores trazables que notifican al framwork ante cualquier cambio de sus datos
 - los objetos señal se dereferencian con los parentesis de funcion, y esto inicia una suscripcion en segundo plano asegurandose de que el componente que ha modificado el valor de la señal sea rerenderizado
+## Content proyection
+when you use an angular component somewhere in yout aplication like here as a wrapper around some other markdup it will be default not keep that markup around which you wrapped but replace with his own markup, para combinan el valor original con el proctado usar \<ng-content />
 ## Cli Comands:
 - Projecto de prueba:
 		npm start  to dev server
 		localhost : 4200
 - ng generate component "nombre del componente" (abreviacion: ng g c)
 
+## pipes
+- | date formatea las fechas [Para mas info](https://angular.dev/api/common/DatePipe)
 - - - 
 ==decoradores typescript==
 ==string interpolation== para cargar variables en el html
@@ -108,12 +193,15 @@ las señales son contenedores trazables que notifican al framwork ante cualquier
 - Zone.js es parte del framework y notifica de cualquien evento en cualquier componente
 - variable de entorno $event para ahacer accesible en los html templates, la info de @Output para ahacer eaccesible en los html templates, la info de O#@Output
 - ?. es una dereferencia segura para los objetos
+- llamar a las clases acabando en si tipo, para evitar colisioes, ej
+  class taskComponent , class taskService
+  - poner private o public en el constructor es lo mismo que asignar una variable privada
 - - -
 
 Part 4: Angular
 
 Angular CLI & Setup
-Components
+
 Modules
 Templates
 Data Binding

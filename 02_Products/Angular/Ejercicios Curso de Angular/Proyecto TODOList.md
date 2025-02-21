@@ -22,6 +22,7 @@ hacer a mano el componente header y explicar como se importan y exportan, y como
 Hacer el componente user desde el cli
 y hacer la barrita sin foto todavia, importando el array
 # Hacer Dinamico el componente User
+ ==REVISAR==
  A traves de binding ya sea con los corhcetes o con la doble llame. linkea la imagen randowm con la barra.
 # Utilizar getters 
 cambia el atribute binding por un getter para coger la imagen, ademas aplica un evento on click en el  user*.html para cargar la imagen desde un getter de la clase

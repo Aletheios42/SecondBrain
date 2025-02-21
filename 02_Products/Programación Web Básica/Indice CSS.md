@@ -1,6 +1,9 @@
 **Tags:** #_Todo
 #CSS #DesarrolloWeb #ToLink 
 - - -
+
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors
 ## Historia
 Håkon Wium Lie, trabajando en el CERN junto a Tim Berners-Lee, propuso las **Hojas de Estilo en Cascada (CSS)** para separar la estructura del contenido de su presentación, resolviendo los problemas de desorden visual en la web.  
 **Internet Explorer 3** fue el primer navegador en implementarlo, aunque con una especificación cerrada.
