@@ -41,16 +41,19 @@ Una vez verificado el funcionamiento del componente inline, se procederá a tras
 
 - **Modificar el decorador `@Component` en `galeria-arte.component.ts`:**
   ```typescript
-  import { Component } from '@angular/core';
+import { Component } from '@angular/core';
 
-  @Component({
-    selector: 'galeria-arte',
-    templateUrl: './galeria-arte.component.html',
-    styleUrls: ['./galeria-arte.component.css']
-  })
-  export class GaleriaArteComponent { }
+@Component({
+  selector: 'galeria-arte',
+  imports: [],
+  templateUrl: './galeria-arte.component.html',
+  styleUrl: './galeria-arte.component.css',
+})
+export class GaleriaArteComponent {}
+
   ```
 
+==poner un html mejor==
 - **Crear o actualizar el archivo `galeria-arte.component.html`:**
   ```html
   <h1>Galería de Arte</h1>
@@ -70,10 +73,7 @@ Una vez verificado el funcionamiento del componente inline, se procederá a tras
 
 Después de realizar estos cambios, se recomienda recargar la aplicación en [http://localhost:4200](http://localhost:4200) para confirmar que la separación de la plantilla y los estilos se refleja correctamente en la interfaz.
 
-A continuación se presenta la secuencia completa para extender el laboratorio "web-arte" con un componente que muestre tanto una imagen como una descripción, y que permita a la galería renderizar una lista de obras. Se incluyen instrucciones para crear la carpeta de assets, colocar una imagen, y el contenido completo de los archivos.
-
 ---
-
 # Segundo Componente
 ### 1. Preparar el Recurso (Imagen)
 
@@ -92,7 +92,7 @@ A continuación se presenta la secuencia completa para extender el laboratorio "
 ### 2. Actualizar el Componente **obra-arte**
 
 #### 2.1. Modificar `obra-arte.component.ts`  
-Se añaden dos propiedades de entrada (`imagen` y `descripcion`) para recibir datos desde el componente padre.  
+Se importa Input y se añaden dos propiedades de entrada (`imagen` y `descripcion`) para recibir datos desde el componente padre.  
 ```typescript
 import { Component, Input } from '@angular/core';
 

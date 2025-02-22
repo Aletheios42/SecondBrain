@@ -128,6 +128,7 @@ check
 This can help separate the concerns of presentation from behavior in your project. You can choose one approach for your entire project, or you decide which to use for each component.
 
 Both templateUrl and styleUrl are relative to the directory in which the component resides.
+#### standalone vs module(NgModule)
 ## Servicios
 ## Inyeccion de dependencias
 Se usa para no instanciar un servicio, pues este tiene que sincronizarse en todas las clases en las que se importa, el decorador @injectable es la clave para no instanciar.
@@ -152,7 +153,13 @@ Copy
 ng generate module app-routing --flat --module=app
 Esto creará un archivo (por ejemplo, app-routing.module.ts) en la carpeta src/app y lo importará en el módulo raíz (usualmente app.module.ts). En tu caso, parece que usas app.routes.ts y app.config.ts para la configuración.
 
+## Control Flow
+https://angular.dev/guide/templates/control-flow
+## fomrs
+(ngSubmit)
 ## Señales
+- las señales son formas de emitir eventos 
+- asReadOnly() es un metodo para no alterar señales
 ## Event Binding
 ## Property Binding
 ## Attribute Binding
@@ -192,7 +199,11 @@ when you use an angular component somewhere in yout aplication like here as a wr
 - ng generate component "nombre del componente" (abreviacion: ng g c)
 
 ## pipes
-- | date formatea las fechas [Para mas info](https://angular.dev/api/common/DatePipe)
+-  date formatea las fechas [Para mas info](https://angular.dev/api/common/DatePipe)
+- currency monedas
+- en la declaracion de tipos puedes poner una pipe para indicar que hay 2 posibles tipos de entrada
+## debug
+angular tiene un mapeo de memoria para poder hacer el debug con tu codigo y no el compilado, angular devtools son la hostia,
 - - - 
 ==decoradores typescript==
 ==string interpolation== para cargar variables en el html
@@ -206,6 +217,8 @@ when you use an angular component somewhere in yout aplication like here as a wr
 - llamar a las clases acabando en si tipo, para evitar colisioes, ej
   class taskComponent , class taskService
   - poner private o public en el constructor es lo mismo que asignar una variable privada
+  - browser module es un modulo especial que solo se puede importar en desde root-app
+- To reference images stored in the public/ folder you would use a path like this: \<img src="some-image.png"> i.e., the public folder name is NOT part of that path (it's NOT \<img src="public/some-image.png">)
 - - -
 
 Part 4: Angular
