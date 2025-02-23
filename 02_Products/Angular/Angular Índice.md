@@ -19,7 +19,6 @@ Biblioteca (Ej. React) → Se enfoca solo en la parte de la interfaz de usuario 
 ```
 ng new $project_name
 ```
-y te pregunta
 autocompletado -> Y
 activar SSR -> N
 CSS styles -> CSS
@@ -76,6 +75,8 @@ In addition, while most HTML syntax is valid template syntax, Angular does not s
 ## Css en anular
 https://angular.dev/guide/components/styling
 ## Componentes
+==mucha paja==
+https://angular.dev/guide/components
 ejemplo:
 ``` typescript
 @Component({
@@ -157,12 +158,25 @@ Esto creará un archivo (por ejemplo, app-routing.module.ts) en la carpeta src/a
 https://angular.dev/guide/templates/control-flow
 ## fomrs
 (ngSubmit)
+(nGModel)https://angular.dev/api/forms/NgModel
 ## Señales
 - las señales son formas de emitir eventos 
 - asReadOnly() es un metodo para no alterar señales
-## Event Binding
-## Property Binding
-## Attribute Binding
+## Data Binding
+### Event Binding
+==copiar snitpets de user-input==
+https://v17.angular.io/guide/event-binding
+en el padre: Captura una propiedad(un valor guardado en una variable) a traves de $(event) 
+en el hijo: para invocar un metodo del padre en el html del hijo, se pueden usar triggers del navegador, Ej; 
+(click) (dblclick) (keyup) (keydown) (keypress) (mousedown) (mouseup) (mouseenter) (mouseleave) (mouseover) (mouseout) (submit) (change) (input) (focus) (blur) (ngModel) (ngSubmit)
+### Property Binding
+\<app-hijo>\[Propiedad_Heredada]="Propiedad_del_Padre" /> en el  html del padre
+https://medium.com/@abdoessamadhmayda/angular-input-complete-guide-756b4bf7e924
+https://medium.com/@abdoessamadhmayda/angular-input-complete-guide-756b4bf7e924
+### String Interpolation
+https://v17.angular.io/guide/interpolation
+### Attribute Binding
+==mucha paja==
 In the previous lecture, you were introduced to "Property Binding" - a key Angular feature that allows you to bind element properties to dynamic values.
 
 For example, <img \[src]="someSrc"> binds the src property of the underlying HTMLImageElement DOM object to the value stored in someSrc.
@@ -187,7 +201,8 @@ It looks like this:
   ```
 By adding attr in front of the attribute name you want to bind dynamically, you're "telling" Angular that it shouldn't try to find a property with the specified name but instead bind the respective attribute - in the example above, the aria-valuenow and aria-valuemax attributes would be bound dynamically.
 
-## State/events(zone A) y señales
+## State Management
+### State/events(zone A) y señales
 las señales son contenedores trazables que notifican al framwork ante cualquier cambio de sus datos
 - los objetos señal se dereferencian con los parentesis de funcion, y esto inicia una suscripcion en segundo plano asegurandose de que el componente que ha modificado el valor de la señal sea rerenderizado
 ## Content proyection
@@ -197,11 +212,12 @@ when you use an angular component somewhere in yout aplication like here as a wr
 		npm start  to dev server
 		localhost : 4200
 - ng generate component "nombre del componente" (abreviacion: ng g c)
-
 ## pipes
--  date formatea las fechas [Para mas info](https://angular.dev/api/common/DatePipe)
-- currency monedas
-- en la declaracion de tipos puedes poner una pipe para indicar que hay 2 posibles tipos de entrada
+Son operadores inpirados en unix especiales para formatear al vuelo el html y el formateo de tipos
+``` ts
+          <td>{{ result.interest | currency }}</td>
+
+```
 ## debug
 angular tiene un mapeo de memoria para poder hacer el debug con tu codigo y no el compilado, angular devtools son la hostia,
 - - - 
@@ -210,35 +226,27 @@ angular tiene un mapeo de memoria para poder hacer el debug con tu codigo y no e
 ## Datos
 - Para los archivos se omite la extension ts
 - Angular no escanea tu repositorio, tenemos que eañadirlo al index.html y al main.ts k
-- tienes que poner en el angular.json las imagenes que cargas
+==tienes que poner en el angular.json las imagenes que cargas==
 - Zone.js es parte del framework y notifica de cualquien evento en cualquier componente
-- variable de entorno $event para ahacer accesible en los html templates, la info de @Output para ahacer eaccesible en los html templates, la info de O#@Output
-- ?. es una dereferencia segura para los objetos
-- llamar a las clases acabando en si tipo, para evitar colisioes, ej
+- variable de entorno $event para ahacer accesible en los html templates, la info de @Output para ahacer eaccesible en los html templates, 
+- ?. es una dereferencia segura para los objetos, te permite asignarlos en tiempo de ejecucion
+- llamar a las clases acabando en su tipo,, para evitar colisioes, ej
   class taskComponent , class taskService
   - poner private o public en el constructor es lo mismo que asignar una variable privada
   - browser module es un modulo especial que solo se puede importar en desde root-app
 - To reference images stored in the public/ folder you would use a path like this: \<img src="some-image.png"> i.e., the public folder name is NOT part of that path (it's NOT \<img src="public/some-image.png">)
 - - -
-
 Part 4: Angular
 
 Angular CLI & Setup
 
-Modules
 Templates
-Data Binding
 Directives
-Services
-Dependency Injection
 Routing
-Forms (Template & Reactive)
 HTTP Client
 Observables & RxJS
-Pipes
 Guards
 Interceptors
-State Management
 Unit Testing
 Angular Material
 Performance Optimization
