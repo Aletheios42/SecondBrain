@@ -61,4 +61,5 @@ i3-msg reload
 ## Audio Alsamixer
 para los perfiles de audio
 - - - 
+
 ## ***Sources:***
