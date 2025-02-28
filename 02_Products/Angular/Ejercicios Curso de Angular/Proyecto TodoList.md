@@ -1,7 +1,38 @@
-**Tags:** #_Todo
-#ToTag #ToLink 
-- - -
-# Paso 0. Crea el proyecto y copia assests y dummy-users.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================================================
+# Paso 0. Crea el proyecto y copia assets y dummy-users.ts
 
 # Paso 1: Componente  Header
 - copia los estilos
@@ -55,7 +86,7 @@ selectedUser = signal(DUMMY_USERS[randomIndex])
 ``` ts
 imagePath = computed(()=> 'assest/user/' + this.selectedUser().avatar)
 ```
-
+usa el metodo .set() en onSelect()
 comprueba localhost, deberia funcional exactamente igual que antes
 
 # Paso 5: custom Compoent
@@ -113,5 +144,3 @@ mira local host deberias ver el usuario que selecinas por consola
  - enseñalo con string interpolation por el html
  pista: puesdes encontrar un id especifio en el array con esta linea:
  DUMMY_USERS.find(user => user.id == selectedUserId)!
-- - - 
-## ***Sources:***

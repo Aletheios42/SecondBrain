@@ -3,7 +3,7 @@
 
 ---
 - [ ] 
-- [ ] 
+- [ ] https://www.youtube.com/watch?v=9bO7hYT2psc&list=PLRjzjpJ02WDNcjTTjUtzcITTYDmgjUp0-&index=20&pp=iAQB
 - [ ] punto de accesso wifi. 
 - [ ] pandoc
 - [ ] Gaussian
