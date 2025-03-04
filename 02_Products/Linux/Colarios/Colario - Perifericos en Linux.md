@@ -12,8 +12,9 @@ para los perfiles de audio
 ## pylote 
 https://www.youtube.com/watch?v=TR6sDfDUu1Q
 
-
+## Grabacion de Pantalla
+- peek
+- Mirar Obs
 
 - - - 
-
 ## ***Sources:***
