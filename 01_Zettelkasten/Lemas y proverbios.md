@@ -13,9 +13,9 @@
 
 - memento mori
 
-- carpediem
-
- - Mutatis mutandis,
+- Mutatis mutandis,
+ 
+- Las estadisticas son como los tangas, muestran mucho pero tapan los mas importante
 
 - Sapientia vos liberabit
 
