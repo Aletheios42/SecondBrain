@@ -38,6 +38,9 @@ pacman -S --overwrite <ruta> # Fuerza la reinstalación de un archivo
 pacman -D --asdeps <paquete> # Marca un paquete como dependencia
 pacman -D --asexplicit <paquete> # Marca un paquete como instalado manualmente
 ```
+
+sudo pacman -Rns $(pacman -Qdtq)
+
 ## 📝 Notas adicionales
 - Usar `sudo` si no tienes permisos de root.
 - Para paquetes AUR, usa `yay` o `paru` en lugar de `pacman`.
