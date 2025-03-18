@@ -316,6 +316,8 @@ Ejercicios en **64. Managing process priority**
 **zombies**: Procesos terminados pero no liberados
 Si **tty=?**: Es un proceso de red
 
+entender que top es un script que llama a ps.
+
 - **ps**: Lista procesos activos
   - **a**: Muestra procesos de todos los usuarios
   - **u**: Muestra formato de usuario
@@ -542,6 +544,22 @@ nslookup → Consulta registros DNS
 - gdb
 - Apparmor
 - grooff y formateo de documentos
+
+## Inspeccion de Binarios
+#### Herramientas
+gdb
+radare2
+perf
+#### Comandos
+- readelf
+- hexdump
+- objdump
+- nm
+- strings
+- ldd
+- strace
+- lstrace
+- file
 ## Exercises to add
 - Agregar binarios al path
 

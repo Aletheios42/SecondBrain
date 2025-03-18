@@ -41,6 +41,7 @@ Estructura que contiene información sobre un proceso:
 - **Estado del proceso**.
 - **Información de scheduling**: Prioridad del proceso (se puede modificar con `renice -n PID`).
 
+[[Proceso Zombie]]
 ---
 
 ==Meterlos==

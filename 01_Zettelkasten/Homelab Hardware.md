@@ -8,7 +8,7 @@ Aquí tienes el listado actualizado de hardware para tu homelab:
 2. **Carcasa 3D impresa** para el clúster.
 3. **Cables Ethernet** para conectar las Raspberry Pi al switch.
 4. **Switch Gigabit de 5 puertos** para la conectividad de red.
-5. alimentacion por **USB-C PD 5V/5A**.
+5. [Alimentacion por **USB-C PD 5V/5A**](https://www.alibaba.com/product-detail/UGREEN-Universal-200W-Type-C-Wall_1601144518627.html?spm=a2700.galleryofferlist.normal_offer.d_image.12fd13a0kwkNJZ)
 6. **Sistema de baterías Li-ion** con:
    - **Baterías Li-ion (18650)**.
    - **Controlador TP4056** para carga.
