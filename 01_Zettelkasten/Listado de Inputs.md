@@ -3,8 +3,14 @@
 
 ---
 
-- [ ]
-- [ ] lldb con threads
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] estudiar la libreria p_threads
+- [ ] estudiar los patrones de deadlocks y llevarlos a grafos
+- [ ] gdb con threads
 - [ ] radare2
 - [ ] https://www.youtube.com/watch?v=9bO7hYT2psc&list=PLRjzjpJ02WDNcjTTjUtzcITTYDmgjUp0-&index=20&pp=iAQB
 - [ ] punto de accesso wifi.
