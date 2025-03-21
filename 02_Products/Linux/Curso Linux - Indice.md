@@ -315,6 +315,7 @@ Ejercicios en **64. Managing process priority**
 **cmd &**: Ejecuta un comando en segundo plano
 **zombies**: Procesos terminados pero no liberados
 Si **tty=?**: Es un proceso de red
+Different stats of a process like "D", "S", "T", "Z" etc
 
 entender que top es un script que llama a ps.
 
