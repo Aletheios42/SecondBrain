@@ -20,6 +20,7 @@ Cualidades que demuestras teniedo una marca personal cuidadada:
 
 Es una gran forma de construir autoridad, proporcionada por la exposicion y validacion de los pares
 
+El contenido ha de ser **genuino** , **personal** , **sincero** y **honesto**
 en linkedin se encuentra 1/8 de la poblacion , el 95% de los recruiter la usan para contratar y el 75% de la gente que cambia de trabajo es debido a esta red social
 - - - 
 #### ***Sources:***
