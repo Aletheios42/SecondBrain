@@ -1,20 +1,16 @@
-<%*
-let currentDate = tp.file.title;
-let weekNum = moment(currentDate).format('YYYY-[W]WW');
-let yesterdayDate = moment(currentDate).subtract(1, 'days').format('YYYY-MM-DD');
-let tomorrowDate = moment(currentDate).add(1, 'days').format('YYYY-MM-DD');
-tR += `Semana: [[${weekNum}]]
-[[${yesterdayDate}]] - [[${tomorrowDate}]]`;
-_%>.
+<% tp.date.now("YYYY-MM-DD (dddd)") %>
 # Rituales Diarios
 - [ ] 
 - [ ] 
 - [ ] 
 
-<%*
-let weekFile = `00_Journal/Weekly/${weekNum}`;
-let weekTasks = await tp.file.include(`[[${weekFile}#Objetivos Semanales]]`);
-tR += weekTasks;
-_%>
+- - - 
+### Valoración del trabajo cognitivo
+
 ---
+#### Valoracion del trabajo Físico
+
+- - - 
 ## Reflexiones del Día
+
+- - - 

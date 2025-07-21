@@ -12,7 +12,7 @@
 - Templater
 			1. Crear plantillas para el diario y para notas atomicas
 			2. en las opciones asociar el repositorio 00_Inbox a la plantilla de notas atomicas, asi como la plantilla del diario a 01_Diario
-			3.  Añadir atajos para incrustar plantillas de templater
+			3.  Añadir crear plantillas de templater como atajos , y asociarlo en atajos de teclado (pref atl +)
 		 
 
 control + p -> ayuda
