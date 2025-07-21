@@ -56,6 +56,9 @@ kernel -> sistema operativo corre docker que compartimenta librerias y dependenc
 ##### Meter la arquitectura de vm && containeer del curso de kodecloud al principio
 - clave, provisionar algunas maquinas virtuales que provisiones muchos contenedores corriendo aplicaciones
 #### enlazar con el final del curso de linux para saber lo que es un cgroup y un hipervisor
+
+
+### port mapping
 ###
 ####
 ####
