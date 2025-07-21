@@ -43,6 +43,13 @@ Una imagen es un paquete plantilla,  para instanciar contenedores
 - attach, para traer al primer plano un contenedeor en ejecucoin de segundo plano
 
 
+##### Dockerfile
+instrucciones
+- FROM
+- COPY
+- RUN
+- ENTRYPOINT
+- CMD
 ### en win en linux y en mac
 ### que es compartir un kernel y compartimentacion
 ##### vm vs container. (la union es lo mejor)
