@@ -1,0 +1,17 @@
+
+The RPM package name "otop-0.6-4.el7.noarch.rpm" follows standard RPM naming conventions. 
+
+``` bash
+name-version-release.architecture.rpm
+```
+
+Where:
+- `otop`: Package name
+- `0.6`: Version number
+- `4`: Release number
+- `el7`: Distribution tag (Enterprise Linux 7, for RHEL/CentOS 7)
+- `noarch`: Architecture (architecture-independent)
+- `.rpm`: File extension indicating RPM package format
+
+This specific package is an architecture-independent application
+(indicated by "noarch") built for EL7-based distributions.
