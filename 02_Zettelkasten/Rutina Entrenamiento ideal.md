@@ -93,6 +93,7 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 - L-sit (knee over toes)
 
 #### Entrenamientos de fuerza
+==tengo que organizar supersets==
 ##### Piernas y Gluteos
 		Sentadillas frontal x 3 series
 		Hip thrust x 3 series
@@ -103,13 +104,14 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 		Sentadillas búlgaras x 3 series
 ##### Pecho , Hombro y Tricpes 
 ==empezar por press es de locos ==
+==x prob cambiar unn press por flexiones es mejor==
 		Press inclinado con mancuernas x 3 series
 		Elevaciones frontales con mancuernas x 3 series
 		Extensiones de tríceps con barra x 3 series
 		Remo para deltoides posteriores x 3 series
-		Elevaciones laterales con mancuernas x 3 series
 		Patada de tríceps con mancuerna (excentrica) x 3 series
 		Press de banca x 3 series
+		Elevaciones laterales con mancuernas x 3 series
 ##### Dorsal, Trapecio y Biceps
 		Plancha bocaarriba x 3 series
 		Peso muerto convencional x 3 series 
