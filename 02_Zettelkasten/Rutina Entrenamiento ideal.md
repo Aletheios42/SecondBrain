@@ -102,6 +102,7 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 		Elevación de talones (gemelos) x 3 series
 		Sentadillas búlgaras x 3 series
 ##### Pecho , Hombro y Tricpes 
+==empezar por press es de locos ==
 		Press inclinado con mancuernas x 3 series
 		Elevaciones frontales con mancuernas x 3 series
 		Extensiones de tríceps con barra x 3 series
