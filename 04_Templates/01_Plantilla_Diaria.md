@@ -1,4 +1,3 @@
-<% tp.date.now("YYYY-MM-DD (dddd)") %>
 # Rituales Diarios
 - [ ] 
 - [ ] 
