@@ -64,6 +64,8 @@ https://github.com/dockersamples/example-voting-app
 
 
 ##### Dockerfile
+==mirar documentacion==
+https://docs.docker.com/reference/dockerfile/
 instrucciones
 - FROM
 - COPY
@@ -71,6 +73,7 @@ instrucciones
 - ENTRYPOINT
 - CMD
 dockerfile como heredoc
+dockerignore
 ### en win en linux y en mac
 ### que es compartir un kernel y compartimentacion
 ##### vm vs container. (la union es lo mejor)
