@@ -1,15 +1,19 @@
+
 # Rituales Diarios
 - [ ] 
 - [ ] 
 - [ ] 
 
-- - - 
+---
+
 ### Valoración del trabajo cognitivo
 
 ---
-#### Valoracion del trabajo Físico
 
-- - - 
+#### Valoración del trabajo físico
+
+---
+
 ## Reflexiones del Día
 
-- - - 
+---
