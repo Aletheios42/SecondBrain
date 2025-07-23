@@ -24,5 +24,7 @@
 - "El estado hace como que nos paga y nosotros hacemos como que trabajamos" - proverbio de la URSS
 
 - Ser un recio tiene un precio.
+
+- Cuando uno hace lo que cree, el sudor es mas dulce que la miel
 - - - 
 ## ***Sources:***

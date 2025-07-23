@@ -64,7 +64,6 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 - Planks (isometric)
 - Dead hangs. (isometric)
 - Isometric bicep curls. (isometric)
-- Glute bridges. (isometric)
 - Wall squats. (isometric)
 - Superman (isometric)
 - Hollow Hold (isometric)
@@ -95,9 +94,10 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 #### Entrenamientos de fuerza
 ==tengo que organizar supersets==
 ##### Piernas y Gluteos
+		Glute bridges
 		Sentadillas frontal x 3 series
-		Hip thrust x 3 series
-		Elevacion de talones sentado x 3 series
+		Hip thrust x 3 series (necesito protector para este)
+		Elevacion de talones sentado x 3 series (esto que es jajaj)
 		Peso muerto rumano x 3 series
 		Zancadas con mancuernas x 3 series
 		Elevación de talones (gemelos) x 3 series
