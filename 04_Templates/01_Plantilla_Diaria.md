@@ -1,4 +1,3 @@
-
 # Rituales Diarios
 - [ ] 
 - [ ] 

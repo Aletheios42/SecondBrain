@@ -94,33 +94,38 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 #### Entrenamientos de fuerza
 ==tengo que organizar supersets==
 ##### Piernas y Gluteos
+==que es lo de la elevacion de talones==
+==(necesito protector para hiptrust==
 		Glute bridges
-		Sentadillas frontal x 3 series
-		Hip thrust x 3 series (necesito protector para este)
-		Elevacion de talones sentado x 3 series (esto que es jajaj)
-		Peso muerto rumano x 3 series
-		Zancadas con mancuernas x 3 series
-		Elevación de talones (gemelos) x 3 series
-		Sentadillas búlgaras x 3 series
+		Sentadillas frontal 
+		Hip thrust 
+		Elevacion de talones sentado 
+		Peso muerto rumano 
+		Zancadas con mancuernas 
+		Elevación de talones (gemelos) 
+		Sentadillas búlgaras
 ##### Pecho , Hombro y Tricpes 
 ==empezar por press es de locos ==
 ==x prob cambiar unn press por flexiones es mejor==
-		Press inclinado con mancuernas x 3 series
-		Elevaciones frontales con mancuernas x 3 series
-		Extensiones de tríceps con barra x 3 series
-		Remo para deltoides posteriores x 3 series
-		Patada de tríceps con mancuerna (excentrica) x 3 series
-		Press de banca x 3 series
-		Elevaciones laterales con mancuernas x 3 series
+		Press inclinado con mancuernas
+		Elevaciones frontales con mancuernas
+		Extensiones de tríceps con barra
+		Remo para deltoides posteriores
+		Patada de tríceps con mancuerna (excentrica)
+		Press de banca
+		Elevaciones laterales con mancuernas
 ##### Dorsal, Trapecio y Biceps
-		Plancha bocaarriba x 3 series
-		Peso muerto convencional x 3 series 
-		Curl de bíceps inclinado x 3 series 
-		Jalon a la cara x 3 series
-		Remo con barra x 3 series 
-		Encogimiento de hombros con mancuernas x 3 series 
-		Curl de bíceps alterno con mancuernas x 3 series 
-		Remo meadows x 3 series
+==No tengo bandas para el jalon a la cara==
+==mirar paso de granjero==
+==mirar tecnica del remo mewdows==
+		Plancha bocaarriba
+		Peso muerto convencional
+		Curl de bíceps inclinado
+		Jalon a la cara
+		Remo con barra
+		Encogimiento de hombros con mancuernas
+		Curl de bíceps alterno con mancuernas
+		Remo meadows
 
 #### Ejercicios de Estiramiento
 [Estaticos](https://www.hingehealth.com/resources/articles/static-stretching/)
