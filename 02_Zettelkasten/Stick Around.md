@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad 
+**MetaTags:** #_Done
+**Tags:** #Productividad  #ToLink
 - - -
 1. Persevera y entiende el poder de la acumulación a lo largo del tiempo.
 2. No abandones demasiado pronto; las cosas buenas toman tiempo.

@@ -1,5 +1,5 @@
-**Tags:** #_Investigar 
-#Dios  #ToLink 
+**MetaTags:** #_Investigar
+**Tags:** #Dios #ToLink
 - - -
 inflacion combinariotia, por regla de laplace, numeros combinatorios y entropia.
 - - - 

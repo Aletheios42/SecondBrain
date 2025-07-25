@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Linux 
+**MetaTags:** #_Done
+**Tags:** #Linux #ToLink
 - - -
 Si tu salida HDMI se llama **HDMI-A-0** y está **conectada**, así que puedes configurarla con `xrandr`. Aquí tienes algunas opciones dependiendo de cómo quieras usar el monitor externo:
 ### **Guardar la Configuración**

@@ -1,5 +1,5 @@
-**Tags:** #_SinFín 
-#SaberesDeLaVida  #ToLink 
+**MetaTags:** #_SinFín
+**Tags:** #SaberesDeLaVida #ToLink 
 - - -
 - Un concepto sin su contexto es medio concepto
 

@@ -1,5 +1,5 @@
-**MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**MetaTags:** #_Done
+**Tags:** #Programación  #ToLink 
 - - -
 
 Es un programa cuya salida es el codigo fuente del propio programa. es decir programas autoreplicables.  Tomando el entorno como una funcion, los programas Quine son un   punto invariante y son la materializacion del teorema de recursion de kleene

@@ -1,10 +1,13 @@
-**Tags:** #_Done 
-#Linux #Bash
+
+**MetaTags:** #_Done
+**Tags:** #Linux #Bash
 - - -
 
 **Comandos:** Son herramientas externas al shell, usualmente ubicadas en /bin, /usr/bin, etc.
+ Su funcionamiento se describe con : man [CMD]
 
 **Buildtin:** Son comandos internos del intérprete de Bash, más rápidos que los comandos externos.
+ Su funcionamiento se describe con : [CMD] --help
 
 **type**: muestra la naturaleza de un ejecutable 
 

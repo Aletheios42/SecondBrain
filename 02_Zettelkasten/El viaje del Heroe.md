@@ -1,4 +1,4 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Done
 **Tags:** #ToTag #ToLink 
 - - -
 Es un patron narrativo que se repite en cuentos, mitos y leyendas de todas las culturas a lo largo de la historia. 
@@ -21,3 +21,4 @@ el viaje es la simbolizacion de la individuacion , sus etapas: iniciacion, separ
 
 - - - 
 #### ***Sources:***
+- [El Patrón Oculto que Siguen Todas las Grandes Historias](https://www.youtube.com/watch?v=8sCZ8r27Npk&list=LL&index=15)

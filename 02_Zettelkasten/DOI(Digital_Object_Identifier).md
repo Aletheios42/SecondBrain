@@ -1,5 +1,8 @@
 **Tags:** #_Done 
 #Academia #Escritura 
+
+**MetaTags:** #_Done
+**Tags:** #Academia #Escritura #ToLink  
 - - -
 Es un identificador único y permanente para documentos electrónicos académicos.
 ``` Ejemplo

@@ -1,5 +1,5 @@
-**MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**MetaTags:** #_Investigar 
+**Tags:** #Programación  #ToLink 
 - - -
 Es un paradigma que trata de reducir el numero de if/else if /else /switch/case.
 

@@ -1,5 +1,5 @@
-**Tags:** #_SinFín
-#ToTag 
+**MetaTags:** #_Investigar
+**Tags:**  #ToTag #ToLink 
 - - -
 #### Axiológico --- Del griego "axios" (valioso) + "logos" (estudio)
 El estudio de la naturaleza de los valores y los juicios valorativos. Abarca el estudio de los valores morales, éticos y estéticos, la naturaleza de lo valioso, los criterios de evaluación y las jerarquías entre valores.

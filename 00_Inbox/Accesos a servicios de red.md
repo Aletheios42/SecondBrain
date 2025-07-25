@@ -1,5 +1,5 @@
 **MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**Tags:** #Redes #ToLink 
 - - -
 
 Tarjeta de red trabaja en las capas 2 y 1, es un dispositivo que trasforma las señales  digitales de tu dispositivo en señales que pueden viajar por la red y viceversa, ademas divide los datos en paquetes

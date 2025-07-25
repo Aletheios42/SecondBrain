@@ -1,6 +1,7 @@
 **MetaTags:** #_Todo
 **Tags:** #ToTag #ToLink 
 - - -
+==Creo que haacer un canvas seria genial con esta nota==
 
 Es un marco que nos ayuda a organizar las interacciones de red.
 tiene 7 niveles.

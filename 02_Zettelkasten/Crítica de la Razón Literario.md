@@ -1,5 +1,5 @@
 **MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**Tags:** #Literatura
 - - -
 
 ==hacer nota sobre la mimesis de aristoteles, auntiguo dogma para estudiar la filosofia ==

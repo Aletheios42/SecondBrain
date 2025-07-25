@@ -1,8 +1,7 @@
-**Tags:** #_SinFín
-#Productividad #ToLink
+**MetaTags:** #_SinFín
+**Tags:** #Productividad #ToLink
 
 ---
-
 - [ ] 
 - [ ] 
 - [ ] 
@@ -23,7 +22,7 @@
 - [ ] Curso de udemy de Angular
 - [ ] Curso de udemy de web2.0
 - [x] Curso de udemy de linux 1
-- [ ] Curso de udemy de linux 2
+- [x] Curso de udemy de linux 2
 - [ ] [Mirar biblioteca de python para LVM](https://www.langchain.com/)
 - [ ] libro: a brief history of intelligence && [historia de la inteligencia](https://youtu.be/5EcQ1IcEMFQ?si=7kcC3rdv_P8wPkbs)
 - [ ] [Networking](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
@@ -35,7 +34,5 @@
 - [x] Libro: The Linux Commnad Line.
 - [ ] Libro: Interpretación de los sueños.
 - [ ] Libro: Dinero, credito... Huerta de Soto.
-
 ---
-
 ## **_Sources:_**

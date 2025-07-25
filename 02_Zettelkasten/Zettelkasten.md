@@ -1,9 +1,9 @@
-**Tags:** #_Done 
-#Productividad #SegundoCerebro
+**MetaTags:** #_Done
+**Tags:** #Productividad #SegundoCerebro
 - - -
 Es un sistema **extrínseco** de retención y producción de conocimiento basado en la toma de notas.
 [[Carpetas vs Tags vs Links]]
-[[Como Organizar mi Segundo Cerebro]]
+[[Como_Organizar mi Segundo Cerebro]]
 ## Principios Fundamentales
 #### 1. **Enlazar Notas**
 - La estructura emerge de manera **orgánica** al conectar las notas.

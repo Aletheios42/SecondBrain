@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad #SegundoCerebro 
+**MetaTags:** #_Done
+**Tags:** #Productividad #SegundoCerebro 
 - - -
 [[Carpetas vs Tags vs Links]]
 Sus máximas son [[C.O.D.E.]] y [[Método Feynman]]

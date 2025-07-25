@@ -1,4 +1,4 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Investigar
 **Tags:** #ToTag #ToLink 
 - - -
 Las maquinas  son  instituciones que han dejado de servir a su proposito social, para fijar como finalidad la autopreservacion, estas maquinas son los engranajes de la matriz, las mas importantes:

@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#LibroLeido #Productividad 
+**MetaTags:** #_Done
+**Tags:** #LibroLeido #Productividad 
 - - -
 Show Your Work! de Austin Kleon es un manifiesto para los creativos que desean destacar en la era digital.  Destaca la importancia de compartir el proceso creativo, construir conexiones auténticas y adoptar una mentalidad abierta hacia el aprendizaje, la colaboración y la perseverancia.
 

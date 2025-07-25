@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-#ToTag #ToLink 
+**MetaTags:** #_Todo
+**Tags:** #ToTag #ToLink
 - - -
 Es un documento conciso en el que se presenta la vida académica y profesional de una persona, HHRR le dedica entre 6-7 seg por cv, solo entre 2%- 3% cv presentados a una posición son entrevistados.
 

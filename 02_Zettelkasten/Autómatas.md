@@ -1,5 +1,5 @@
-**MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**MetaTags:** #_Investigar
+**Tags:** #Gramatica #Automatas #Programación #ToLink  
 - - -
 ### simbolos de derivación
 

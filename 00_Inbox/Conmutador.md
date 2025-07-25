@@ -1,7 +1,7 @@
 **MetaTags:** #_Todo
 **Tags:** #Redes #Modelo_OSI
 - - -
-==COMO VA A UTILIZAR PORT FORDWI si no hay direcciones ip== 
+==COMO VA A UTILIZAR PORT FORDWING si no hay direcciones ip== 
 Remite [[Petición Ethenet|Peticiones de Ethernet]] a través de [[Port Forwarding]] a [[ Dirección Mac | Direcciónes MAC]] almacenadas en [[Tabla CAM]]  
 - - - 
 ## ***Sources:***

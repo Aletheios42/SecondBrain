@@ -1,4 +1,4 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Investigar
 **Tags:** #Electronica #LowLevel #DiseñoDeSistemas
 - - -
 

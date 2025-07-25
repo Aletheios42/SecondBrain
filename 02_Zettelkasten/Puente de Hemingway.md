@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad #SegundoCerebro 
+**MetaTags:** #_Done 
+**Tags:** #Productividad #SegundoCerebro 
 - - -
 Es una técnica que consiste en ***capturar información clave al finalizar una sesión de trabajo***, asegurando una transición fluida hacia la siguiente minimizando la fricción al retomar el trabajo.  
 

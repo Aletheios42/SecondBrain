@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#ToTag 
+**MetaTags:** #_Done
+**Tags:** #ToTag #ToLink 
 - - -
 1. La imaginación tiende a exagerar el peor escenario posible.
 2. Aprende a valorar las críticas constructivas como combustible para la mejora.

@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad 
+**MetaTags:** #_Done
+**Tags:** #Productividad  #ToLink
 - - -
 1. Comparte tu proceso de aprendizaje y trabajo, no solo los resultados perfectos.
 2. Los amateurs tienen la ventaja de la curiosidad y la disposición para experimentar:

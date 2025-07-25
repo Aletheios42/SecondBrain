@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad 
+**MetaTags:** #_Done
+**Tags:** #Productividad
 - - -
 1. Guardarte el conocimiento es inmoral y contraproducente: 
    - "Todo lo que no das gratis y en abundancia, se pierde en ti".

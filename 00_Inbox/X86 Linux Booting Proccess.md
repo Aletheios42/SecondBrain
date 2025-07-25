@@ -1,5 +1,6 @@
-**Tags:** #_Todo 
-#Linux
+
+**MetaTags:** #_Done
+**Tags:** #Linux #ToLink
 - - -
 
 Es el proceso de inicio del sistema desde que recibe energia hasta que la interfaz de usuario es completamente funcional. el kernel inicia un programa llamado init.

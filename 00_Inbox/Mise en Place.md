@@ -1,8 +1,7 @@
 **Tags:** #_Todo
 **MetaTags:** #Productividad #Cocina
 - - -
-
-tecnica de cocica de tener todos los ingredientes preparados para hacer el plato de manera eficiente,
+Tecnica de cocina de tener todos los ingredientes preparados para hacer el plato de manera eficiente,
 es un  de la cocina
 - - - 
 #### ***Sources:***

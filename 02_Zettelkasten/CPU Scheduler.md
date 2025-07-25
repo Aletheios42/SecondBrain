@@ -1,4 +1,4 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Investigar
 **Tags:** #Electronica #DiseñoDeSistemas 
 - - -
 
@@ -11,7 +11,6 @@ Claro, aquí está la lista en castellano:
 * Tiempo de respuesta
 
 Arquitecturas: first in first served
-
-
 - - - 
 #### ***Sources:***
+- [The Fancy Algorithms That Make Your Computer Feel Smoother](https://www.youtube.com/watch?v=O2tV9q6784k&t=183s)

@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad #SegundoCerebro 
+**MetaTags:** #_Done 
+**Tags:** #Productividad #SegundoCerebro 
 - - -
 - **Share**: Comparte tus notas para obtener retroalimentación y nuevas ideas.
 - **Serendipity**: Deja espacio para el descubrimiento inesperado y la creatividad.

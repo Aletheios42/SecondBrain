@@ -1,5 +1,5 @@
-**MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**MetaTags:** #_Investigar 
+**Tags:** #Redes  #ToLink 
 - - -
 
 | Rango IP                        | Máscara       | CIDR             |
