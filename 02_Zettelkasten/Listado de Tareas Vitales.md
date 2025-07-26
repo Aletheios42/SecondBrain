@@ -1,10 +1,9 @@
 **MetaTags:** #_SinFín
 **Tags:** #Productividad #ToLink
-
----
+- - -
 - [ ] 
 - [ ] 
-- [ ] 
+- [ ] [[Plan de Estudios Matemáticas]]
 - [x] man bash
 - [ ] el heroe de las mil caras
 - [ ] estudiar la libreria p_threads
@@ -34,5 +33,5 @@
 - [x] Libro: The Linux Commnad Line.
 - [ ] Libro: Interpretación de los sueños.
 - [ ] Libro: Dinero, credito... Huerta de Soto.
----
+- - -
 ## **_Sources:_**

@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Dialectica #ToLink 
+**Tags:** #_Investigar
+**MetaTags:** #Dialectica  #ToLink 
 - - -
 Se refiere a las relaciones complejas entre la violencia, la protección, y las estructuras sociales y de poder.
 

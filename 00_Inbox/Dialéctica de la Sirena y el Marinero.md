@@ -1,5 +1,5 @@
-**Tags:** #_Investigar 
-#Dialectica  #ToLink 
+**Tags:** #_Investigar
+**MetaTags:** #Dialectica  #ToLink 
 - - -
 Es una dinámica de poder sexual, en la que la mujer usa la atención del hombre para reforzar su autoestima y el hombre usa a la figura de la mujer para satisfacer su deseo.
 

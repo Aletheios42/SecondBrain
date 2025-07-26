@@ -141,7 +141,7 @@ Sintax  ---> <infile cmd1 operador cmd2 > outfile
 - Pathname expansion:
 - Tilde Expansion: \`date\`
 - Arithmetic Expansion: $()  --> Append: expr
-- [[Expansión de Llaves]]: {a,b,c} {a..c}
+- [[Expansión de Llaves en Bash]]: {a,b,c} {a..c}
 - Parameter Expansion: $var 
 #### quoting 
 - single quote

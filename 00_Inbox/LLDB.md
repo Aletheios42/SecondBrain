@@ -1,7 +1,8 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Investigar
 **Tags:** #Desarrollo #Depuración 
 - - -
 ==corefiles== https://www.youtube.com/watch?v=3T3ZDquDDVg
+[[GDB]]
 ## Breakpoints
 archivos
 (lldb) breakpoint set -f miArchivo.c -l 42

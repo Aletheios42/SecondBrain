@@ -1,5 +1,5 @@
 **MetaTags:** #_Todo
-**Tags:** #ToTag #ToLink 
+**Tags:** #SegundoCerebro #Productividad #ToLink 
 - - -
 ### Estructura de carpetas
 - 00_Inbox: 

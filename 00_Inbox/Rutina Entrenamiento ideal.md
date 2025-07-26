@@ -1,4 +1,4 @@
-**MetaTags:** #_Investigar
+**MetaTags:** #_Mejorar
 **Tags:** #ToTag #ToLink 
 - - -
 ## Fundamentos
@@ -10,18 +10,17 @@
 		**Progresión isométrica:** Aumentar tiempo bajo tensión (30s → 45s → 60s)
 		**Progresión pliométrica:** Aumentar intensidad/altura/velocidad
 - Feedback: Escribir el esfuerzo percibido es buena idea, para ajustar el entreno
+- El cuerpo es un maestro de la compensación, la disciplina en la técnica ha de ser una lucha activa constante.
 ## Intensidad
-Se puede estimular el crecimiento del musculo con pesos desde el 30% al 90% del MAX, siempre y cuando el set sea al  fallo
+Se puede estimular el crecimiento del musculo con pesos desde el 30% al 90% del MAX, siempre y cuando el set sea al  [[Fallo muscular]]
 - Fuerza 1-5
 - Hipertrofia 7-12
 - Resistencia 16-infinito
-##### Fallo
-El fallo es no ser capaz de hacer otra repeticion con buena tecnica
-Hacer una cantidad fija de repeticiones es mala idea, siempre hay que medir repeticiones en reserva
 ## Frecuencia
 Un grupo muscular requiere 48-72 horas para recuperarse, 
 Ideal: entrenenar los grupos 2 veeces por semana, ideal hacer de 10-20 set de ejercicio por semana
 ## Periodicacion
+==Hacer canvas con las rutinas estaria escandaloso==
 Microciclos -> 1 semana
 Mesociclos -> de 4-8 semanas, la última semana suele ser de descarga (quitar 50% del peso con el que se trabajo en las semanas de trabajo)
 macrociclos -> 3-4 mesociclos
@@ -29,19 +28,11 @@ macrociclos -> 3-4 mesociclos
 ![[periodizacion-del-entrenamiento.png]]
 
 ### Macrociclo
-Repetir 3 veces el mesociclo
+Repetir de 3-5 veces el mesociclo
 ### Mesociclo
-Repetir el microciclo 4 veces, siendo 1 y 3 el foco en pesos al 60% PR,
-el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
+Repetir el microciclo 3-5 veces.
 ### Microciclo
 	
-**Distribución por sesión (80min):**
-- **0-5min:** Calentamiento dinámico
-- **5-30min:** Isométricos + pliométricos (25min) 
-- **30-65min:** entrenamiento de fuerza (35mins)  sets al fallo
-- **65-80min:** estiramientos (15 mins)
-- **80-90:** vuelta a la calma
-
 | Día       | Mañana (30 min + 10 min)  | Tarde (1 h 20 min + 10 min) |
 | --------- | ------------------------- | --------------------------- |
 | Lunes     | Correr                    | Pecho, Hombros y Tríceps    |
@@ -52,7 +43,18 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 | Sábado    | Yoga                      | Espalda y Bíceps            |
 | Domingo   | Descanso                  | Descanso                    |
 
+**Distribución por sesión (80min):**
+- **0-15min:** Calentamiento dinámico
+- **5-30min:** Isométricos + pliométricos (25min) 
+- **30-65min:** entrenamiento de fuerza (35mins)  sets al fallo
+- **65-80min:** estiramientos (15 mins)
+- **80-90:** vuelta a la calma
+
+#### Calentamiento
+[[Rutina Calentamiento 20 mins]]
+
 #### Entrenamiento isometrico + pilometrico + hiit
+==Tengo que hacer rutinas SEPARADAS de esto==
 1. Escoge 6 ejercicios específicos para el día.
 2. Realiza 2 drills (series) totales, con 1 minuto de descanso entre ellos.
 3. Cada drill consiste en realizar los 6 ejercicios seleccionados, repitiendo cada ejercicio 2 veces seguidas.
@@ -90,49 +92,32 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 - buenos dias sentado (knee over toes)
 - Petersen Step Up (knne over toes)
 - L-sit (knee over toes)
+- pino-puente (ni idea jajaj)
+- caminata japonesa
 
 #### Entrenamientos de fuerza
-==tengo que organizar supersets==
+==Mirar rutinas de atleanX==
+==tengo que organizar versiones con supersets==
+==Y modular la dificultad de alguna manera==
 ##### Piernas y Gluteos
-==que es lo de la elevacion de talones==
-==(necesito protector para hiptrust==
-		Glute bridges
-		Sentadillas frontal 
-		Hip thrust 
-		Elevacion de talones sentado 
-		Peso muerto rumano 
-		Zancadas con mancuernas 
-		Elevación de talones (gemelos) 
-		Sentadillas búlgaras
+[[Rutina Fuerza Piernas y Gluteos 35mins]]
 ##### Pecho , Hombro y Tricpes 
-==empezar por press es de locos ==
-==x prob cambiar unn press por flexiones es mejor==
-		Press inclinado con mancuernas
-		Elevaciones frontales con mancuernas
-		Extensiones de tríceps con barra
-		Remo para deltoides posteriores
-		Patada de tríceps con mancuerna (excentrica)
-		Press de banca
-		Elevaciones laterales con mancuernas
+[[Rutina Fuerza Pecho, Hombro y Tricéps 35 mins]]
 ##### Dorsal, Trapecio y Biceps
-==No tengo bandas para el jalon a la cara==
-==mirar paso de granjero==
-==mirar tecnica del remo mewdows==
-		Plancha bocaarriba
-		Peso muerto convencional
-		Curl de bíceps inclinado
-		Jalon a la cara
-		Remo con barra
-		Encogimiento de hombros con mancuernas
-		Curl de bíceps alterno con mancuernas
-		Remo meadows
-
+[[Rutina Fuerza Dorsal , Trapecio y Bicéps 35 mins]]
 #### Ejercicios de Estiramiento
+==Hacer las rutinas y pasarlas como con las de fuerza==
+[[Flexibilidad y Estiramientos]]
+##### Rutinas
 [Estaticos](https://www.hingehealth.com/resources/articles/static-stretching/)
 [Dinamicos](https://www.youtube.com/watch?v=iQc4lLYljbk)
+Con las plantas en el suelo sentado, pasar las rodillas de un lado a otra
+sentadilla asiatica
+spagad
 #### Ejercicios de partes debiles
-- cuello:
-		En las cuatro direccoines 30 segundos sin descanso 3 veces con 1 min de descanso
+[[Rutina Fuerza Cuello 10 mins]]
+[[Rutina fuerza - Antebrazos 20 min]]
+
 - Antebrazos,  muñecas y agarre: 
 		rodillo de muñeca 30s trabajo , 30 s descanso x 3 series.
 		rotaciones de martillo 30s trabajo , 30 s descanso x 3 series.
@@ -141,6 +126,8 @@ el 2 al 90% PR y el 4 a modo de descanso 80 % PR con 2 repeticiones en reserva
 - tobillos y pies: 
 		arquear el pie
 		equilibrio con mancuerna en la lenteja
+
+
 - - - 
 #### ***Sources:***
 - [How to Build Strength, Endurance & Flexibility at Any Age | Pavel Tsatsouline](https://www.youtube.com/watch?v=Z3OpxT65fKw&list=PL5BHa7fj27WWvSgJkDr107Cqpa9ALjGeT&index=17)

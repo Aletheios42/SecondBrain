@@ -1,5 +1,5 @@
 **MetaTags:** #_Done
-**Tags:** #Libro #Productividad #Notas 
+**Tags:** #LibroLeido #Productividad #Notas 
 - - -
 
 El segundo cerebro es sistema de producción intencionado de conocimiento. Consiste en un sistema de toma de notas; en el libro se propone [[P.A.R.A|El sistema P.A.R.A]], para capitalizar el aprendizaje exponencial se apoya en  principios como:
@@ -8,6 +8,8 @@ El segundo cerebro es sistema de producción intencionado de conocimiento. Consi
 - [[Método Feynman]] (No explicitamente)
 
 La mejor herramienta que conozco es [[Como Organizar un Vault de Obsidian|Obsidian]]
+
+ Me he dado cuenta que mi felicidad es directamente proporcional al cariño y tiempo que le dedico a mi segundo cerebro. Siento que cuando le dedico tiempo a mi segundo cerebro es de las pocas veces que me dedico tiempo a mi mismo.
 
 - - - 
 #### ***Sources:***
