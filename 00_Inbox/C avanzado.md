@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-**MetaTags:** #ToTag #ToLink
+**MetaTags:** #_Todo
+**Tags:** #Programación  #ToLink
 - - -
 - como se cargar los argumentos en los puntero  a funcion
 - macros condicionales para chunks de codigo

@@ -11,7 +11,6 @@ el objetivo de una peticion HTTP se llama recurso, HTTP es agnostico al recurso,
 
 http quiere separar la identificacion de los recursos de su semantica
 
-[[]]
 ¿Que es una URI?
 
 - - - 

@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-**MetaTags:** #ToTag #ToLink 
+**MetaTags:** #_Mejorar
+**Tags:** #Virtualizacion #ToLink 
 - - -
 
 Elementos a comprobar tras duplicar un OVA al clonar VMs

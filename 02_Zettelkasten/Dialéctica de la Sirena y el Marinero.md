@@ -1,9 +1,10 @@
-**Tags:** #_Investigar
-**MetaTags:** #Dialectica  #ToLink 
+**MetaTags:** #_Investigar
+**Tags:** #Dialectica  #ToLink 
 - - -
-Es una dinámica de poder sexual, en la que la mujer usa la atención del hombre para reforzar su autoestima y el hombre usa a la figura de la mujer para satisfacer su deseo.
+##### Definición
+Es enfrentamiento dialectico en tanto que al poder sexual, en la que la mujer usa la atención del hombre para reforzar su autoestima y el hombre usa a la figura de la mujer para satisfacer su deseo.
 
-ej.
+##### Ejemplo
 Hombre y mujer caminan la misma dirección y sentidos opuestos.
 A unos 15 metros la mujer se fija en el hombre y comienza a caminar "felinamente"
 a unos 10 metros el hombre se fija en la mujer y la atisba.

@@ -1,5 +1,5 @@
 **MetaTags:** #_Mejorar
-**Tags:** #ToTag #ToLink 
+**Tags:** #Entrenamiento #ToLink 
 - - -
 ## Fundamentos
 - Enfasis en la fase concentrica, para la fuerza , ideal 1s y explosivo
@@ -135,6 +135,6 @@ spagad
 - [Que son los ejercicios isometricos](https://health.clevelandclinic.org/what-is-isometric-exercise)
 - [Ejercicos para las muñecas](https://www.youtube.com/watch?v=pTkcb8HAtqg)
 - [Knee over toes lista de ejercicios](https://a1athlete.com/knees-over-toes-guy-exercises/)
-- Las series de mejor a peor de [Atlean X](https://www.youtube.com/c/ATHLEANXEspa%C3%B1ol)
+- Todas las series de mejor a peor de [Atlean X](https://www.youtube.com/c/ATHLEANXEspa%C3%B1ol)
 - [Muñecas](https://www.youtube.com/watch?v=ssM2b_L8ClQ)
 - [Pies](https://www.youtube.com/watch?v=S5xKokqeOb4&t=486s)

@@ -1,7 +1,6 @@
-**Tags:** #_Done 
-#Linux #ToLink 
+**MetaTags:** #_Done
+**Tags:** #Linux #ToLink 
 - - -
-en /usr/include estan las librerias que importan los binarios... stdio.h 
 
 | **Directorio**    | **Descripción**                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

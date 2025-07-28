@@ -1,4 +1,4 @@
-**Tags:** #_Todo
+**Tags:** #_Mejorar
 **MetaTags:** #Fomento #ToLink 
 - - -
 - Estructura acero concreto y resistencia
@@ -16,5 +16,5 @@ el edificiio se va armando como un lego, en base a los patrones de arriba
 - - - 
 ## ***Sources:***
 - Neufert es la biblia de arquitectura
-- "estructuras isoestaticas problemas resueltos" libro de estructura
-- hay un libro aleman de estructuras para arquitectos, la madre de armando tiene el edificio en venezuela
+- "Estructuras isoestaticas problemas resueltos" libro de estructura
+- Hay un libro aleman de estructuras para arquitectos, la madre de armando tiene el edificio en venezuela

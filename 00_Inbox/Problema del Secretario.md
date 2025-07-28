@@ -1,7 +1,7 @@
 **MetaTags:** #_Todo
 **Tags:** #Matemáticas #Algoritmo #ToLink 
 - - -
-# Contexto
+### Contexto
 
 1. **Rechazo irrevocable**: Una vez que decides no elegir a un candidato, no puedes volver atrás.  
 2. **Muestrario finito y conocido**: Sabes cuántos candidatos hay de antemano.  

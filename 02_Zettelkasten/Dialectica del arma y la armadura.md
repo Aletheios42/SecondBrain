@@ -1,7 +1,8 @@
 **Tags:** #_Investigar
 **MetaTags:** #Dialectica  #ToLink 
 - - -
-Se refiere a las relaciones complejas entre la violencia, la protección, y las estructuras sociales y de poder.
+##### Definición
+Es un enfrentamiento dialectico en tanto a la violencia, la protección, y las estructuras sociales y de poder.
 
 Siendo el ciclo: 
 - El arma mejora para dañar a la armadura, liderando la escala de poder.

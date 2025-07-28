@@ -1,18 +1,18 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Done
 **Tags:** #Devops #Contenedores #Desarrollo 
 - - -
-## Prerequisito
+#### Prerequisito
   - Tener un repo de dotfiles (a poder ser ligerito)
   - docker
   - git
   - ssh
 
-## Instalar 
+#### Instalar 
 ``` bash
 yay -S devpod
 ```
 
-## Puesta a punto Deshabititas el IDE
+#### Puesta a punto Deshabititas el IDE
 ``` bash
   ln -sf /usr/bin/devpod-cli /usr/bin/devpod
   devpod ide user none
@@ -20,13 +20,13 @@ yay -S devpod
   devpod provider add docker
 ```
 
-## Construir el Archivo .devcontainers/devcontainers.json
+#### Construir el Archivo .devcontainers/devcontainers.json
 Docs: https://containers.dev/implementors/spec/
 y meterlo en el proyecto que quieras contenerizar
 mirar: https://github.com/devcontainers/images/tree/main/src
 para elegir una imagen base adecuada a tu proyecto
 
-## Construye una devpod (docker build)
+## Construye un devpod (docker build)
 
 ### Construye el contendor desde repo de github 
 inspecciona por defector un script -> setup.sh

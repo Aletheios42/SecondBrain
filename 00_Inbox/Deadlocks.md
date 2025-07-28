@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-**MetaTags:** #Programación #ToLink
+**MetaTags:** #_Todo
+**Tags:** #Programación #ToLink
 - - -
 metodos para prevenir deadlokcs:
 

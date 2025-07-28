@@ -1,7 +1,7 @@
-**Tags:** #_Todo
-**MetaTags:** #Docker #Devops 
+**MetaTags:** #_Completar
+**Tags:** #Docker #Devops 
 - - -
-
+==Añadir labs de iximiuz==
 Aunque puede varias dependiendo de las flags 
 Docker run es un comando compuesto que hace:
 1) Image pull

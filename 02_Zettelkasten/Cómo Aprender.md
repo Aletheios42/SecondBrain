@@ -1,10 +1,10 @@
-**Tags:** #_Investigar
+**Tags:** #_Mejorar
 **MetaTags:** #SaberesDeLaVida #Pedagogía
 - - -
 - Recuperación activa   --> testearte
--  Repetición espaciada --> Anki Notes  para evitar la curva del olvido
+- Repetición espaciada --> Anki Notes  para evitar la curva del olvido
 - [[Método Feynman]]
-- Lírica y Aprendizaje (Investigar)
+-  [[Lírica y Aprendizaje]]
 - taxonomia de Bloom
 - - - 
 ## ***Sources:***

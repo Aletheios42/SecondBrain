@@ -1,4 +1,4 @@
-**MetaTags:** #_Todo
+**MetaTags:** #_Done
 **Tags:** #SegundoCerebro #Productividad #ToLink 
 - - -
 ### Estructura de carpetas
@@ -20,7 +20,9 @@
 calendar: 
 			- Vincular la plantilla de diario y la carpeta a traves de la opcion de obsidian "Notas Diarias"
 mermaid:
+			- Aprender patrones predeterminado e ir creando una bibilioteca con patrones propios
 excalidraw:
+			- Solo Descargar
 
 #### atajos de teclado que hay que configurar manualmente
 control + p -> ayuda
