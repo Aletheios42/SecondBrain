@@ -20,12 +20,12 @@
 | **15:20–16:00** | Actividad artística (dibujo/guitarra)
 | **16:00–17:30** | 🔒 Bloque trabajo 5
 | **17:30-18:00** | snack ,recados, redes sociales y tiempo libre
-| **18:00-19:00** | 🔒 Bloque trabajo 6
-| **19:00–20:30** | Entrenamiento de fuerza y vuelta a la calma
-| **20:30-21:00** | Recados, Redes sociales y Tiempo libre
-| **21:00-21:30** | Diario técnico en Obsidian
-| **21:30–22:00** | Lectura / rutina nocturna / apagado
-| **22:00–06:00** | Dormir (8h en cama)
+| **18:00-19:30** | 🔒 Bloque trabajo 6
+| **19:30–20:40** | Entrenamiento de fuerza y vuelta a la calma
+| **20:40-21:00** | Diario técnico en Obsidian
+| **21:30-22:00** | Recados, Redes sociales y Tiempo libre
+| **22:00–22:30** | Lectura / rutina nocturna / apagado
+| **22:30–06:00** | Dormir (8h en cama)
 
 - - - 
 #### ***Sources:***

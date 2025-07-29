@@ -2,7 +2,7 @@
 **Tags:** #Productividad #ToLink
 - - -
 - [ ] 
-- [ ] 
+- [ ] [Hexaflexagon](https://www.youtube.com/watch?v=y1VWU-bFhdk&list=WL&index=10&t=22s)
 - [ ] [[Plan de Estudios Matemáticas]]
 - [x] man bash
 - [ ] el heroe de las mil caras
