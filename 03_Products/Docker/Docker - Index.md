@@ -3,7 +3,7 @@
 - - -
 ## cosas que añadir
 docker por defecto corre en modo no-interactivo , es decir que no lee del stdin
-
+muchas practicas de iximiuz
 --help 
 ##### ¿Qué es Docker?
 
@@ -232,7 +232,10 @@ Caracteristicas de buen proveedor:
 -  Coste
 - - - 
 ## ***Sources:***
-- [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw&list=WL&index=1&t=1s)
-- [Curso Docker basico kodekloud](https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner
-- https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/00-introduction/01-main
-- https://github.com/sidpalas/devops-directive-docker-course
+- DevOps Directive TOP
+1. [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw&list=WL&index=1&t=1s)
+ 2. https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/00-introduction/01-main
+ 3. https://github.com/sidpalas/devops-directive-docker-course
+
+- kodekloud userfriendly
+[Curso Docker basico kodekloud](https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner

@@ -1,7 +1,6 @@
 **MetaTags:** #_Todo
 **Tags:** #ToTag #ToLink 
 - - -
-
 # Building Container Images
 
 ## General Process
@@ -68,7 +67,7 @@ Legend:
 - Compatibilidad con el lenguaje
 		Si la imagen contiene glic o el motor de python...
 - Seguridad:
-		Revisar los CVEs de las imagenes con  Snyk o trivy
+		Revisar los CVEs de las imagenes con Snyk o trivy
 - Ergonomia:
 		Si tienes packesmanageer o alguna otra utiliadad
 ## Additional Features
@@ -77,7 +76,8 @@ Legend:
 2) **ARG:** Enables setting variables at build time that do not persist in the final image (but can be seen in the image metadata).
 3) **Heredocs syntax:** Enables multi-line commands within a Dockerfile.
 4) **Mounting secrets:** Allows for providing sensitive credentials required at build time while keeping them out of the final image.
-5) **ENTRYPOINT + CMD:** The interaction between `ENTRYPOINT` and `CMD` can be confusing. Depending on whether arguments are provided at runtime one or more will be used. See the examples by running `make run-sample-entrypoint-cmd`.
+5) **ENTRYPOINT + CMD:** The interaction between `ENTRYPOINT` and `CMD` can be confusing. Depending on whether arguments are provided at runtime one or more will be used. 
+
 6) **buildx (multi-architecture images):** You can use a feature called `buildx` to create images for multiple architectures from a single Dockerfile. This video goes into depth on that topic: https://www.youtube.com/watch?v=hWSHtHasJUI. The `make  build-multiarch` make target demonstrates using this feature (and the images can be seen here: https://hub.docker.com/r/sidpalas/multi-arch-test/tags).
 - - - 
 #### ***Sources:***
