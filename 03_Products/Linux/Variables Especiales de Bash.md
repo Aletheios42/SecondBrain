@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #Bash 
 - - -
 Son variables integradas que Bash maneja para proporcionar información sobre el shell, los procesos y el estado de ejecución de comandos.  

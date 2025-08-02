@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #CLI 
 - - -
 Un multiplexor divide una terminal en varias sesiones virtuales independientes que pueden ejecutarse simultáneamente.

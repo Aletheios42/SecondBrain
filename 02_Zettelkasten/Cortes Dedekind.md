@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #Matemáticas #ToLink
+**MetaTags:** #_Done
+**Tags:** #Matemáticas #ToLink
 - - -
 Los cortes de Dedekind son una técnica fundamental rigurosa del continuo numérico y demuestra la completitud de ℝ, permitiendo una transición formal desde ℚ a ℝ.
 

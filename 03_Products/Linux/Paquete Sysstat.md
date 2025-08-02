@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Investigar 
 **Tags:** #Linux  #Paquete #Monitoreo #ToLink 
 - - -
  `sysstat` es un paquete de herramientas para analizar el rendimiento del sistema cuyos logs residen en /var/log/sysstat .

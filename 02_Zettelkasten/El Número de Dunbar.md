@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #SaberesDeLaVida #ToLink
+**MetaTags:** #_Done
+**Tags:** #SaberesDeLaVida #ToLink
 - - -
 La hipótesis se basa en la correlación observada entre el tamaño del neocórtex de los primates y el tamaño de sus grupos sociales estables. Dunbar extrapoló esta relación para predecir el límite cognitivo humano para mantener relaciones sociales estables.
 La formulación matemática original se deriva de la regresión:

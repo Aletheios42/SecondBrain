@@ -1,5 +1,5 @@
-**tags:** #_done 
- **tags:** #linux #bash #tolink 
+**MetaTags:** #_done 
+ **Tags:** #linux #bash #tolink 
 - - -
 Son variables accesibles desde cualquier proceso en la sesión del usuario y pueden heredarse a procesos hijos.
 

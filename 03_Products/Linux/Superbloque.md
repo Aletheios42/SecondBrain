@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux 
 - - -
 Estructura maestra que mantiene el estado y la configuración del sistema de archivos. Almacena la información fundamental para la gestión y montaje del sistema de archivos:

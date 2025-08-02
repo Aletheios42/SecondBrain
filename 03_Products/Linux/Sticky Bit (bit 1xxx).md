@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #Permisos
 - - -
 Es un [Permiso Especial Linux - Unix](Permisos Especiales Linux Unix) que para directorios, solo el **propietario de un archivo o root puede eliminarlo,** incluso si otros tienen permisos de escritura en el directorio. **Sin Sticky Bit (`drwxrwxrwx`)**, cualquier usuario podría eliminar archivos de otros.  

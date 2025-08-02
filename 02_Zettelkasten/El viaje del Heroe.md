@@ -3,6 +3,7 @@
 - - -
 Es un patron narrativo que se repite en cuentos, mitos y leyendas de todas las culturas a lo largo de la historia. 
 El patron fue identificado por Joseph Campbell en "El Heroe de las 1000 caras" y consiste: 
+
 1. El mundo ordinario: Se presenta el punto de partida que el heroes dejará atrás 
 2. LLamada a la aventura, puede ser intera o externa
 3. Rechazo a la llamada 

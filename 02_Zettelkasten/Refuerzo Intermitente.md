@@ -1,4 +1,4 @@
-**Tags:** #_Mejorar
+**MetaTags:** #_Mejorar
 **Tags:** #NeuroCiencia
 - - -
 El refuerzo intermitente es un mecanismo psicológico donde la imprevisibilidad de la recompensa maximiza la respuesta dopaminérgica. Se fundamenta en que el cerebro libera cantidades significativas de [[Dopamina]] cuando una recompensa es inesperada, superando la liberación que ocurre con recompensas predecibles.

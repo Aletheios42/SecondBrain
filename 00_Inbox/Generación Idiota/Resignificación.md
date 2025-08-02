@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #IngenieríaSocial  #ToLink 
 - - -
 La resignificación es el proceso deliberado de cambiar o redefinir el significado tradicional de palabras, símbolos o conceptos para servir a una agenda ideológica o social específica.

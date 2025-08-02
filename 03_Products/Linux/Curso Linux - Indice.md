@@ -30,7 +30,7 @@ Prequisitos:
  
  ## **File System Hierarchy**
 [[Sistema de Archivos de Linux]]
-[[Directorios de root (Sistema) en Linux]]
+[[Directorios de sistema en Linux]]
 
 - File types: regular, directory, symbolic links, device files, blocks.
 # Bash Interpreter
@@ -356,7 +356,7 @@ entender que top es un script que llama a ps.
 - **at**: Programa un comando para ejecutarse en un momento específico
 - **nohup**: Ejecuta un comando inmune a cierres de sesión
 #### ⏳ Gestión de memoria y rendimiento
- [[Paquete - Sysstat]]
+ [[Paquete Sysstat]]
  Ejercicio de usar `cut` y `grep` en archivos del sistema para imitar comandos de este paquete (hacerlo antes de ver los comandos). Ejemplo: imitar `sar` con `cut`, `grep` y `top`.
 
 - **free**: Muestra el uso de memoria
@@ -458,7 +458,7 @@ Legacy init systems: /etc/init.d/, /etc/inittab
 - Configuration: /etc/rsyslog.conf, /etc/logrotate.conf
 - Monitoring: top, htop, nmon, sar
 #  Networking
-#### 📡 Redes y conectividad ([[Paquete - Sysstat]])
+#### 📡 Redes y conectividad ([[Paquete Sysstat]])
 ip  → Herramienta compleja para redes
 	options: a, r, l, 
 ping → Prueba conectividad con una dirección

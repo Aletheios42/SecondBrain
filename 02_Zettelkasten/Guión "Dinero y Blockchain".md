@@ -1,5 +1,5 @@
-**Tags:** #_Investigar
-**MetaTags:** #Blockchain #Dinero #Charlas
+**MetaTags:** #_Investigar
+**Tags:** #Blockchain #Dinero #Charlas
 - - -
 ==Hay que incrustrar notas atomicas==
 ## 1. Introducción sobre el dinero

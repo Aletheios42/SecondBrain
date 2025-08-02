@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #Bash #ToLink
+**MetaTags:** #_Done
+**Tags:** #Bash #ToLink
 - - -
 ###### TIP:
 - Si quieres que una busqueda **no** aparezca en el historial, que empieze por espacio.

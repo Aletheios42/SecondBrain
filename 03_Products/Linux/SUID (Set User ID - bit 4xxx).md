@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #Permisos
 - - -
 SUID es un [Permiso Especial Linux - Unix](Permisos Especiales Linux Unix) que permite que un ejecutable **se ejecuta con los permisos de su propietario en lugar del usuario que lo ejecuta**.  

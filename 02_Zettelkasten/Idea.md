@@ -1,5 +1,5 @@
-**Tags:** #_Investigar
-**MetaTags:** #ToTag #ToLink
+**MetaTags:** #_Investigar
+**Tags:** #ToTag #ToLink
 - - -
 Primero y más obvio de los actos del entendimiento **lucido**, que se limita al simple conocimiento de algo.
 

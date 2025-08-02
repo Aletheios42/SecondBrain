@@ -4,7 +4,7 @@
 CODE es el acrónimo que define las cuatro etapas fundamentales del método de segundo cerebro para la gestión del conocimiento personal:
 #### [[Capture Keep What Resonates]]:
 - Recopila información valiosa de cualquier fuente
-#### [[Organize Save for Actionability]]:
+#### [[Organizar para poder tomar medidas]]:
 - Estructura el conocimiento de forma accesible y significativa
 ####  [[Distill Find the Essence]]:
 - Refina y sintetiza la información en ideas principales

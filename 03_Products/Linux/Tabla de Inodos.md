@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #ToLink 
 - - -
 Estructura que contiene los metadatos y punteros de cada archivo de un [[Sistema de Archivos de Linux]|Sistema de archivos]]

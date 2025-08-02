@@ -1,4 +1,4 @@
-**MetaTags:** #_Done 
+**MetaTags:** #_Completar
 **Tags:** #Psicología #Condicionamiento_Operante
 - - -
 Sistema de modificación de conducta ya sea orgánico o diseñado, explica como la validación y rechazo configura nuestro comportamiento. 

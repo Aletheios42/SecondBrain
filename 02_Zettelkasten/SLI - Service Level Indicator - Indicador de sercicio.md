@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-**Tags:** #ToTag #ToLink
+**MetaTags:** #_Done 
+**Tags:** #MetricasDeServicio #ToLink
 - - -
 Es un indicador que mide una métrica específica de rendimiento del servicio. Proporciona una medida cuantitativa que describe qué tan bien se está desempeñando un sistema según una métrica determinada.
 #### Ejemplos de SLIs:

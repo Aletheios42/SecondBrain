@@ -1,6 +1,7 @@
 **MetaTags:** #_Todo
 **Tags:** #SaberesDeLaVida #ToLink 
 - - -
+==MIrar el libro de don juan tenorio==
 - la altanera:  tisbea la pescadora, -> apego evitativo con rasgos narcisistas, apego evitativo para compensar una herida de abandono
 
 - - - 

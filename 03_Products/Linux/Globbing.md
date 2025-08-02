@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #Linux   #Bash  
+**MetaTags:** #_Done
+**Tags:** #Linux   #Bash  
 - - -
  Es un lenguaje de marcado simple. Especificar grupos de nombres de archivo de forma rápida y eficiente. . Los **wildcards**  permiten seleccionar archivos o directorios basados en patrones de caracteres.
  

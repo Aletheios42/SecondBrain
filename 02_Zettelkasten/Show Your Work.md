@@ -12,34 +12,34 @@ El autor desmitifica la idea del "genio solitario" y promueve un enfoque colabor
   - Sé generoso al enseñar lo que sabes y conectar con otros.
 # Capítulos
 - - - 
-## 1. [[You Don’t Have to Be a Genius]]:
+## 1. [[No hace falta ser un genio]]:
 ##### Ser constante es la clave.
 ---
-## 2. [[Think Process, Not Product]]
+## 2. [[Piensa en el proceso, no en el producto]]
 ##### El camino es mas importante que la meta.
 ---
-## 3. [[Share Something Small Every Day]] 
+## 3. [[Comparte algo pequeño cada dia]] 
 ##### Hazte cotidiano en redes.
 ---
-## 4. [[Open Up Your Cabinet of Curiosities]]
+## 4. [[Abre tu gabinete de curiosidades]]
 ##### Comparte tus fuentes.
 ---
-## 5. [[Tell Good Stories]]
+## 5. [[Cuenta buenas historias]]
 ##### Crea narrativas emotivas y personales.
 ---
-## 6. [[Teach What You Know]]
+## 6. [[Enseña lo que sabes]]
 ##### Enseña para convertirte en experto.
 ---
-## 7. [[Understand the Value of Listening]]
+## 7. [[Entiendo el valor de escuchar]]
 ##### Haz que los demás también se sientan protagonistas.
 ---
-## 8. [[Learn to Take a Punch]]
+## 8. [[Aprende a encajar un golpe]]
 ##### No permitas que el ego te frene, un fracaso también es valioso.
 ---
-## 9. [[Sell Out]]
+## 9. [[Agota existencias]]
 ##### No trabajes gratis bobo!
 ---
-## 10. [[Stick Around]]
+## 10. [[Quedate el suficiente tiempo]]
 ##### Aprovecha el interés compuesto en tus esfuerzos.
 
 - - - 

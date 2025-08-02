@@ -1,5 +1,5 @@
 **Tags:** #_Done 
-#Productividad  #SegundoCerebro
+**MetaTags:** #Productividad  #SegundoCerebro
 - - -
 ## **Carpetas**  
 Las carpetas sirven para **separar** en base a la **intencionalidad** a priori de consumo, facilitando la navegación recurrente y, además, son esenciales para aplicar scripts.  

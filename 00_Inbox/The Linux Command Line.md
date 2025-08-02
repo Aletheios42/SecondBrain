@@ -110,7 +110,7 @@ mount y fstab
 fat, ext4, brfs, NFS(investigar)
 en /boot hay vmlinuz, initramfs, config, system.map
 
-# [[Directorios de root (Sistema) en Linux]]
+# [[Directorios de sistema en Linux]]
 
 # Entorno
 Son los datos de configuracion del sistema que pueden ser usados por los programas.

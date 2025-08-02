@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #Bash #ToLink 
 - - -
 Método de bash que permite usar la salida de un comando como si fuera un archivo temporal es especialmente útil cuando trabajamos con comandos que esperan archivos como argumentos.

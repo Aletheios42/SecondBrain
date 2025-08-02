@@ -7,7 +7,9 @@ El estudio de la naturaleza de los valores y los juicios valorativos. Abarca el 
 #### Coercitivo --- Del latín "coercere" (contener)
 Forzoso.
 
-#### carenar
+#### Carenar
+originalmente:  Reparar o componer el casco de la nave.
+Añadir accesorios ornamentales, aerodinámicos o funcionales a una motocicleta o a un coche de carreras.
 #### Compulsión --- Del latín "com" (conjunto) + "pellere" (empujar)
 Necesidad interna de actuar; impulso irresistible.
 
@@ -15,16 +17,13 @@ Necesidad interna de actuar; impulso irresistible.
 Líder del coro en el teatro griego antiguo; guía y portavoz del grupo coral que dialogaba con los actores principales. En la actualidad, se usa figurativamente para referirse a quien guía o lidera un grupo, especialmente en movimientos intelectuales, artísticos o políticos, actuando como cabecilla o portavoz principal de una tendencia o colectivo.
 
  #### Draconiano
+Dicho de una ley o de una medida: Excesivamente severa, procedente de un legislador de atenas
 #### Escuela --- Del griego "schole" (ocio)
 Centro de enseñanza. Originalmente referido al tiempo de ocio dedicado al aprendizaje.
 
 #### Etario --- Del latín "aetas" (edad)
 Perteneciente o relativo a un grupo de edad.
 
-#### Poyesis
-#### Edesis
-
-#### turiferio
 #### Gargantuesco --- De Gargantúa, personaje literario
 Gigantesco o enorme. Deriva de Gargantúa, el personaje gigante en la obra de Rabelais.
 

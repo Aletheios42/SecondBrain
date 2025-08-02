@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #SaberesDeLaVida #ToLink
+**MetaTags:** #_Investigar
+**Tags:** #SaberesDeLaVida #ToLink
 - - -
 niveles del humor en base a la intelignecia
 humor fonetico

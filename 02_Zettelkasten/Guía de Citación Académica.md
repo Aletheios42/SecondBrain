@@ -1,7 +1,7 @@
-**Tags:** #_Done 
-**MetaTags:** #Academia #Escritura 
+**MetaTags:** #_Done 
+**Tags:** #Academia #Escritura 
 - - -
-El formato académico sigue el estilo APA(American Psychological Association) e intenta priorizar el [[DOI(Digital_Object_Identifier)]].
+El formato académico sigue el estilo APA(American Psychological Association) e intenta priorizar el [[DOI - Digital Object Identifier]].
 ### Estructura Básica de Referencias
 - Autor. (Año). *Título*. Fuente.
 #### Tipos de Referencias

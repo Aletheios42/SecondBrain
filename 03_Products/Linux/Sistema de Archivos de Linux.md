@@ -1,4 +1,4 @@
-**Tags:** #_Done
+**MetaTags:** #_Done
 **Tags:** #Linux
 - - -
 El sistema de archivos Linux organiza el almacenamiento físico en cuatro estructuras fundamentales:

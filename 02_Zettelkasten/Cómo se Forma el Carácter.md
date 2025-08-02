@@ -1,5 +1,5 @@
 **Tags:** #_Done
-**MetaTags:** #SaberesDeLaVida #ToLink
+**MetaTags:** #SaberesDeLaVida #ToLink #Aristoteles
 - - -
 "El carácter se define como la manera de ser actuar y pensar del ser humano."  
 

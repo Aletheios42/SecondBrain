@@ -1,5 +1,5 @@
-**Tags:** #_Done 
-#Productividad #SegundoCerebro 
+**MetaTags:** #_Done
+**Tags:** #Productividad #SegundoCerebro 
 - - -
 ### Objetivos:
 1. **Aligerar la carga de trabajo** para tu yo del futuro.

@@ -1,9 +1,10 @@
 **MetaTags:** #_Completar
 **Tags:** #Programación  #ToLink 
 - - -
-El vibe coding es un concepto erroneo, hay que entender quien diseña el codigo y quien lo pica.
 
-la ia es muy buena picando codgio y muy mala diseñando.
+Consiste en producir codigo por encima de tus posibilidades tecnicas, apoyandote en las suposiciones estadisticas de la ia.
+
+La ia es muy buena picando codigo y muy mala diseñando.
 Esto se debe a que los algormos de ia son puramente sintacticos no semanticos
 
 

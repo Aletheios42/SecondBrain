@@ -1,6 +1,3 @@
-**Tags:** #_Done 
-#Academia #Escritura 
-
 **MetaTags:** #_Done
 **Tags:** #Academia #Escritura #ToLink  
 - - -

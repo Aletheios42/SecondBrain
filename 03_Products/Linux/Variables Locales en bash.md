@@ -1,4 +1,4 @@
-**Tags:** #_Done 
+**MetaTags:** #_Done 
 **Tags:** #Linux #Bash 
 - - -
 Son [[Variables de Bash]] que solo existen dentro del contexto del script o función en la que se definieron.

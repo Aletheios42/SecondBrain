@@ -1,5 +1,5 @@
-**Tags:** #_Done
-**MetaTags:** #Bash #ToLink
+**MetaTags:** #_Done
+**Tags:** #Bash #ToLink
 - - -
 La función read lee desde la entrada estándar (stdin) y asigna el resultado a una o más variables en el entorno actual del shell.
 
