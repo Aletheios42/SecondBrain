@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-**MetaTags:** #Economía #Inversiones #ToLink 
+**MetaTags:** #_Todo
+**Tags:** #Economía #Inversiones #ToLink 
 - - -
 1. Cash to debt: more cash than debt
 2. Debt to equity ratio : below 0.8 
