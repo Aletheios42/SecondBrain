@@ -1,5 +1,5 @@
-**Tags:** #_Todo
-**MetaTags:** #LenguajesDeMarcado #Productividad
+**MetaTags:** #_Done
+**Tags:** #LenguajesDeMarcado #Productividad
 - - -
 LaTeX es un potente lenguaje de marcado, constituye un estándar universal para la producción de documentación científica. 
 
