@@ -19,11 +19,11 @@
 | **14:45–15:20** | Siesta breve
 | **15:20–16:00** | Tiempo libre
 | **16:00–17:30** | 🔒 Bloque trabajo 5
-| **17:30-18:00** | snack ,recados, redes sociales y tiempo libre
+| **17:30-18:00** | Segunda comida y tiempo libre
 | **18:00-19:30** | 🔒 Bloque trabajo 6
 | **19:30–20:40** | Entrenamiento de fuerza y vuelta a la calma
 | **20:40-21:00** | Diario técnico en Obsidian
-| **21:00-22:00** | 🔒 Bloque trabajo 7
+| **21:00-22:00** | Tiempo libre
 | **22:00-22:30** | Lectura / rutina nocturna / apagado
 | **22:30–06:00** | Dormir (7:30h en cama)
 
