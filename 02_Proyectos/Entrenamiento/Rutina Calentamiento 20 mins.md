@@ -10,7 +10,7 @@
 - Hollow body hold 1 min x 2 series
 - Plancha lateral 30 sec x 2 x 2 series 
 - Pino puente 30 sec x 2 x 2 series 
-- Flexiones de escapula 15 x 2 series
+- Flexiones isometricas 30sec x 2 series
 - Pino isometrico 1 min x 2 series
 ##### 3.  Subida de pulsaciones (5 min)
 30 segundos de descanso entre series y ejercicios

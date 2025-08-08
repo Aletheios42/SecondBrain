@@ -6,7 +6,7 @@
 - [ ] [[Plan de Estudios Matemáticas]]
 - [x] man bash
 - [ ] el heroe de las mil caras
-- [ ] estudiar la libreria p_threads
+- [x] estudiar la libreria p_threads
 - [ ] estudiar los patrones de deadlocks y llevarlos a grafos
 - [ ] gdb con threads
 - [ ] radare2
@@ -16,7 +16,7 @@
 - [ ] Gaussian
 - [ ] Mendelei
 - [ ] sci-hub
-- [ ] Vim Book
+- [x] Vim Book
 - [x] Investigar sobre la relacion entre las shell la terminal y el kernel. y todos los tipos de variables de entorno
 - [ ] Curso de udemy de Angular
 - [ ] Curso de udemy de web2.0
@@ -24,7 +24,7 @@
 - [x] Curso de udemy de linux 2
 - [ ] [Mirar biblioteca de python para LVM](https://www.langchain.com/)
 - [ ] libro: a brief history of intelligence && [historia de la inteligencia](https://youtu.be/5EcQ1IcEMFQ?si=7kcC3rdv_P8wPkbs)
-- [ ] [Networking](https://www.youtube.com/watch?v=po8ZFG0Xc4Q)
+- [ ] [Networking](https://www.youtube.com/watch?v=po8ZFG0Xc4Q) //HAY QUE CAMBIAR ESTE
 - [x] LPIC1- part 2
 - [x] LPIC1- part 1
 - [ ] [Serie de videos para encontrar trabajo ](https://www.youtube.com/watch?v=AvN5y516H-8a)
