@@ -7,7 +7,7 @@ El segundo cerebro es sistema de producción intencionado de conocimiento. Consi
 - [[Puente de Hemingway]]
 - [[Método Feynman]] (No explicitamente)
 
-La mejor herramienta que conozco es [[Como Organizar un Vault de Obsidian|Obsidian]]
+La mejor herramienta que conozco es [[Obsidian|Obsidian]]
 
  Me he dado cuenta que mi felicidad es directamente proporcional al cariño y tiempo que le dedico a mi segundo cerebro. Siento que cuando le dedico tiempo a mi segundo cerebro es de las pocas veces que me dedico tiempo a mi mismo.
 
