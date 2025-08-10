@@ -1,3 +1,7 @@
+---
+Modificaciones: 2025-08-09T19:37:23+02:00
+Creación: 2025-07-19T20:55:34+02:00
+---
 **MetaTags:** #_Mejorar
 **Tags:** #Entrenamiento #ToLink 
 - - -
@@ -52,7 +56,6 @@ Repetir el microciclo 3-5 veces.
 
 #### Calentamiento
 [[Rutina Calentamiento 20 mins]]
-
 #### Entrenamiento isometrico + pilometrico + hiit
 ==Tengo que hacer rutinas SEPARADAS de esto==
 1. Escoge 6 ejercicios específicos para el día.

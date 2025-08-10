@@ -1,15 +1,19 @@
 {
 	"nodes":[
-		{"id":"c8718d3b0d369ad6","x":529,"y":263,"width":791,"height":337,"type":"link","url":"https://www.youtube.com/watch?v=gafuqdKwD_U&list=PLsntwn2ixQrPxn6Uzt0fRF4MKg5T4MxY1&index=19&pp=iAQB"},
+		{"id":"c8718d3b0d369ad6","type":"link","url":"https://www.youtube.com/watch?v=gafuqdKwD_U&list=PLsntwn2ixQrPxn6Uzt0fRF4MKg5T4MxY1&index=19&pp=iAQB","x":529,"y":263,"width":791,"height":337},
 		{"id":"67580723cc49d738","type":"file","file":"03_Zettelkasten/Obsidian.md","x":-925,"y":263,"width":400,"height":400},
 		{"id":"28ec86698637a8b7","type":"file","file":"03_Zettelkasten/Como Organizar mi Segundo Cerebro.md","x":-1030,"y":-820,"width":305,"height":320},
 		{"id":"8d40e9f5be692fd3","type":"file","file":"03_Zettelkasten/Building a Second Brain.md","x":-460,"y":-1060,"width":400,"height":400},
 		{"id":"a0db20a5a1dc1309","type":"text","text":"<div style=\"width:90%;\">\n  testing text\n</div>","x":-200,"y":-400,"width":500,"height":280,"color":"1"}
 	],
 	"edges":[
-		{"id":"45d53d88db08df44","fromNode":"a0db20a5a1dc1309","fromSide":"right","toNode":"8d40e9f5be692fd3","toSide":"bottom","color":"5"},
+		{"id":"45d53d88db08df44","toFloating":false,"fromNode":"a0db20a5a1dc1309","fromSide":"right","toNode":"8d40e9f5be692fd3","toSide":"bottom","color":"5"},
 		{"id":"7b3ddb495d8baeff","fromNode":"a0db20a5a1dc1309","fromSide":"left","toNode":"28ec86698637a8b7","toSide":"bottom","color":"3"},
 		{"id":"d69009f7b67d26ae","fromNode":"a0db20a5a1dc1309","fromSide":"bottom","toNode":"67580723cc49d738","toSide":"top","color":"4"},
 		{"id":"78cfc00b1345969b","fromNode":"a0db20a5a1dc1309","fromSide":"bottom","toNode":"c8718d3b0d369ad6","toSide":"top"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
