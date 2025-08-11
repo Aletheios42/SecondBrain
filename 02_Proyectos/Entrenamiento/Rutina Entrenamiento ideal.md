@@ -1,5 +1,5 @@
 ---
-Modificaciones: 2025-08-09T19:37:23+02:00
+Modificaciones: 2025-08-10T21:11:04+02:00
 Creación: 2025-07-19T20:55:34+02:00
 ---
 **MetaTags:** #_Mejorar
@@ -47,89 +47,45 @@ Repetir el microciclo 3-5 veces.
 | Sábado    | Yoga                      | Espalda y Bíceps            |
 | Domingo   | Descanso                  | Descanso                    |
 
-**Distribución por sesión (80min):**
-- **0-15min:** Calentamiento dinámico
-- **5-30min:** Isométricos + pliométricos (25min) 
-- **30-65min:** entrenamiento de fuerza (35mins)  sets al fallo
-- **65-80min:** estiramientos (15 mins)
-- **80-90:** vuelta a la calma
-
+**Distribución por sesión**
+- Calentamiento dinámico
+- Isométricos/pliométricos
+- Entrenamiento de fuerza sets al fallo
+- Estiramientos
+- Vuelta a la calma
 #### Calentamiento
 [[Rutina Calentamiento 20 mins]]
-#### Entrenamiento isometrico + pilometrico + hiit
-==Tengo que hacer rutinas SEPARADAS de esto==
-1. Escoge 6 ejercicios específicos para el día.
-2. Realiza 2 drills (series) totales, con 1 minuto de descanso entre ellos.
-3. Cada drill consiste en realizar los 6 ejercicios seleccionados, repitiendo cada ejercicio 2 veces seguidas.
-4. Para cada repetición de ejercicio:
-		45 segundos de trabajo intenso.
-		15 segundos de descanso.
-
-
-- Planks (isometric)
-- Dead hangs. (isometric)
-- Isometric bicep curls. (isometric)
-- Wall squats. (isometric)
-- Superman (isometric)
-- Hollow Hold (isometric)
-- Barpee squads (hiit)
-- Cross-Over Mountain Climber (hiit)
-- Sentadilla con salto (hiit)
-- zancada en reversa con salto (hiit + pilometric)
-- Rebotes con 2 pies en el sitio (pilometric)
-- Saltos de boxeador (hiit  + pilometric)
-- Saltos arrodillado (hiit +pilometric)
-- rebotes divididos con 2 pies en el sitio(pilometric)
-- Rebotes a una pierna (pilometric)
-- Salto de longitud con los pies juntos (pilometric)
-- Carrera exagerada con rodillas al pecho (pilometric)
-- saltos lateral a una pierna (pilometric)
-- saltos cruzando una linea (pilometric)
-- saltos a un cajon (pilometric)
-- caida desde un cajon (pilometric)
--  carrera exagerada (pilometric)
-- Patrick Step (knee over toes)
-- Standing Tibialis Raise (knee over toes)
-- sentadilla spagad (knee over toes)
-- sentadilla nordica (knee over toes)
-- buenos dias sentado (knee over toes)
-- Petersen Step Up (knne over toes)
-- L-sit (knee over toes)
-- pino-puente (ni idea jajaj)
-- caminata japonesa
-
+[5 Min Full Body Warm Up with Caroline Girvan](https://www.youtube.com/watch?v=c0VxUFHdYzs)
+#### Entrenamiento Isometrico
+[20 Isometric Exercises Anyone Can Do (With No Equipment)](https://www.youtube.com/watch?v=VH5F-dKoM98)
+#### Pilometrico
+[10 MIN PLYOMETRIC HIIT WORKOUT - Speed / Vertical Jump Workout](https://www.youtube.com/watch?v=x84r0G2gYII)
+[Ruitna saltos hiit 10 mins](https://www.youtube.com/watch?v=A9zxzfxdw30)
+#### Hiit
+[23 Min Relentless HIIT Workout | No Repeats + No Equipment](https://www.youtube.com/watch?v=d-g1RsMEOdA)
+[20 Minute Full Body Workout (No Equipment)](https://www.youtube.com/watch?v=Yu20j5jGHTc)
 #### Entrenamientos de fuerza
-==Mirar rutinas de atleanX==
-==tengo que organizar versiones con supersets==
-==Y modular la dificultad de alguna manera==
 ##### Piernas y Gluteos
 [[Rutina Fuerza Piernas y Gluteos 35mins]]
+[Entrenamiento G.A.P. (Glúteos, abdominales y piernas) - Nivel 2](https://www.youtube.com/watch?v=k13Y1-u5GdE)
 ##### Pecho , Hombro y Tricpes 
 [[Rutina Fuerza Pecho, Hombro y Tricéps 35 mins]]
 ##### Dorsal, Trapecio y Biceps
 [[Rutina Fuerza Dorsal , Trapecio y Bicéps 35 mins]]
-#### Ejercicios de Estiramiento
-==Hacer las rutinas y pasarlas como con las de fuerza==
-[[Flexibilidad y Estiramientos]]
+##### Abdominales
+[Entrenamiento de abdominales: cómo conseguir un six-pack - Nivel 2](https://www.youtube.com/watch?v=44mgUselcDU&t=2s)
+#### Ejercicios de [[Flexibilidad y Estiramientos| Estiramientos]]
 ##### Rutinas
 [Estaticos](https://www.hingehealth.com/resources/articles/static-stretching/)
 [Dinamicos](https://www.youtube.com/watch?v=iQc4lLYljbk)
-Con las plantas en el suelo sentado, pasar las rodillas de un lado a otra
+Sentado con las plantas en el suelo , pasar las rodillas de un lado a otra
 sentadilla asiatica
 spagad
 #### Ejercicios de partes debiles
 [[Rutina Fuerza Cuello 10 mins]]
 [[Rutina fuerza - Antebrazos 20 min]]
-
-- Antebrazos,  muñecas y agarre: 
-		rodillo de muñeca 30s trabajo , 30 s descanso x 3 series.
-		rotaciones de martillo 30s trabajo , 30 s descanso x 3 series.
-- rodillas:
-		los de knee over toes
-- tobillos y pies: 
-		arquear el pie
-		equilibrio con mancuerna en la lenteja
-
+[[Rutina fortalecimeno rodilla 15 mins]]
+[Rutina fortalecimiento facial 6 mins](https://www.youtube.com/watch?v=oJIk2PyukjY)
 
 - - - 
 #### ***Sources:***
